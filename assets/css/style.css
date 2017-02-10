@@ -133,7 +133,7 @@ nav{
     padding:30px 0 30px 0;
 }
 .tutorial-summary h3{
-    font-weight:300;
+    font-weight:400;
     font-size:25px;
     margin-bottom:50px;
 }
@@ -322,7 +322,6 @@ nav{
 }
 .footer-submenu:hover{
     color:#E53935;
-    transition: 0.3s;
 }
 .footer-box-wrapper{
     padding-left:100px;
