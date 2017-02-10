@@ -321,7 +321,8 @@ nav{
     color:#424242;
 }
 .footer-submenu:hover{
-    color:#000;
+    color:#E53935;
+    transition: 0.5s;
 }
 .footer-box-wrapper{
     padding-left:100px;
