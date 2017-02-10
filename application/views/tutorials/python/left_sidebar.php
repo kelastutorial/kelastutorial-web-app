@@ -19,7 +19,7 @@
                 <a href="<?php echo site_url('python/tipe-data-python.html'); ?>" class="subtutorial-list">Tipe Data Python</a><br/>
                 <a href="<?php echo site_url('python/variabel-python.html'); ?>" class="subtutorial-list">Variabel Python</a><br/>
                 <a href="<?php echo site_url('python/operator-python.html'); ?>" class="subtutorial-list">Operator Python</a><br/>
-                <a href="<?php echo site_url('python/kondisi-if-python.htm'); ?>" class="subtutorial-list">Kondisi If Python</a><br/>
+                <a href="<?php echo site_url('python/kondisi-if-python.html'); ?>" class="subtutorial-list">Kondisi If Python</a><br/>
                 <a href="<?php echo site_url('python/kondisi-if-else-python.html'); ?>" class="subtutorial-list">Kondisi If Else Python</a><br/>
                 <a href="<?php echo site_url('python/kondisi-elif-python.html'); ?>" class="subtutorial-list">Kondisi Elif</a><br/>
                 <a href="<?php echo site_url('python/pengulangan-for-python.html'); ?>" class="subtutorial-list">Pengulangan Python</a><br/>

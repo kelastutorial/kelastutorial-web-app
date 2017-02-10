@@ -1,0 +1,11 @@
+https://kelastutorial.com
+https://kelastutorial.com/python
+https://kelastutorial.com/python/instalasi-python.html
+https://kelastutorial.com/python/menjalankan-python.html
+https://kelastutorial.com/python/ide-python.html
+https://kelastutorial.com/json
+https://kelastutorial.com/json/pengenalan-json.html
+https://kelastutorial.com/json/syntax-penulisan-json.html
+https://kelastutorial.com/json/tipe-data-json.html
+https://kelastutorial.com/json/objek-json.html
+https://kelastutorial.com/json/schema-json.html

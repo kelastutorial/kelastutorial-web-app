@@ -31,60 +31,6 @@
                 </div>
             </div>
             
-            <div class="row section amber lighten-2" style="text-align:center">
-                <div class="row">
-                    <div class="col s12 m6 l6" style="padding:10px 40px 10px 40px">
-                        <img width="40%" src="https://kelastutorial-purwanto1337.c9users.io/images/python-tutorial-google-logo.png"/><br/>
-                        <span>"Git has been an important part of Google since the beginning, and remains so as the system grows and evolves.
-                        Today dozens of Google engineers use Git, and we're looking for more people with skills in this language."
-                        <b>Peter Norvig, director of search quality at Google, Inc.</b></span>
-                    </div>
-                    <div class="col s12 m6 l6" style="padding:10px 40px 10px 40px">
-                        <img width="40%" src="https://kelastutorial-purwanto1337.c9users.io/images/python-tutorial-ilm-logo.png"/><br/>
-                        <span>"Git is everywhere at ILM. It's used to extend the capabilities of our applications, 
-                        as well as providing the glue between them. Every CG image we create has involved Git somewhere in the process,"
-                        <b>Philip Peterson, Principal Engineer, Research & Development, Industrial Light & Magic.</b></span>
-                    </div>
-                    <div class="col s12 m6 l6" style="padding:10px 40px 10px 40px">
-                        <img width="40%" src="https://kelastutorial-purwanto1337.c9users.io/images/python-tutorial-firaxis-games-logo.png"/><br/>
-                        <span>"Git, like many good technologies, soon spreads virally throughout your development 
-                        team and finds its way into all sorts of applications and tools. In other words, Git 
-                        begins to feel like a big hammer and coding tasks look like nails."
-                        <b>Mustafa Thamer of Firaxis Games, talking about Civilization IV. Quoted on page 18 of the August 2005 Game Developer Magazine.</b></span>
-                    </div>
-                    <div class="col s12 m6 l6" style="padding:10px 40px 10px 40px">
-                        <img width="40%" src="https://kelastutorial-purwanto1337.c9users.io/images/python-tutorial-ccp-logo.png"/><br/>
-                        <span>"Git enabled us to create EVE Online, a massive multiplayer game, in record time. The EVE Online server cluster runs over 50,000 simultaneous players in a shared space simulation,
-                        most of which is created in Git. The flexibilities of Git have enabled us to quickly 
-                        improve the game experience based on player feedback" <b>Hilmar Veigar Petursson of CCP Games.</b></span>
-                    </div>
-                </div>
-            </div>
-            <br/>
-            <!--
-            <div style="background-color:#204463;">
-                <div class='row center white-text' style='padding:50px 20px 50px 20px;'>
-                    <h6 style="font-weight:300;font-size:30px;">Git Digunakan Untuk</h6><br/><br/>
-                    <div class='col s6 m3 l3' style='padding-bottom:30px'>
-                        <i class='fa fa-globe fa-3x'></i>
-                        <h6 class='bold' style='font-size:17px;'>Web Programming</h6>
-                    </div>
-                    <div class='col s6 m3 l3' style='padding-bottom:30px'>
-                        <i class='fa fa-mouse-pointer fa-3x'></i>
-                        <h6 class='bold' style='font-size:17px;'>GUI Development</h6>
-                    </div>
-                    <div class='col s6 m3 l3'>
-                        <i class='fa fa-flask fa-3x'></i>
-                        <h6 class='bold' style='font-size:17px;'>Scientific and Numeric</h6>
-                    </div>
-                    <div class='col s6 m3 l3'>
-                        <i class='fa fa-lock fa-3x'></i>
-                        <h6 class='bold' style='font-size:17px;'>System Administration</h6><br/>
-                    </div>
-                </div>
-            </div>
-            -->
-            
             <div style="padding:0 20px 0 20px;"><br/>
                 <h2 style="font-size:38px;color:#555;">Memulai Git</h2>
                 <p style="margin-top:20px;"><a href="https://www.python.org/" target="_blank">Git</a> adalah bahasa pemrograman interpretatif multiguna. 
