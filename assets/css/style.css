@@ -286,7 +286,7 @@ nav{
     color:rgba(255,255,255,0.7);
     font-size:14px;
     padding-bottom:-30px;
-    background:linear-gradient(90deg,#757575     50%,#616161    50%);
+    background:linear-gradient(90deg,#f5f5f5     50%,#e0e0e0    50%);
 }
 .footer a{
     color:#fff;

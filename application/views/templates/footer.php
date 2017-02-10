@@ -21,7 +21,7 @@
                     <a href="https://www.instagram.com/kelastutorial"><span class="footer-submenu">Instagram</span></a><br/>
                     <a href="https://www.twitter.com/kelastutorial"><span class="footer-submenu">Twitter</span></a>  
                 </div>
-                <div class="col s6 m6 l3 grey darken-2 footer-box-wrapper" style="padding:35px 20px 50px 20px;background-color:#e0e0e0;">
+                <div class="col s6 m6 l3 footer-box-wrapper" style="padding:35px 20px 50px 20px;background-color:#e0e0e0;">
                     <img style="width:90%;margin-top:15px;" src="<?php echo site_url('images/kelastutorial-logo-white.svg'); ?>"/><br>
                     <span style=" line-height: 20px;color:#424242">Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.</span>
                 </div>
