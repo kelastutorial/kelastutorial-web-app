@@ -1,0 +1,405 @@
+/* Kelas Tutorial Style v0.1 */
+html, body { overflow-x: hidden; }
+body{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+}
+pre{
+    margin-bottom:0px;
+}
+code{
+    font-family:'Roboto Mono', monospace;
+    font-size:13px;
+}
+
+/* List Reset */
+li { list-style: square; }
+li li { list-style: square; }
+li li li { list-style: square; }
+/* End List Reset */
+
+.github-button{
+    background-color:#aaa;font-size:13px;padding:6px 8px 6px 8px;margin-top:0px;text-align:right;background-color:#e0e0e0;color:#666;
+}
+.github-button a{
+    color:#000;
+}
+.navigation-button{
+    padding:23px 28px 21px 28px;
+    color:#fff;
+    margin-bottom:-38px;
+}
+    
+/* Navigation */
+nav{
+    position:fixed;
+    z-index:1000;
+}
+.navigation{
+    position:fixed;
+    color:#000;
+    text-align:center;
+}
+.navigation a{
+    color:#000;
+}
+.navigation-logo{
+    float:left;padding:5px 0 0 5px;margin-right:20px;
+}
+.navigation-search-form{
+    text-align:left;
+}
+#navigationsearchinput{
+    width:63%
+}
+.navigation-menu{
+    text-align:right;padding-right:50px;margin-top:-2px;
+}
+@media only screen and (max-width: 337px) {
+   #navigationsearchinput{
+    width:50%;
+    }
+}
+    
+@media only screen and (max-width: 993px) {
+    .hide-on-tablet{
+        display: none;
+    }
+    .navigation-search-form{
+        margin-left:0;
+    } 
+    
+}
+
+@media only screen and (min-width: 993px) {
+    .hide-on-desktop{
+        display: none;
+    }
+    #navigationsearchinput{
+    width:50%
+    }
+}
+
+.mobile-navigation a{
+    font-weight:400;
+}
+
+
+.navigation-home{
+    color:#000;
+    text-align:center;
+}
+.navigation-home a{
+    color:#000;
+}
+
+/* End Navigation */
+
+/* Homepage */
+.wall-home{
+    padding:180px 0 200px 0;
+    margin-top:0;
+    border-radius:0;
+    text-align:center;
+    background-image: url("https://kelastutorial.com/images/background-home.svg");
+    background-color: #B72028;
+    background-size: cover;
+    background-position:center;
+}
+
+.homepage-header-logo{
+    margin-bottom:25px;
+    width:400px;
+}
+
+.home-search-form{
+    width:50%;
+    margin:0 auto;
+}
+@media only screen and (max-width: 601px) {
+    .homepage-header-logo{
+        width:70%;
+    }
+    .wall-home{
+        padding:90px 0 90px 0;
+    }
+    .homepage-header-logo{
+        margin-bottom:15px;
+    }
+}
+.tutorial-summary{
+    text-align:center;
+    padding:30px 0 30px 0;
+}
+.tutorial-summary h3{
+    font-weight:300;
+    font-size:25px;
+    margin-bottom:50px;
+}
+.tutorial-summary a{
+    color:#555;
+    margin-bottom:20px;
+}
+.tutorial-summary a:hover{
+    color:#00bcd4 ;
+}
+
+
+
+
+.tutorial-wall{
+    margin-top:0;
+    height:350px;
+    background-image: url("https://kelastutorial.com/images/background-home.svg");
+    background-color: #B72028;
+    background-size: cover;
+    background-position:center;
+}
+
+.left-sidebar{
+    font-size:14px;
+    padding:15px;
+    border-bottom:1px solid #ccc;
+}
+.left-sidebar-container{
+    width:300px;
+    height:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom:80px;
+}
+.floating-sidebar {
+    position:fixed;
+    top:78px;
+}
+
+/* Main Tutorial Content */
+.main-content{
+    color:#000;
+    padding:25px;
+}
+.main-content h2{
+    font-size:38px;
+    color:#555;
+}
+.main-content h3{
+    font-size:20px;
+    color:#333;
+    font-weight: bolder;
+}
+.main-content p{
+    margin-bottom: 25px;
+}
+.main-content pre{
+    margin-bottom: 50px;
+}
+.syntax{
+    background-color:#ddd;
+    font-family: 
+}
+.main-content-nav{
+    font-size:14px;
+    padding:15px 15px 15px 25px;
+}
+.main-content-article{
+    margin-top:30px;
+}
+
+.main-content-nav-title{
+    color:#fff;
+    opacity:0.7;
+    margin-right:10px;
+}
+.main-content-heading{
+    display:inline;margin-left:-10px;font-size:14px;color:#0f0;
+}
+
+.main-content-nav-title:hover{
+    opacity:1;
+}
+.main-content pre{
+    margin-bottom: 0px;
+}
+.main-content table th{
+    background-color:#d0d0d0;
+    border-radius:0px;
+    border-left:1px solid #fff;
+    border-bottom:1px solid #fff;
+}
+.main-content table td{
+    background-color:#f0f0f0;
+    border-left:1px solid #fff;
+    border-bottom:1px solid #fff;
+    border-radius:0px;
+}
+.previews-button{
+    float:left;
+}
+.next-button{
+    float:right;
+}
+/* End Main Tutorial Content */
+
+.subtutorial{
+    font-weight:bolder;
+    line-height:25px;
+    border-bottom:1px solid #eee;
+    color:#777;
+}
+.subtutorial-list{
+    line-height:25px;
+    color:#222;
+}
+.subtutorial-list:hover{
+    color:#e53935;
+}
+
+/* Contact Page */
+.contact-wall{
+    margin-top:0;
+    height:350px;
+    background-image: url("https://kelastutorial.com/images/background-home.svg");
+    background-color: #B72028;
+    background-size: cover;
+    background-position:center;
+}
+/* End Contact Page */
+
+/* Page Not Found */
+.not-found-wall{
+    margin-top:0;
+    height:350px;
+    background-image: url("https://kelastutorial.com/images/background-home.svg");
+    background-color: #B72028;
+    background-size: cover;
+    background-position:center;
+}
+/* End Page Not Found */
+
+
+
+/* Footer */
+.footer{
+    height:auto;
+    padding:0;
+    color:rgba(255,255,255,0.7);
+    font-size:14px;
+    padding-bottom:-30px;
+    background:linear-gradient(90deg,#757575     50%,#616161    50%);
+}
+.footer a{
+    color:#fff;
+}
+.footer-menu-wrapper{
+    padding:35px 0 40px 0;
+    margin-bottom:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin:0 auto;
+    max-width:1280px;
+    width:100%
+    
+}
+@media only screen and (min-width: 601px) {
+    .footer-menu-wrapper{width:100%}
+    .footer-menu-wrapper .row{margin-left:0;margin-right:0;}
+}
+    
+@media only screen and (min-width: 993px) {
+    .footer-menu-wrapper{width:100%}
+    .footer-menu-wrapper .row{margin-left:0;margin-right:0;}
+    
+}
+.footer-menu{
+    line-height: 40px;
+    font-weight: bolder;
+    color:rgba(255,255,255,1);
+}
+.footer-submenu{
+    line-height: 30px;
+    color:rgba(255,255,255,0.8);
+}
+.footer-submenu:hover{
+    color:rgba(255,255,255,1);
+}
+.footer-box-wrapper{
+    padding-left:100px;
+}
+
+
+/* Site Terms */
+
+.site-terms{
+    height:auto;background-color:#f0f0f0
+}
+.site-terms h2{
+    font-size:38px;
+    color:#555;
+}
+.site-terms h3{
+    font-size:20px;
+    color:#333;
+    font-weight: bolder;
+}
+
+/* End Site Terms */
+
+/* Privacy Policy */
+
+.privacy-policy{
+    height:auto;background-color:#f0f0f0
+}
+.privacy-policy h2{
+    font-size:38px;
+    color:#555;
+}
+.privacy-policy h3{
+    font-size:20px;
+    color:#333;
+    font-weight: bolder;
+}
+
+/* End Privacy Policy */
+
+
+/* Contact */
+
+.contact{
+    height:auto;background-color:#f0f0f0
+}
+.contact h2{
+    font-size:38px;
+    color:#555;
+}
+.contact h3{
+    font-size:20px;
+    color:#333;
+    font-weight: bolder;
+}
+/* End Contact*/
+
+/* All Tutorials */
+.all-tutorial-container{
+    padding:95px 0 40px 0;
+}
+.alphabet{
+    margin:0 37px 0 0;
+    line-height:38px;
+    font-weight: bold;
+}
+.alphabet-container{
+    padding:0 0 20px 0;
+}
+.alphabet-title{
+    font-size:38px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.alphabet-tutorial:hover{
+    font-weight: bold;
+}
+.alphabet-box{
+    border-top:1px solid #e0e0e0;
+    padding:10px 0 0 0;
+}

@@ -1,0 +1,1 @@
+Welcome <?php echo $username; ?> <a href="<?php echo site_url('dashboard/logout'); ?>">Logout</a>
