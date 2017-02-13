@@ -139,17 +139,3 @@ $route['translate_uri_dashes'] = FALSE;
 $route['404_override'] = 'my404'; //my404 is class name.
 
 
-
-
-/*
-
-Issues :
-- Bedakan deskripsi untuk halaman yang berbeda
-- Deskripsi meta tidak harus dalam format kalimat; data terstruktur tentang halaman juga sangat tepat untuk dimasukkan dalam deskripsi meta. Misalnya, informasi penulis, tanggal publikasi, atau subjudul dapat tercantum pada berita atau entri blog. 
-- <meta name="Description" content="Penulis: A.N. Penulis, Ilustrator: P. Gambar, Kategori: Buku, Harga: $17.99, Isi: 784 hal">
-
-Upcoming feature :
-- Add meta description
-- Change title <title>Tipe Data Python- Kelastutorial</title>
-
-*/
