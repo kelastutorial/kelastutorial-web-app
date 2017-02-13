@@ -150,6 +150,6 @@ Issues :
 
 Upcoming feature :
 - Add meta description
-- Change title <title>Tipe Data P
+- Change title <title>Tipe Data Python- Kelastutorial</title>
 
 */
