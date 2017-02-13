@@ -12,16 +12,6 @@ class Pages extends CI_Controller {
         $this->load->view('templates/footer');
     }
     
-    
-    
-    
-    /*
-    
-    ------------------------------front end developer---------------------------
-    https://www.youtube.com/watch?v=PNmqreD-a50
-    
-    */
-    
     #Static page
     public function about() {
         $this->load->view('templates/header');
