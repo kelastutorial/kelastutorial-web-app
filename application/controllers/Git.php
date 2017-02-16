@@ -12,8 +12,20 @@ class git extends CI_Controller {
         $data['git'] = $this->git_model->get_git();
         $data2["meta_desc"] = "Meta desc for git";
         $data2["title"] = "Git";
-        $data2["course_name"] = "Tutorial Git Dasar";
-        $data2["course_desc"] = "Tutorial yang membahas tentang penggunaan software VCS (Version Control System) bernama Git dari level pemula, menengah sampai dengan level mahir.";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Course",
+          "name": "Tutorial Git Dasar",
+          "description": "Tutorial yang membahas tentang software VCS (Version Control System) bernama Git dari level pemula, menengah sampai dengan level mahir.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
         $data['item'] = $this->git_model->get_git($slug);
         $this->load->view('templates/header', $data2);
         $this->load->view('tutorials/git/left_sidebar');

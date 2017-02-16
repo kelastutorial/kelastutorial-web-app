@@ -19,20 +19,7 @@
         <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'/>
         <?php
         if($item['title']== ""){
-            echo '<script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "Course",
-          "name": "',$course_name,'",
-          "description": "',$course_desc,'",
-          "provider": {
-            "@type": "Organization",
-            "name": "Kelastutorial Instructor",
-            "sameAs": "https://kelastutorial.com"
-          }
-        }
-        </script>
-        ';
+            echo $structured_data;
         }
         ?>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
