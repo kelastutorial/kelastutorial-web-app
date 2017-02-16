@@ -17,7 +17,24 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
         <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900'>
         <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'/>
-        
+        <?php
+        if($item['title']== ""){
+            echo '
+            <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Course",
+              "name": "Introduction to Computer Science and Programming",
+              "description": "Introductory CS course laying out the basics.",
+              "provider": {
+                "@type": "Organization",
+                "name": "Kelastutorial Instructor",
+                "sameAs": "https://kelastutorial.com"
+              }
+            }
+            </script>';
+        }
+        ?>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="<?php echo site_url('assets/js/materialize.min.js'); ?>"></script>
         <script type="text/javascript" src="<?php echo site_url('assets/js/highlight.pack.js'); ?>"></script>
