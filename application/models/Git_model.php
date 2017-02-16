@@ -23,6 +23,7 @@ class Git_model extends CI_Model {
         $data = array(
             'title' => $this->input->post('title'),
             'content' => $this->input->post('content'),
+            'meta_desc' => $this->input->post('meta_desc'),
             'slug' => $slug  
         );
         return $this->db->insert('git', $data);
@@ -35,6 +36,7 @@ class Git_model extends CI_Model {
         $data = array(
             'title' => $this->input->post('title'),
             'content' => $this->input->post('content'),
+            'meta_desc' => $this->input->post('meta_desc'),
             'slug' => $slug  
         );
         

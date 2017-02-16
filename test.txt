@@ -13,3 +13,17 @@ Upcoming feature :
 - Change title <title>Tipe Data Python- Kelastutorial</title>
 
 */
+
+Referensi schema :
+https://schema.org/learningResourceType
+
+
+
+Target :
+- cuplikan unggulan (feature snippets)
+
+https://youtu.be/3tb-1MWg44Y
+https://codelabs.developers.google.com/
+
+
+PROGRESIVE WEB APP VS ORIGINAL WEB APP
