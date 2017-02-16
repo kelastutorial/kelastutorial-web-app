@@ -24,7 +24,7 @@
           "@context": "http://schema.org",
           "@type": "Course",
           "name": "',$course_name,'",
-          "description": "Introductory CS course laying out the basics.",
+          "description": "',$course_desc,'",
           "provider": {
             "@type": "Organization",
             "name": "Kelastutorial Instructor",
