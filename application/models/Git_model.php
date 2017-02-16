@@ -1,34 +1,34 @@
 <?php 
 class Git_model extends CI_Model {
+    $tutorial_name = 'git';
     public function __construct() {
         $this->load->database();
     }
-    public function get_git($slug = FALSE) {
+    public function get($slug = FALSE) {
         if($slug === FALSE)  {
-            $query = $this->db->get('git');
+            $query = $this->db->get($tutorial_name);
             return $query->result_array();
         }
-        $query = $this->db->get_where('git', array('slug' => $slug));
+        $query = $this->db->get_where($tutorial_name, array('slug' => $slug));
         return $query->row_array();
     }
-    public function get_git_id($id = FALSE) {
-        $query = $this->db->get_where('git', array('id' => $id));
+    public function get_id($id = FALSE) {
+        $query = $this->db->get_where($tutorial_name, array('id' => $id));
         return $query->row_array();
     }
-    public function set_git() {
+    public function set() {
         $this->load->helper('url');
         
         $slug = url_title($this->input->post('title'), 'dash', TRUE);
         
         $data = array(
             'title' => $this->input->post('title'),
-            'content' => $this->input->post('content'),
-            'meta_desc' => $this->input->post('meta_desc'),
+            'content' => $this->input->post('content'),z
             'slug' => $slug  
         );
-        return $this->db->insert('git', $data);
+        return $this->db->insert($tutorial_name, $data);
     }
-    public function update_git($id) {
+    public function update($id) {
         $this->load->helper('url');
         
         $slug = url_title($this->input->post('title'), 'dash', TRUE);
@@ -36,14 +36,13 @@ class Git_model extends CI_Model {
         $data = array(
             'title' => $this->input->post('title'),
             'content' => $this->input->post('content'),
-            'meta_desc' => $this->input->post('meta_desc'),
             'slug' => $slug  
         );
         
         $this->db->where('id', $id);
-        return $this->db->update('git', $data);
+        return $this->db->update($tutorial_name, $data);
     }
-    public function delete_git($id) {
-        return $this->db->delete('git', array('id' =>$id));
+    public function delete($id) {
+        return $this->db->delete($tutorial_name, array('id' =>$id));
     }
 }

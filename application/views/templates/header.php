@@ -1,9 +1,9 @@
 <!doctype html>
 <html>
     <head>
-        <title><?php  if($git_item['title']== ""){ echo $title;}else{ echo $git_item['title'];} ?> - Kelastutorial</title>
+        <title><?php  if($item['title']== ""){ echo $title;}else{ echo $item['title'];} ?> - Kelastutorial</title>
         <meta charset="utf-8">
-        <meta name="description" content="<?php  if($git_item['meta_desc']== ""){ echo $meta_desc;}else{ echo $git_item['meta_desc'];} ?>">
+        <meta name="description" content="<?php  if($item['meta_desc']== ""){ echo $meta_desc;}else{ echo $item['meta_desc'];} ?>">
         <meta name="google-site-verification" content="vx2BKrtMZlDr6RDQC3axVBKO_ppNiuUboR6I2tM93Bw"/>
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
         <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900'>
         <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'/>
+        
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="<?php echo site_url('assets/js/materialize.min.js'); ?>"></script>
         <script type="text/javascript" src="<?php echo site_url('assets/js/highlight.pack.js'); ?>"></script>

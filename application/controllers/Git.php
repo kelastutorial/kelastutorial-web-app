@@ -9,10 +9,10 @@ class git extends CI_Controller {
     }
     
     public function index($slug = NULL) {
-        $data['git'] = $this->git_model->get_git();
+        $data['git'] = $this->git_model->get();
         $data2["meta_desc"] = "Meta desc for git";
         $data2["title"] = "Git";
-        $data['git_item'] = $this->git_model->get_git($slug);
+        $data['item'] = $this->git_model->get($slug);
         $this->load->view('templates/header', $data2);
         $this->load->view('tutorials/git/left_sidebar');
         $this->load->view('tutorials/git/index', $data);
@@ -20,7 +20,7 @@ class git extends CI_Controller {
     }
     
     public function view($slug = NULL) {
-        $data['git_item'] = $this->git_model->get_git($slug);
+        $data['item'] = $this->git_model->get($slug);
         $this->load->view('templates/header', $data);
         $this->load->view('tutorials/git/left_sidebar');
         $this->load->view('tutorials/git/view', $data);
@@ -29,7 +29,7 @@ class git extends CI_Controller {
     
     public function adminAllPost() {
          if ($this->session->userdata('level')=='admin') {
-		        $data['git'] = $this->git_model->get_git();
+		        $data['git'] = $this->git_model->get();
                 $this->load->view('templates/header');
                 $this->load->view('tutorials/git/adminAllPost', $data);
 		}else{
@@ -48,7 +48,7 @@ class git extends CI_Controller {
                 if($this->form_validation->run() === FALSE) {
                     $this->load->view('tutorials/git/adminAddPost');
                 }else{
-                    $this->git_model->set_git();
+                    $this->git_model->set();
                     redirect('git/adminAllPost');
                 }
 		}else{
@@ -66,10 +66,10 @@ class git extends CI_Controller {
                 $this->form_validation->set_rules('meta_desc', 'Meta Description', 'required');
                 
                 if($this->form_validation->run() === FALSE) {
-                    $data['git_item'] = $this->git_model->get_git_id($id);
+                    $data['item'] = $this->git_model->get_id($id);
                     $this->load->view('tutorials/git/adminUpdatePost', $data);
                 }else{
-                    $this->git_model->update_git($id);
+                    $this->git_model->update($id);
                     redirect('git/adminAllPost');
                 }
 		}else{
@@ -80,7 +80,7 @@ class git extends CI_Controller {
     
     public function adminDeletePost($id) {
         if ($this->session->userdata('level')=='admin') {
-            $this->git_model->delete_git($id);
+            $this->git_model->delete($id); //ini mungkin bisa pengaruh delete-nya
             redirect('git/adminAllPost');
 		}else{
 			redirect('/git');
