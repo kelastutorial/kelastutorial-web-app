@@ -2,7 +2,7 @@
     <html>
         <head>
             <meta charset="utf-8">
-            <meta name="description" content="<?php if($git_item['meta_desc']== ""){ echo "Deskripsi default kelastutorial";}else{ echo $git_item['meta_desc']; ?>}">
+            <meta name="description" content="<?php if($git_item['meta_desc']== ""){ echo "Deskripsi default kelastutorial";}else{ echo $git_item['meta_desc'];} ?>">
             <meta name="google-site-verification" content="vx2BKrtMZlDr6RDQC3axVBKO_ppNiuUboR6I2tM93Bw"/>
             <meta name="robots" content="index,follow">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
