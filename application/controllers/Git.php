@@ -11,8 +11,9 @@ class git extends CI_Controller {
     public function index($slug = NULL) {
         $data['git'] = $this->git_model->get_git();
         $data2["meta_desc"] = "Meta desc for git";
+        $data3["title"] = "Git";
         $data['git_item'] = $this->git_model->get_git($slug);
-        $this->load->view('templates/header', $data2);
+        $this->load->view('templates/header', $data2, $data3);
         $this->load->view('tutorials/git/left_sidebar');
         $this->load->view('tutorials/git/index', $data);
         $this->load->view('tutorials/git/right_sidebar');
