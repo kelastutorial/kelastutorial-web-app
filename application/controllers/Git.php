@@ -20,7 +20,7 @@ class git extends CI_Controller {
     
     public function view($slug = NULL) {
         $data['git_item'] = $this->git_model->get_git($slug);
-        $this->load->view('templates/header');
+        $this->load->view('templates/header', $data);
         $this->load->view('tutorials/git/left_sidebar');
         $this->load->view('tutorials/git/view', $data);
         $this->load->view('tutorials/git/right_sidebar');
