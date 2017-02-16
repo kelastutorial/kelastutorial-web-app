@@ -8,7 +8,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
             <meta name="author" content="Kelastutorial">
 	        <meta name="language" content="Indonesia">
-            <title><?php  if($git_item['title']== ""){ echo $title;}else{ echo $git_item['title'];} ?> -Kelastutorial</title><script
+            <title><?php  if($git_item['title']== ""){ echo $title;}else{ echo $git_item['title'];} ?> - Kelastutorial</title><script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
