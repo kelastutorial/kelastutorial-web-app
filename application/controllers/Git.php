@@ -12,6 +12,8 @@ class git extends CI_Controller {
         $data['git'] = $this->git_model->get_git();
         $data2["meta_desc"] = "Meta desc for git";
         $data2["title"] = "Git";
+        $data2["course_name"] = "Tutorial Git Dasar";
+        $data2["course_desc"] = "Tutorial yang membahas tentang Git dari level pemula, menengah sampai dengan level mahir.";
         $data['item'] = $this->git_model->get_git($slug);
         $this->load->view('templates/header', $data2);
         $this->load->view('tutorials/git/left_sidebar');

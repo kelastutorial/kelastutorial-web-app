@@ -17,7 +17,10 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
         <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900'>
         <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'/>
+        
         <?php
+        $course_name;
+        $course_desc;
         if($item['title']== ""){
             echo '<script type="application/ld+json">
         {
