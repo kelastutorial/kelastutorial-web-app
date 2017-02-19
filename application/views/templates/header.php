@@ -37,7 +37,7 @@
                             <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url('images/kelastutorial-logo.svg'); ?>" height="40px"/></a>
                         </div>
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text" style="margin-left:-10px;">menu</i></a>
-                        <form class="navigation-search-form" onsubmit="location.href='https://kelastutorial.com/search?q=' + document.getElementsById('searchInput').value; return false;">&nbsp;&nbsp;<i class="fa fa-search" aria-hidden="true"></i>
+                        <form class="navigation-search-form" onsubmit="location.href='https://kelastutorial.com/search?q=' + document.getElementById('searchInput').value; return false;">&nbsp;&nbsp;<i class="fa fa-search" aria-hidden="true"></i>
                             <input id="searchInput" class="navsearchinput" style="border-radius:3px;background-color:#fff;padding:10px 10px 10px 10px;font-size:15px;" type="text" placeholder="CARI TUTORIAL"/>
                         </form>
                     </div>
