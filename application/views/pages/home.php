@@ -13,12 +13,12 @@
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
+<gcse:searchbox></gcse:searchbox>
 <gcse:searchresults-only></gcse:searchresults-only>
                 <!--<input class="hoverable" style="border-radius:2px;background-color:#fff;padding:0 30px 0 30px;font-size:15px;width:50%" type="text" placeholder="Cari Tutorial"/>-->
             </form>
         </div>
         <div class="section tutorial-summary container">
-            
             <h3>Tutorial Terpopuler</h3>
             <div class="row">
                 <div class="col s6 m4 l2">
