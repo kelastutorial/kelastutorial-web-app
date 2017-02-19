@@ -1,6 +1,7 @@
         <div class="wall-home card">
             <img class="homepage-header-logo" src="<?php echo site_url('images/kelastutorial-logo-white.svg'); ?>"/>
             <form>
+                <div style="border-radius:2px;background-color:#fff;width:50%">
                 <script>
   (function() {
     var cx = '005887605803787322432:oimszxjbhv8';
@@ -12,11 +13,13 @@
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:searchbox></gcse:searchbox>
+<gcse:searchbox></gcse:searchbox></div>
                 <!--<input class="hoverable" style="border-radius:2px;background-color:#fff;padding:0 30px 0 30px;font-size:15px;width:50%" type="text" placeholder="Cari Tutorial"/>-->
             </form>
         </div>
         <div class="section tutorial-summary container">
+            <gcse:searchresults></gcse:searchresults>
+            
             <h3>Tutorial Terpopuler</h3>
             <div class="row">
                 <div class="col s6 m4 l2">
@@ -44,7 +47,5 @@
                     Semua Tutorial</a><br/><br/><br/>
                 </div>
             </div>
-            
-            <gcse:searchresults></gcse:searchresults>
             
         </div>
