@@ -1,1 +1,0 @@
-<gcse:searchresults></gcse:searchresults>
