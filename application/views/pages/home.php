@@ -1,10 +1,18 @@
         <div class="wall-home card">
             <img class="homepage-header-logo" src="<?php echo site_url('images/kelastutorial-logo-white.svg'); ?>"/>
             <form>
-                <input type="text" name="q" size="20" />
-              <input type="hidden" name="sa" value="Search" />
-              <input type="hidden" name="cx" value="005887605803787322432:oimszxjbhv8" />
-              <input type="hidden" name="ie" value="UTF-8" />
+              
+               <script>
+  (function() {
+    var cx = '005887605803787322432:oimszxjbhv8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
 <gcse:searchbox-only resultsUrl="https://kelastutorial.com/about"></gcse:searchbox-only>
 
                 <!--<input class="hoverable" style="border-radius:2px;background-color:#fff;padding:0 30px 0 30px;font-size:15px;width:50%" type="text" placeholder="Cari Tutorial"/>-->
