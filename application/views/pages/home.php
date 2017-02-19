@@ -1,8 +1,7 @@
         <div class="wall-home card">
             <img class="homepage-header-logo" src="<?php echo site_url('images/kelastutorial-logo-white.svg'); ?>"/>
             <form>
-                
-                <script>
+               <script>
   (function() {
     var cx = '005887605803787322432:oimszxjbhv8';
     var gcse = document.createElement('script');
@@ -13,8 +12,7 @@
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:searchbox></gcse:searchbox>
-<gcse:searchresults-only></gcse:searchresults-only>
+<gcse:searchbox-only resultsUrl="https://kelastutorial.com/about"></gcse:searchbox-only>
                 <!--<input class="hoverable" style="border-radius:2px;background-color:#fff;padding:0 30px 0 30px;font-size:15px;width:50%" type="text" placeholder="Cari Tutorial"/>-->
             </form>
         </div>

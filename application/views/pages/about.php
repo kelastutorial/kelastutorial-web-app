@@ -1,1 +1,1 @@
-about
+<gcse:searchresults></gcse:searchresults>
