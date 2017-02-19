@@ -1,6 +1,6 @@
         <div class="wall-home card">
             <img class="homepage-header-logo" src="<?php echo site_url('images/kelastutorial-logo-white.svg'); ?>"/>
-            <form onsubmit="location.href='https://kelastutorial.com/about?q=' + document.getElementById('searchInput').value; return false;">
+            <form onsubmit="location.href='https://kelastutorial.com/search?q=' + document.getElementById('searchInput').value; return false;">
                 <input id="searchInput" class="hoverable" style="border-radius:2px;background-color:#fff;padding:0 30px 0 30px;font-size:15px;width:50%" type="text" placeholder="Cari Tutorial"/>
             </form>
         </div>

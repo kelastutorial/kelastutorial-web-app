@@ -12,6 +12,14 @@ class Pages extends CI_Controller {
         $this->load->view('templates/footer');
     }
     
+    #Search result
+    public function search() {
+        $this->load->view('templates/header');
+        $this->load->view('pages/search');
+        $this->load->view('templates/footer');
+    }
+    
+    
     #Static page
     public function about() {
         $this->load->view('templates/header');

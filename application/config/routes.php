@@ -53,6 +53,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 #Homepage
 $route['default_controller'] = 'pages';
 
+#Search result
+$route['search'] = 'pages/search';
+
 #All Tutorial
 $route['tutorials'] = 'pages/tutorials';
 
