@@ -38,7 +38,7 @@
                         </div>
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text" style="margin-left:-10px;">menu</i></a>
                         <form class="navigation-search-form" onsubmit="location.href='https://kelastutorial.com/search?q=' + document.getElementsById('searchInput').value; return false;">&nbsp;&nbsp;<i class="fa fa-search" aria-hidden="true"></i>
-                            <input id="searchInput" class="hoverable navsearchinput" style="border-radius:3px;background-color:#fff;padding:10px 10px 10px 10px;font-size:15px;" type="text" placeholder="CARI TUTORIAL"/>
+                            <input id="searchInput" class="navsearchinput" style="border-radius:3px;background-color:#fff;padding:10px 10px 10px 10px;font-size:15px;" type="text" placeholder="CARI TUTORIAL"/>
                         </form>
                     </div>
                       
