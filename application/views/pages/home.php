@@ -13,6 +13,7 @@
   })();
 </script>
 <gcse:searchbox-only resultsUrl="https://kelastutorial.com/about"></gcse:searchbox-only>
+
                 <!--<input class="hoverable" style="border-radius:2px;background-color:#fff;padding:0 30px 0 30px;font-size:15px;width:50%" type="text" placeholder="Cari Tutorial"/>-->
             </form>
         </div>
