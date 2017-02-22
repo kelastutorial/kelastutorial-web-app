@@ -10,8 +10,8 @@
                 <h2><?php echo $item['title']; ?></h2>
                 <div class="main-content-article">
                     <?php echo $item['content']; ?>
-                    <br/>Diterbitkan : <?php echo $item['published']; ?>
-                    <br/>Update terakhir : <?php echo $item['last_update']; ?>
+                    <br/>Diterbitkan : <?php echo $item['published']->format('F j, Y'); ?>
+                    <br/>Update terakhir : <?php echo $item['last_update']->format('F j, Y'); ?>
                 </div>
             </article>
         </div>
