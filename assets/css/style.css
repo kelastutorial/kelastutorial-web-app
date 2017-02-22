@@ -234,9 +234,12 @@ nav{
     border-radius:0px;
 }
 .main-content-date{
-    border-top:0.3px solid #d0d0d0;
-    font-size:9px;
-    text-decoration:underline;
+    border-top: 0.3px solid #e0e0e0;
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 13px;
+    line-height: 20px;
+    color: #888;
 }
 .previews-button{
     float:left;
