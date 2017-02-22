@@ -10,7 +10,7 @@
                 <h2><?php echo $item['title']; ?></h2>
                 <div class="main-content-article">
                     <?php echo $item['content']; ?>
-                    <br/>Diterbitkan : <?php $published = strtotime($item['published']);echo date_format($published, 'F j, Y'); ?>
+                    <br/>Diterbitkan : <?php $published = strtotime($item['published']);echo date('F j, Y', $published); ?>
                     <br/>Update terakhir : <?php echo $item['last_update']; ?>
                 </div>
             </article>
