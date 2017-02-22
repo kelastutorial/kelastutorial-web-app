@@ -10,8 +10,10 @@
                 <h2><?php echo $item['title']; ?></h2>
                 <div class="main-content-article">
                     <?php echo $item['content']; ?>
-                    <br/>Diterbitkan : <?php $published = strtotime($item['published']);echo date('F j, Y', $published); ?>
-                    <br/>Update terakhir : <?php $last_update = strtotime($item['last_update']);echo date('F j, Y', last_update); ?>
+                    <div class="main-content-date">
+                        <span>Diterbitkan <?php $published = strtotime($item['published']);echo date('F j, Y', $published); ?></span><br/>
+                        <span>Update terakhir <?php $last_update = strtotime($item['last_update']);echo date('F j, Y', $last_update); ?></span>
+                    </div>
                 </div>
             </article>
         </div>

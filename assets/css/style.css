@@ -233,6 +233,11 @@ nav{
     border-bottom:1px solid #fff;
     border-radius:0px;
 }
+.main-content-date{
+    border-top:0.3px solid #d0d0d0;
+    font-size:9px;
+    text-decoration:underline;
+}
 .previews-button{
     float:left;
 }
