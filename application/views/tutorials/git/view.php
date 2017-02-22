@@ -10,6 +10,7 @@
                 <h2><?php echo $item['title']; ?></h2>
                 <div class="main-content-article">
                     <?php echo $item['content']; ?>
+                    Diterbitkan : <?php echo $item['lastUpdate']; ?>
                 </div>
             </article>
         </div>
