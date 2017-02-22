@@ -11,7 +11,7 @@
                 <div class="main-content-article">
                     <?php echo $item['content']; ?>
                     <br/>Diterbitkan : <?php $published = strtotime($item['published']);echo date('F j, Y', $published); ?>
-                    <br/>Update terakhir : <?php echo $item['last_update']; ?>
+                    <br/>Update terakhir : <?php $last_update = strtotime($item['last_update']);echo date('F j, Y', last_update); ?>
                 </div>
             </article>
         </div>
