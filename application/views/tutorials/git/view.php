@@ -12,7 +12,8 @@
                     <?php echo $item['content']; ?>
                     <div class="main-content-date">
                         <span>Diterbitkan <?php $published = strtotime($item['published']);echo date('F j, Y', $published); ?></span> - 
-                        <span>Update terakhir <?php $last_update = strtotime($item['last_update']);echo date('F j, Y', $last_update); ?></span>
+                        <span>Update terakhir <?php $last_update = strtotime($item['last_update']);echo date('F j, Y', $last_update); ?></span><br/><br/>
+                        <span>Kecuali diluar catatan, isi dari halaman ini dilisensikan di bawah <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a>, dan sampel kode dilisensikan dibawah <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a>. Untuk detail lebih lanjut lihat halaman <a href="https://kelastutorial.com/site-terms">Kebijakan Situs</a> kami.</span>
                     </div>
                 </div>
             </article>
