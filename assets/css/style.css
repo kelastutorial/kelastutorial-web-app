@@ -234,6 +234,7 @@ nav{
     border-radius:0px;
 }
 .main-content-date{
+    margin-top:30px;
     border-top: 0.3px solid #e0e0e0;
     font-size: 12px;
     font-style: italic;
