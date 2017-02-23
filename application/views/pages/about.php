@@ -5,8 +5,8 @@
                 
             </div>
         </div>
-        <div style="margin-top:0;height:auto;background-image: url('https://kelastutorial.com/images/about-kelastutorial-contact.jpg');background-size:cover;background-color: #ffcdd2 ;background-position:center;padding:50px 20px 100px 20px;text-align:center;color:#fff;font-size:15px;">
+        <div style="margin-top:0;height:auto;background-image: url('https://kelastutorial.com/images/about-kelastutorial-contact.jpg');background-size:cover;background-color: #ffcdd2 ;background-position:center;padding:40px 20px 80px 20px;text-align:center;color:#fff;font-size:15px;">
             <h4>Hubungi Kami</h4>
             <span>Jika Anda mempunyai pertanyaan, kami mempunyai jawaban.<br/>Kami akan selalu membantu Anda. Hubungi kami kapan saja.</span><br/><br/>
-            <a href="mailto:support@kelastutorial.com" class="waves-effect waves-light btn-large">HUBUNGI KAMI SEKARANG</a></a>
+            <a href="mailto:support@kelastutorial.com" class=" white waves-effect waves-light btn-large red-text">HUBUNGI KAMI SEKARANG</a></a>
         </div>
