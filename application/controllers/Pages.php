@@ -22,7 +22,23 @@ class Pages extends CI_Controller {
     
     #Static page
     public function about() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "About";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/about');
         $this->load->view('templates/footer');
     }
