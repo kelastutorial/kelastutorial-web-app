@@ -9,3 +9,4 @@
             <h3>Hubungi Kami</h3>
             <span>Jika Anda mempunyai pertanyaan, kami mempunyai jawaban.<br/>Kami akan selalu membantu Anda. Hubungi kami kapan saja.</span>
             <a href="mailto:support@kelastutorial.com" style="padding:20px 30px;background-color:#fff;color:#d32f2f;text-decoration:none;">HUBUNGI KAMI SEKARANG</a>
+        </div>
