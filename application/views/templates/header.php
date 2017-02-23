@@ -11,8 +11,15 @@
         <meta name="language" content="Indonesia">
         <meta property="og:url" content="https://kelastutorial.com"/>
         <meta property="og:title" content="<?php  if($item['title']== ""){ echo $title;}else{ echo $item['title'];} ?> - Kelastutorial"/>
+        <meta property="og:type" content="website">
         <meta property="og:description" content="<?php  if($item['meta_desc']== ""){ echo $meta_desc;}else{ echo $item['meta_desc'];} ?>" />
         <meta property="og:image" content="<?php echo site_url('images/kelastutorial-icon-large.png'); ?>" />
+        <meta name="twitter:description" content="<?php  if($item['meta_desc']== ""){ echo $meta_desc;}else{ echo $item['meta_desc'];} ?>">
+        <meta name="twitter:image:src" content="<?php echo site_url('images/kelastutorial-icon-large.png'); ?>">
+        <meta name="twitter:title" content="<?php  if($item['title']== ""){ echo $title;}else{ echo $item['title'];} ?> - Kelastutorial">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@kelastutorial">
+        <meta name="twitter:creator" content="@kelastutorial">
         <link rel="shortcut icon" href="<?php echo site_url('images/favicon.png'); ?>" type="image/x-icon" />
         <link rel="stylesheet" href="<?php echo site_url('assets/css/materialize.min.css'); ?>"/>
         <link rel="stylesheet" href="<?php echo site_url('assets/css/styles/atom-one-dark.css'); ?>"/>
