@@ -1,1 +1,2 @@
-<div class="tutorial-wall"></div>
+
+        <div style="margin-top:0;height:500px;background-image: url("https://kelastutorial.com/images/about-kelastutorial-mission.jpg");background-color: #000;background-size: cover;background-position:center;"><h2>Misi Kami adalah untuk menyediakan tutorial Berbahasa Indonesia secara gratis.</h2></div>
