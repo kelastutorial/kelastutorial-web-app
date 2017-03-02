@@ -5,3 +5,7 @@ Issues :
 - Update about page (responsive, content)
 
 - Design gambar ilustrasi site terms ref: https://store.google.com/product/daydream_view?utm_source=daydream&utm_medium=MS&utm_campaign=daydream_ms
+- Update Contact page ref https://store.google.com/us/?hl=en-US&countryRedirect=true
+
+Referensi about page :
+- https://vr.google.com/daydream/experiences/
