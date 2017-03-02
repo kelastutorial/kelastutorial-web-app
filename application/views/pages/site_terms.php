@@ -1,5 +1,5 @@
         <div class="section site-terms">
-            <div style="background-color:#f4f4f6;max-width:1143px;height:auto;padding:85px 75px 50px 75px;margin:0 auto;">
+            <div class="site-terms-header">
                 <div class="row">
                     <div class="col s12 m8 l8">
                         <p style="font-size:36px;font-weight:300;margin:0;">Syarat dan Ketentuan Kelastutorial</p>
@@ -10,7 +10,7 @@
                     </div>
                 </div>
             </div>
-            <div class="white" style="padding:30px 85px 75px 85px;max-width:1143px;margin:0 auto;">
+            <div class="site-terms-content">
                 <h3>Selamat datang di Kelastutorial!</h3>
                 <p>Terima kasih telah menggunakan produk dan layanan Kelastutorial. Layanan disediakan oleh Kelastutorial yang berlokasi di Jakarta Pusat, DKI Jakarta 10210, Indonesia.</p>
                 <p>Dengan menggunakan Layanan kami, berarti Anda menyetujui persyaratan ini. Bacalah dengan saksama.</p>
