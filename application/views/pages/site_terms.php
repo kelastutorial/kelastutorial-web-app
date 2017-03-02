@@ -1,5 +1,5 @@
 <div class="section site-terms">
-    <div style="background-color:#f4f4f6;max-width:1143px;height:auto;padding:85px 75px 50px 75px:margin:0 auto;">
+    <div style="background-color:#f4f4f6;max-width:1143px;height:auto;padding:85px 75px 50px 75px;margin:0 auto;">
       <div class="row">
         <div class="col s12 m6 l6">
           <p style="">Syarat dan Ketentuan Kelastutorial</p>
