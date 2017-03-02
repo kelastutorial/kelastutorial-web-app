@@ -1,5 +1,8 @@
 <div class="section site-terms">
-    <div class="white" style="padding:80px 30px 150px 30px;max-width:900px;margin:0 auto;">
+    <div style="background-color:#f4f4f6;max-width:1143px;height:auto;padding:50px 0 50px 0">
+      test
+    </div>
+    <div class="white" style="padding:80px 30px 150px 30px;max-width:1143px;margin:0 auto;">
         <h2>Syarat dan Ketentuan Kelastutorial</h2>
 
 <h3>1. Ketentuan</h3>
