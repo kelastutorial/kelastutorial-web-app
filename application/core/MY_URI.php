@@ -1,3 +1,4 @@
+<?php
 // Normally this is not fully uppercase - but for some reason the URI filename is
 Class MY_URI extends CI_URI
 {
@@ -26,3 +27,5 @@ function _filter_uri($str)
 
     return str_replace($bad, $good, $str);
 }
+
+?>
