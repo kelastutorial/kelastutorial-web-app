@@ -48,7 +48,23 @@ class Pages extends CI_Controller {
         $this->load->view('templates/footer');
     }
     public function site_terms() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Terima kasih telah menggunakan produk dan layanan Kelastutorial. Dengan menggunakan Layanan kami, berarti Anda menyetujui persyaratan ini. Bacalah dengan saksama.";
+        $data2["title"] = "Syarat dan Ketentuan";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/site_terms');
         $this->load->view('templates/footer');
     }

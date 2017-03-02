@@ -13,7 +13,6 @@
             <div class="site-terms-content">
                 <h3>Selamat datang di Kelastutorial!</h3>
                 <p>Terima kasih telah menggunakan produk dan layanan Kelastutorial. Layanan disediakan oleh Kelastutorial yang berlokasi di Jakarta Pusat, DKI Jakarta 10210, Indonesia.</p>
-                <p>Dengan menggunakan Layanan kami, berarti Anda menyetujui persyaratan ini. Bacalah dengan saksama.</p>
                 <h3>Penggunaan</h3>
                 <p>Izin diberikan untuk sementara mendownload satu salinan dari materi (informasi atau perangkat lunak) pada situs Kelastutorial untuk pribadi, melihat non-komersial saja. Ini adalah hibah dari lisensi, bukan transfer judul, dan di bawah lisensi ini Anda tidak boleh:
                     <ol type="i">

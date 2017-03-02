@@ -3,3 +3,5 @@ Issues :
 - <meta name="Description" content="Penulis: A.N. Penulis, Ilustrator: P. Gambar, Kategori: Buku, Harga: $17.99, Isi: 784 hal">
 - Tipe data python , rich snippet style. Type data - Contoh - Penjelasan
 - Update about page (responsive, content)
+
+- Design gambar ilustrasi site terms ref: https://store.google.com/product/daydream_view?utm_source=daydream&utm_medium=MS&utm_campaign=daydream_ms
