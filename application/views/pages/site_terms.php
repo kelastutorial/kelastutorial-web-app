@@ -10,32 +10,24 @@
                     </div>
                 </div>
             </div>
-            <div class="white" style="padding:75px 75px 75px 75px;max-width:1143px;margin:0 auto;">
+            <div class="white" style="padding:60px 75px 75px 75px;max-width:1143px;margin:0 auto;">
                 <h3>Selamat datang di Kelastutorial!</h3>
-                <p>Terima kasih telah menggunakan produk dan layanan Kelastutorial. Layanan disediakan oleh Kelastutorial. (“Kelastutorial”), yang berlokasi di Jakarta Pusat, DKI Jakarta 10210, Indonesia.</p>
+                <p>Terima kasih telah menggunakan produk dan layanan Kelastutorial. Layanan disediakan oleh Kelastutorial yang berlokasi di Jakarta Pusat, DKI Jakarta 10210, Indonesia.</p>
                 <p>Dengan menggunakan Layanan kami, berarti Anda menyetujui persyaratan ini. Bacalah dengan saksama.</p>
                 <h3>Penggunaan</h3>
-                <p>
-                    <ol type="a">
-                        <li>Izin diberikan untuk sementara mendownload satu salinan dari materi (informasi atau perangkat lunak) pada situs Kelastutorial untuk pribadi, melihat non-komersial saja. Ini adalah hibah dari lisensi, bukan transfer judul, dan di bawah lisensi ini Anda tidak boleh:
-                            <ol type="i">
-                                <li>memodifikasi atau menyalin bahan;</li>
-                                <li>menggunakan bahan untuk tujuan komersial, atau untuk publik layar (komersial atau non-komersial);</li>
-                                <li>mencoba untuk mendekompilasi atau merekayasa balik perangkat lunak apapun yang terdapat di situs Kelastutorial ini;</li>
-                                <li>menghapus setiap hak cipta atau notasi milik lainnya dari bahan; atau</li>
-                                <li>mentransfer materi ke orang lain atau "mirror" materi pada server lain.</li>
-                            </ol>
-                        </li>
-                        <li>Lisensi ini secara otomatis akan berakhir jika Anda melanggar salah satu larangan dan dapat diakhiri oleh Kelastutorial setiap saat. Setelah Anda perlu melihat materi-materi atau atas penghentian lisensi ini, Anda harus memusnahkan semua bahan-download Anda miliki baik dalam format elektronik atau dicetak.</li>
+                <p>Izin diberikan untuk sementara mendownload satu salinan dari materi (informasi atau perangkat lunak) pada situs Kelastutorial untuk pribadi, melihat non-komersial saja. Ini adalah hibah dari lisensi, bukan transfer judul, dan di bawah lisensi ini Anda tidak boleh:
+                    <ol type="i">
+                        <li>memodifikasi atau menyalin bahan;</li>
+                        <li>menggunakan bahan untuk tujuan komersial, atau untuk publik layar (komersial atau non-komersial);</li>
+                        <li>mencoba untuk mendekompilasi atau merekayasa balik perangkat lunak apapun yang terdapat di situs Kelastutorial ini;</li>
+                        <li>menghapus setiap hak cipta atau notasi milik lainnya dari bahan; atau</li>
+                        <li>mentransfer materi ke orang lain atau "mirror" materi pada server lain.</li>
                     </ol>
                 </p>
+                <p>Lisensi ini secara otomatis akan berakhir jika Anda melanggar salah satu larangan dan dapat diakhiri oleh Kelastutorial setiap saat. Setelah Anda perlu melihat materi-materi atau atas penghentian lisensi ini, Anda harus memusnahkan semua bahan-download Anda miliki baik dalam format elektronik atau dicetak.</p>
                 <h3>Penolakan</h3>
-                <p>
-                    <ol type="a">
-                        <li>Bahan-bahan di situs Kelastutorial ini disediakan pada 'seperti' dasar. Kelastutorial tidak memberikan jaminan, tersurat maupun tersirat, dan dengan ini menolak dan meniadakan semua jaminan lainnya termasuk, tanpa batasan, jaminan tersirat atau kondisi yang dapat diperjualbelikan, kesesuaian untuk tujuan tertentu, atau non-pelanggaran atas kekayaan intelektual atau pelanggaran lain dari hak.</li>
-                        <li>Selanjutnya, Kelastutorial tidak menjamin atau membuat pernyataan apapun tentang akurasi, kemungkinan hasil, atau keandalan dari penggunaan materi di website-nya atau yang berkaitan dengan bahan tersebut atau pada setiap situs yang terhubung ke situs ini.</li>
-                    </ol>
-                </p>
+                <p>Bahan-bahan di situs Kelastutorial ini disediakan pada 'seperti' dasar. Kelastutorial tidak memberikan jaminan, tersurat maupun tersirat, dan dengan ini menolak dan meniadakan semua jaminan lainnya termasuk, tanpa batasan, jaminan tersirat atau kondisi yang dapat diperjualbelikan, kesesuaian untuk tujuan tertentu, atau non-pelanggaran atas kekayaan intelektual atau pelanggaran lain dari hak.</p>
+                <p>Selanjutnya, Kelastutorial tidak menjamin atau membuat pernyataan apapun tentang akurasi, kemungkinan hasil, atau keandalan dari penggunaan materi di website-nya atau yang berkaitan dengan bahan tersebut atau pada setiap situs yang terhubung ke situs ini.</p>
                 <h3>Batasan-batasan</h3>
                 <p>Dalam hal apapun Kelastutorial atau pemasok tidak bertanggung jawab untuk kerugian (termasuk, tanpa batasan, ganti rugi atas hilangnya data atau keuntungan, atau karena gangguan bisnis) yang timbul dari penggunaan atau ketidakmampuan untuk menggunakan materi di situs Kelastutorial ini, bahkan jika Kelastutorial atau perwakilan Kelastutorial resmi telah diberitahu secara lisan atau tertulis dari kemungkinan kerusakan tersebut. Karena beberapa yurisdiksi tidak mengizinkan pembatasan pada jaminan tersirat, atau keterbatasan dari tanggung jawab untuk kerusakan konsekuensial atau insidentil, keterbatasan ini mungkin tidak berlaku untuk Anda.</p>
                 <h3>Akurasi Bahan</h3>

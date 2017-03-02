@@ -342,14 +342,10 @@ nav{
 .site-terms{
     height:auto;background-color:#fafafa;
 }
-.site-terms h2{
-    font-size:38px;
-    color:#555;
-}
 .site-terms h3{
-    font-size:20px;
+    font-size:30px;
     color:#333;
-    font-weight: bolder;
+    font-weight: 300;
 }
 
 /* End Site Terms */
