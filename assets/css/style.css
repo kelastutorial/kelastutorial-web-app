@@ -343,8 +343,9 @@ nav{
     height:auto;background-color:#fafafa;
 }
 .site-terms h3{
-    font-size:30px;
+    font-size:25px;
     color:#333;
+    margin-top:20px;
     font-weight: 300;
 }
 

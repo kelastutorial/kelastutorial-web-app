@@ -10,7 +10,7 @@
                     </div>
                 </div>
             </div>
-            <div class="white" style="padding:60px 75px 75px 75px;max-width:1143px;margin:0 auto;">
+            <div class="white" style="padding:30px 85px 75px 85px;max-width:1143px;margin:0 auto;">
                 <h3>Selamat datang di Kelastutorial!</h3>
                 <p>Terima kasih telah menggunakan produk dan layanan Kelastutorial. Layanan disediakan oleh Kelastutorial yang berlokasi di Jakarta Pusat, DKI Jakarta 10210, Indonesia.</p>
                 <p>Dengan menggunakan Layanan kami, berarti Anda menyetujui persyaratan ini. Bacalah dengan saksama.</p>
