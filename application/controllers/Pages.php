@@ -69,7 +69,23 @@ class Pages extends CI_Controller {
         $this->load->view('templates/footer');
     }
     public function privacy_policy() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Privasi Anda sangatlah penting. Ini adalah kebijakan Kelastutorial untuk menghormati privasi Anda mengenai informasi yang kami dapat mengumpulkan sementara operasi website kami. Dengan demikian, kami telah mengembangkan kebijakan privasi ini agar Anda memahami bagaimana kami mengumpulkan, menggunakan, berkomunikasi, membuka dan memanfaatkan informasi pribadi.";
+        $data2["title"] = "Kebijakan Privasi";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/privacy_policy');
         $this->load->view('templates/footer');
     }
