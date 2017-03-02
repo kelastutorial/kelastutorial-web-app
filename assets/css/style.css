@@ -345,11 +345,11 @@ nav{
 .site-terms h3{
     font-size:25px;
     color:#333;
-    margin-top:40px;
+    margin:30px 0 15px 0;
     font-weight: 400;
 }
 .site-terms .last-modified{
-    margin-top:30px;
+    margin-top:40px;
     border-top: 0.3px solid #e0e0e0;
     font-size: 12px;
     font-style: italic;
