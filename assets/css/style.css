@@ -341,6 +341,7 @@ nav{
 
 .site-terms{
     height:auto;background-color:#fafafa;
+    padding-bottom: 0px;
 }
 .site-terms h3{
     font-size:25px;
