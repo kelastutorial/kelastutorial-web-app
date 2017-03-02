@@ -1,9 +1,12 @@
 <div class="section site-terms">
     <div style="background-color:#f4f4f6;max-width:1143px;height:auto;padding:85px 75px 50px 75px;margin:0 auto;">
       <div class="row">
-        <div class="col s12 m6 l6">
-          <p style="">Syarat dan Ketentuan Kelastutorial</p>
-          <p style="">Dengan menggunakan Layanan kami, berarti Anda menyetujui persyaratan ini. Bacalah dengan saksama.</p>
+        <div class="col s12 m8 l8">
+          <p style="font-size:36px;font-weight:300;margin:0;">Syarat dan Ketentuan Kelastutorial</p>
+          <p style="margin:5px 0 5px 0;">Dengan menggunakan Layanan kami, berarti Anda menyetujui persyaratan ini. Bacalah dengan saksama.</p>
+        </div>
+        <div class="col s12 m4 l4">
+          <img src=""/>
         </div>
       </div>
     </div>
