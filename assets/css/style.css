@@ -361,7 +361,7 @@ nav{
     background-color:#f4f4f6;max-width:1143px;height:auto;padding:85px 75px 50px 75px;margin:0 auto;
 }
 .site-terms .site-terms-content{
-    padding:30px 85px 75px 85px;max-width:1143px;margin:0 auto;
+    padding:30px 85px 75px 85px;max-width:1143px;margin:0 auto;background-color:#fff;
 }
 @media only screen and (max-width: 601px) {
     .site-terms .site-terms-header{padding:85px 15px 50px 15px;}
