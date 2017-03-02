@@ -26,7 +26,7 @@
                     </ol>
                 </p>
                 <p>Kami berkomitmen untuk menjalankan bisnis kami sesuai dengan prinsip-prinsip ini dalam rangka untuk memastikan bahwa kerahasiaan informasi pribadi yang dilindungi dan dipelihara. Kelastutorial dapat mengubah kebijakan privasi ini dari waktu ke waktu atas kebijakannya sendiri Kelastutorial ini.</p>
-                <p>Lihat halaman kebijakan privasi kami. <a href="https://kelastutorial.com/privacy-policy">Kebijakan Privasi</a></p>
+                <p>Lihat halaman syarat dan ketentuan kami. <a href="https://kelastutorial.com/site-terms">Syarat dan Ketentuan</a></p>
                 <div class="last-modified">
                     <p>Terakhir dimodifikasi: 3 Maret 2017</p> 
                 </div>
