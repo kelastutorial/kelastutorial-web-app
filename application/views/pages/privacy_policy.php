@@ -12,7 +12,7 @@
             </div>
             <div class="site-terms-content">
                 <h3>Selamat datang di Kebijakan Privasi Kelastutorial</h3>
-                <p>>Ini adalah kebijakan Kelastutorial untuk menghormati privasi Anda mengenai informasi yang kami dapat mengumpulkan sementara operasi website kami. Dengan demikian, kami telah mengembangkan kebijakan privasi ini agar Anda memahami bagaimana kami mengumpulkan, menggunakan, berkomunikasi, membuka dan memanfaatkan informasi pribadi. Kami telah digariskan kebijakan privasi kami di bawah ini.</p>
+                <p>Ini adalah kebijakan Kelastutorial untuk menghormati privasi Anda mengenai informasi yang kami dapat mengumpulkan sementara operasi website kami. Dengan demikian, kami telah mengembangkan kebijakan privasi ini agar Anda memahami bagaimana kami mengumpulkan, menggunakan, berkomunikasi, membuka dan memanfaatkan informasi pribadi. Kami telah digariskan kebijakan privasi kami di bawah ini.</p>
                 <h3>Informasi yang kami kumpulkan</h3>
                 <p>Izin diberikan untuk sementara mendownload satu salinan dari materi (informasi atau perangkat lunak) pada situs Kelastutorial untuk pribadi, melihat non-komersial saja. Ini adalah hibah dari lisensi, bukan transfer judul, dan di bawah lisensi ini Anda tidak boleh:
                     <ol type="i">
@@ -26,6 +26,7 @@
                     </ol>
                 </p>
                 <p>Kami berkomitmen untuk menjalankan bisnis kami sesuai dengan prinsip-prinsip ini dalam rangka untuk memastikan bahwa kerahasiaan informasi pribadi yang dilindungi dan dipelihara. Kelastutorial dapat mengubah kebijakan privasi ini dari waktu ke waktu atas kebijakannya sendiri Kelastutorial ini.</p>
+                <p>Lihat halaman kebijakan privasi kami. <a href="https://kelastutorial.com/privacy-policy">Kebijakan Privasi</a></p>
                 <div class="last-modified">
                     <p>Terakhir dimodifikasi: 3 Maret 2017</p> 
                 </div>
