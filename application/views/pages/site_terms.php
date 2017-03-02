@@ -38,6 +38,8 @@
                 <p>Kelastutorial mungkin merevisi persyaratan layanan untuk situs web setiap saat tanpa pemberitahuan. Dengan menggunakan situs ini, Anda setuju untuk terikat oleh versi sekarang dari persyaratan layanan ini.</p>
                 <h3>Peraturan Pemerintah</h3>
                 <p>Syarat dan ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum Indonesia dan Anda tidak dapat ditarik kembali tunduk pada yurisdiksi eksklusif pengadilan di Negara itu atau lokasi.</p>
-                <p>Terakhir dimodifikasi: 2 Maret 2017</p> 
+                <div class="last-modified">
+                    <p>Terakhir dimodifikasi: 2 Maret 2017</p> 
+                </div>
             </div>
         </div>

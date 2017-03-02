@@ -225,7 +225,7 @@ nav{
     background-color:#d0d0d0;
     border-radius:0px;
     border-left:1px solid #fff;
-    border-bottom:1px solid #fff;
+    border-bottom:1px solid #fff;F
 }
 .main-content table td{
     background-color:#f0f0f0;
@@ -345,8 +345,17 @@ nav{
 .site-terms h3{
     font-size:25px;
     color:#333;
-    margin-top:20px;
-    font-weight: 300;
+    margin-top:40px;
+    font-weight: 400;
+}
+.site-terms .last-modified{
+    margin-top:30px;
+    border-top: 0.3px solid #e0e0e0;
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 13px;
+    line-height: 20px;
+    color: #888;
 }
 
 /* End Site Terms */
