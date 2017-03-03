@@ -9,3 +9,10 @@ Issues :
 
 Referensi about page :
 - https://vr.google.com/daydream/experiences/
+
+
+Referensi header/nav aboug page, dll :
+- https://vr.google.com/daydream/developers/
+
+
+- Redirect disallow character to 404 not found
