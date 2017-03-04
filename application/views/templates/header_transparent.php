@@ -52,13 +52,13 @@
                     }
                 });
             });
-            $('whitenav').hide();
-            $('transparentnav').hide();
+            $('#whitenav').hide();
+            $('#transparentnav').hide();
             $(window).scroll(function () {
             if ($(window).scrollTop() >= 50) {
-            $('whitenav').show();
+            $('#whitenav').show();
             } else {
-            $('transparentnav').show()
+            $('#transparentnav').show()
             }
             });
             
