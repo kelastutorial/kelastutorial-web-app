@@ -52,8 +52,8 @@
                     }
                 });
             });
-            $('#whitenav').hide();
-            $('#transparentnav').hide();
+            $("#whitenav").hide();
+            $(".transparentnav").hide();
             
             
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </nav>
-        <nav id="transparentnav">
+        <nav class="transparentnav">
             <div class="nav-wrapper navigation" style="background-color:rgba(0,0,0,0);">
                 <!--<a href="#!" class="brand-logo">KT</a>-->
                 <div class="row">
