@@ -38,7 +38,7 @@ class Pages extends CI_Controller {
         }
         </script>
         ';
-        $this->load->view('templates/header_transparent', $data2);
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/about');
         $this->load->view('templates/footer');
     }
