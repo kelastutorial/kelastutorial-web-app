@@ -52,11 +52,13 @@
                     }
                 });
             });
+            $('whitenav').hide();
+            $('transparentnav').hide();
             $(window).scroll(function () {
             if ($(window).scrollTop() >= 50) {
-            $('nav').css('background','white');
+            $('whitenav').show();
             } else {
-            $('nav').css('background','transparent');
+            $('transparentnav').show()
             }
             });
             
@@ -69,8 +71,31 @@
         </script>
     </head>
     <body>
-        <nav>
-            <div class="nav-wrapper navigation">
+        <nav id="whitenav">
+            <div class="nav-wrapper navigation white">
+                <!--<a href="#!" class="brand-logo">KT</a>-->
+                <div class="row">
+                    <div class="col s12 m12 l8 input-field">
+                        <div class="navigation-logo hide-on-tablet" style="border-right:0.5px solid #e0e0e0;height:64px;padding-top:11px;padding-right:30px;">
+                            <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url('images/kelastutorial-logo.svg'); ?>" height="40px"/></a>
+                        </div>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text" style="margin-left:-10px;">menu</i></a>
+                        <form class="navigation-search-form" onsubmit="location.href='https://kelastutorial.com/search?q=' + document.getElementById('searchInput').value; return false;">&nbsp;&nbsp;<i class="fa fa-search" aria-hidden="true"></i>
+                            <input id="searchInput" class="navsearchinput" style="border-radius:3px;background-color:#fff;padding:10px 10px 10px 10px;font-size:15px;" type="text" placeholder="CARI TUTORIAL"/>
+                        </form>
+                    </div>
+                      
+                    <div class="col s0 m0 l4 navigation-menu hide-on-tablet">
+                        <a href="<?php echo site_url('tutorials'); ?>"  style="margin-right:30px;color:#000;">SEMUA TUTORIAL</a>
+                        <!--
+                        <a class="waves-effect red darken-1 white-text waves-light" style="margin-right:-12px;margin-bottom:-1px;padding:0 50px 0 50px;">MASUK</a>-->
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+        <nav id="transparentnav">
+            <div class="nav-wrapper navigation" style="background-color:rgba(0,0,0,0);">
                 <!--<a href="#!" class="brand-logo">KT</a>-->
                 <div class="row">
                     <div class="col s12 m12 l8 input-field">
