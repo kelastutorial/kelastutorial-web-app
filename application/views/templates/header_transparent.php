@@ -54,7 +54,7 @@
             });
             $(window).scroll(function () {
             if ($(window).scrollTop() >= 50) {
-            $('nav').css('background','red');
+            $('nav').css('background','white');
             } else {
             $('nav').css('background','transparent');
             }
