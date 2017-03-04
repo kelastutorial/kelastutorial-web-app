@@ -52,9 +52,9 @@
                     }
                 });
                 if ($(window).scrollTop() >= 50) {
-                $('.navigation').css('background','red');
+                $('nav').css('background','red');
                 } else {
-                $('.navigation').css('background','transparent');
+                $('nav').css('background','transparent');
                 }
             });     
             
