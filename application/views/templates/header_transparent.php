@@ -52,12 +52,13 @@
                     }
                 });
             });
-            $("#whitenav").hide();
-            if($( '.transparentnav' ).is(":visible")){
-                  $( '.transparentnav' ).hide();
-             } else{
-                  $( '.transparentnav' ).show();
-             }
+            $(window).scroll(function () {
+            if ($(window).scrollTop() >= 50) {
+            $('nav').css('background','red');
+            } else {
+            $('nav').css('background','transparent');
+            }
+            });
             
             
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -69,7 +70,7 @@
         </script>
     </head>
     <body>
-        <nav class="transparentnav">
+        <nav>
             <div class="nav-wrapper navigation" style="background-color:rgba(0,0,0,0);">
                 <!--<a href="#!" class="brand-logo">KT</a>-->
                 <div class="row">
