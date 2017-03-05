@@ -87,7 +87,7 @@
                             </a>
                         </div>
                     </div>
-                    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">keyboard_arrow_down</i></a>
+                    <a href="https://kelastutorial.com/tutorials" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">keyboard_arrow_down</i></a>
                 </div>
             </div>
         </div>
