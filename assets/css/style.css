@@ -405,6 +405,14 @@ nav{
 }
 /* End Contact*/
 
+/* About */
+
+.about-topics-images:hover{
+    z-index: 1000;
+}
+
+/* End About */
+
 /* All Tutorials */
 .all-tutorial-container{
     padding:95px 0 40px 0;

@@ -8,17 +8,17 @@
             <p style="font-size:36px;font-weight:300;margin:0;">A personalized learning resource for all ages</p>
             <p style="margin:17px 0 5px 0;font-size:17px;text-align:left;">Kelastutorial offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom. We tackle math, science, computer programming, history, art history, economics, and more. Our math missions guide learners from kindergarten to calculus using state-of-the-art, adaptive technology that identifies strengths and learning gaps. We've also partnered with institutions like NASA, The Museum of Modern Art, The California Academy of Sciences, and MIT to offer specialized content..</p>
         </div>
-        <div class="" style="">
+        <div>
             <div class="row">
-                <div class="col s6 m3 l3 hoverable" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-programming.jpg);background-size:cover;">
+                <div class="col s6 m3 l3 hoverable about-topics-images" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-programming.jpg);background-size:cover;">
                 </div>
-                <div class="col s6 m3 l3 hoverable" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-design.jpg);background-size:cover;">
+                <div class="col s6 m3 l3 hoverable about-topics-images" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-design.jpg);background-size:cover;">
                    
                 </div>
-                <div class="col s6 m3 l3 hoverable" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-nature.jpg);background-size:cover;">
+                <div class="col s6 m3 l3 hoverable about-topics-images" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-nature.jpg);background-size:cover;">
                     
                 </div>
-                <div class="col s6 m3 l3 hoverable" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-science.jpg);background-size:cover;">
+                <div class="col s6 m3 l3 hoverable about-topics-images" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-science.jpg);background-size:cover;">
                 
                 </div>
             </div>
