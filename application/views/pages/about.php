@@ -4,9 +4,12 @@
             <p style="margin:5px 0 5px 0;font-size:20px;font-weight:300;">Misi kami adalah menyediakan pustaka tutorial<br/>dalam bahasa Indonesia yang mudah diakses dan digunakan<br/>secara gratis oleh semua orang.</p>
             <div style="width:10%;border-bottom:0.2px solid white;margin:0 auto;margin-top:30px;"></div>
         </div>
-        <div class="container" style="height:600px;text-align:center">
-            <div class="row">
-                 </div>
+        <div class="container" style="height:auto;padding:80px 20px 80px 20px;max-width:900px;text-align:center">
+            <p style="font-size:36px;font-weight:300;margin:0;">A personalized learning resource for all ages</p>
+            <p style="margin:5px 0 5px 0;font-size:17px;">Kelastutorial offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom. We tackle math, science, computer programming, history, art history, economics, and more. Our math missions guide learners from kindergarten to calculus using state-of-the-art, adaptive technology that identifies strengths and learning gaps. We've also partnered with institutions like NASA, The Museum of Modern Art, The California Academy of Sciences, and MIT to offer specialized content..</p>
+        </div>
+        <div class="container" style="">
+            
         </div>
         <div style="margin-top:0;height:auto;background-image: url('https://kelastutorial.com/images/about-kelastutorial-contact.jpg');background-size:cover;background-color: #ffcdd2 ;background-position:center;padding:50px 20px 75px 20px;text-align:center;color:#fff;font-size:18px;">
             <h4>Hubungi Kami</h4>
