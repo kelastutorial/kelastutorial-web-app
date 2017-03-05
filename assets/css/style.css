@@ -408,7 +408,7 @@ nav{
 /* About */
 
 .about-tutorials{
-    margin:100px 0 100px 0;
+    padding:100px 0 100px 0;
 }
 .about-tutorials a{
     color:#444;
