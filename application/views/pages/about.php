@@ -6,7 +6,7 @@
         </div>
         <div class="container" style="height:auto;padding:100px 20px 100px 20px;max-width:900px;text-align:center">
             <p style="font-size:36px;font-weight:300;margin:0;">A personalized learning resource for all ages</p>
-            <p style="margin:5px 0 5px 0;font-size:17px;text-align:center;">Kelastutorial offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom. We tackle math, science, computer programming, history, art history, economics, and more. Our math missions guide learners from kindergarten to calculus using state-of-the-art, adaptive technology that identifies strengths and learning gaps. We've also partnered with institutions like NASA, The Museum of Modern Art, The California Academy of Sciences, and MIT to offer specialized content..</p>
+            <p style="margin:5px 0 5px 0;font-size:17px;text-align:left;">Kelastutorial offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom. We tackle math, science, computer programming, history, art history, economics, and more. Our math missions guide learners from kindergarten to calculus using state-of-the-art, adaptive technology that identifies strengths and learning gaps. We've also partnered with institutions like NASA, The Museum of Modern Art, The California Academy of Sciences, and MIT to offer specialized content..</p>
         </div>
         <div class="container" style="">
             
