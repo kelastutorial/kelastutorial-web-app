@@ -10,15 +10,15 @@
         </div>
         <div class="" style="">
             <div class="row">
-                <div class="col s6 m3 l3 " style="height:200px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-programming.jpg);background-size:cover;">
+                <div class="col s6 m3 l3 hoverable" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-programming.jpg);background-size:cover;">
                 </div>
-                <div class="col s6 m3 l3 " style="height:180px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-design.jpg);background-size:cover;">
+                <div class="col s6 m3 l3 hoverable" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-design.jpg);background-size:cover;">
                    
                 </div>
-                <div class="col s6 m3 l3 " style="height:250px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-nature.jpg);background-size:cover;">
+                <div class="col s6 m3 l3 hoverable" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-nature.jpg);background-size:cover;">
                     
                 </div>
-                <div class="col s6 m3 l3 " style="height:150px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-science.jpg);background-size:cover;">
+                <div class="col s6 m3 l3 hoverable" style="height:300px;background-image:url(https://kelastutorial.com/images/kelastutorial-about-science.jpg);background-size:cover;">
                 
                 </div>
             </div>
