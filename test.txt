@@ -16,3 +16,6 @@ Referensi header/nav aboug page, dll :
 
 
 - Redirect disallow character to 404 not found
+
+Image design ref :
+- http://www.owendavey.com/Pallet-Magazine-Issue-3

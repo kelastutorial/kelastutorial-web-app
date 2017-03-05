@@ -1,5 +1,8 @@
 
-        <div style="margin-top:0;height:auto;background-image: url('https://kelastutorial.com/images/about-kelastutorial-mission.jpg');background-color: #000;background-size: cover;background-position:center;padding:200px 20px 170px 20px;text-align:center;color:#fff;font-size:35px;font-weight:500"><span>Misi kami adalah menyediakan pustaka tutorial<br/> dalam Bahasa Indonesia yang mudah diakses dan dipergunakan<br/>seraca gratis oleh semua orang. #PengetahuanAdalahGratis</span></div>
+        <div style="margin-top:0;height:auto;background-image: url('https://kelastutorial.com/images/about-kelastutorial-mission.jpg');background-color: #000;background-size: cover;background-position:center;padding:200px 20px 170px 20px;text-align:center;color:#fff;font-size:35px;font-weight:500">
+            <p style="font-size:36px;font-weight:300;margin:0;">Pengetahuan Adalah Gratis</p>
+            <p style="margin:5px 0 5px 0;">Misi kami adalah menyediakan pustaka tutorial dalam bahasa Indonesia yang mudah diakses dan digunakan secara gratis oleh semua orang.</p>
+        </div>
         <div class="container" style="height:600px;text-align:center">
             <div class="row">
                  </div>
