@@ -2,7 +2,7 @@
             <div class="site-terms-header">
                 <div class="row">
                     <div class="col s12 m8 l8">
-                        <p style="font-size:36px;font-weight:300;margin:0;">Kebijakan Privasi</p>
+                        <p style="font-size:36px;font-weight:300;margin:0;color:#E53935;">Kebijakan Privasi</p>
                         <p style="margin:5px 0 5px 0;">Privasi Anda sangat penting bagi kami. Kami menjaga agar informasi pribadi Anda tetap pribadi dan terjamin - dan memberikan kontrol kepada Anda.</p>
                     </div>
                     <div class="col s12 m4 l4">

@@ -2,7 +2,7 @@
             <div class="site-terms-header">
                 <div class="row">
                     <div class="col s12 m8 l8">
-                        <p style="font-size:36px;font-weight:300;margin:0;">Syarat dan Ketentuan Kelastutorial</p>
+                        <p style="font-size:36px;font-weight:300;margin:0;color:#E53935;">Syarat dan Ketentuan Kelastutorial</p>
                         <p style="margin:5px 0 5px 0;">Dengan menggunakan Layanan kami, berarti Anda menyetujui persyaratan ini. Bacalah dengan saksama.</p>
                     </div>
                     <div class="col s12 m4 l4">
