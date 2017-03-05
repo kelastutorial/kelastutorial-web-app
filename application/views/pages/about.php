@@ -30,37 +30,47 @@
                 </div>
                 <div class="col s12 m6 l6">
                     <div class="row">
-                        <div class="col s3 m3 l3 center" style="margin-bottom:30px;">
-                            <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                            <p>HTML</p>
+                        <div class="col s3 m3 l3 center" style="margin-bottom:15px;">
+                            <a href="#">
+                                <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
+                                <span>HTML</span>
+                            </a>
                         </div>
-                        <div class="col s3 m3 l3 center" style="margin-bottom:30px;">
-                            <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                            <p>HTML</p>
+                        <div class="col s3 m3 l3 center" style="margin-bottom:15px;">
+                            <a href="#">
+                                <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
+                                <span>HTML</span>
+                            </a>
                         </div>
-                        <div class="col s3 m3 l3 center" style="margin-bottom:30px;">
-                            <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                            <p>HTML</p>
+                        <div class="col s3 m3 l3 center" style="margin-bottom:15px;">
+                            <a href="#">
+                                <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
+                                <span>HTML</span>
+                            </a>
                         </div>
-                        <div class="col s3 m3 l3 center" style="margin-bottom:30px;">
-                            <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                            <p>HTML</p>
+                        <div class="col s3 m3 l3 center" style="margin-bottom:15px;">
+                            <a href="#">
+                                <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
+                                <span>HTML</span>
+                            </a>
                         </div>
-                        <div class="col s3 m3 l3 center" style="margin-bottom:30px;">
-                            <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                            <p>HTML</p>
+                        <div class="col s3 m3 l3 center" style="margin-bottom:15px;">
+                            <a href="#">
+                                <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
+                                <span>HTML</span>
+                            </a>
                         </div>
-                        <div class="col s3 m3 l3 center" style="margin-bottom:30px;">
-                            <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                            <p>HTML</p>
+                        <div class="col s3 m3 l3 center" style="margin-bottom:15px;">
+                            <a href="#">
+                                <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
+                                <span>HTML</span>
+                            </a>
                         </div>
-                        <div class="col s3 m3 l3 center" style="margin-bottom:30px;">
-                            <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                            <p>HTML</p>
-                        </div>
-                        <div class="col s3 m3 l3 center" style="margin-bottom:30px;">
-                            <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                            <p>HTML</p>
+                        <div class="col s3 m3 l3 center" style="margin-bottom:15px;">
+                            <a href="#">
+                                <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
+                                <span>HTML</span>
+                            </a>
                         </div>
                     </div>
                 </div>
