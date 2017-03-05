@@ -31,7 +31,7 @@
                 <div class="col s12 m6 l6">
                     <h4>Explore new worlds</h4>
                     <p>Visit famous museums, far away cities, other planets and beyond.</p>
-                    <div class="row" style="margin-top:40px;">
+                    <div class="row" style="margin:40px 0 10px 0;">
                         <div class="col s3 m3 l3" style="margin-bottom:15px;">
                             <a href="#">
                                 <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
