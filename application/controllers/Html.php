@@ -28,9 +28,7 @@ class html extends CI_Controller {
         ';
         $data['item'] = $this->html_model->get_html($slug);
         $this->load->view('templates/header', $data2);
-        $this->load->view('tutorials/html/left_sidebar');
         $this->load->view('tutorials/html/index', $data);
-        $this->load->view('tutorials/html/right_sidebar');
     }
     
     public function view($slug = NULL) {
