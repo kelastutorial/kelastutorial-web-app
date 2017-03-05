@@ -410,6 +410,12 @@ nav{
 .about-tutorials{
     padding:100px 0 100px 0;
 }
+.about-tutorials h4{
+    font-size:36px;font-weight:300;color:#E53935;
+}
+.about-tutorials p{
+    font-size:17px;
+}
 .about-tutorials a{
     color:#444;
     margin-bottom:20px;
