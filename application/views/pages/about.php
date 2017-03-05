@@ -26,7 +26,7 @@
         <div class="container about-tutorials center">
             <div class="row">
                 <div class="col s12 m6 l6">
-                    a
+                    &nbsp;
                 </div>
                 <div class="col s12 m6 l6">
                     <h4>Explore new worlds</h4>
@@ -41,49 +41,49 @@
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">
                                 <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                                <span>HTML</span>
+                                <span>Java</span>
                             </a>
                         </div>
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">
                                 <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                                <span>HTML</span>
+                                <span>Python</span>
                             </a>
                         </div>
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">
                                 <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                                <span>HTML</span>
+                                <span>Javascript</span>
                             </a>
                         </div>
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">
                                 <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                                <span>HTML</span>
+                                <span>Git</span>
                             </a>
                         </div>
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">
                                 <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                                <span>HTML</span>
+                                <span>Scrum</span>
                             </a>
                         </div>
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">
                                 <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                                <span>HTML</span>
+                                <span>JSON</span>
                             </a>
                         </div>
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">
                                 <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                                <span>HTML</span>
+                                <span>CSS</span>
                             </a>
                         </div>
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">
                                 <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
-                                <span>HTML</span>
+                                <span>XML</span>
                             </a>
                         </div>
                     </div>
