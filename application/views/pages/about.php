@@ -23,6 +23,7 @@
                 </div>
             </div>
         </div>
+        <div class="about-tutorials-wrapper">
         <div class="container about-tutorials center">
             <div class="row">
                 <div class="col s12 m6 l6">
@@ -90,6 +91,7 @@
                     <a href="https://kelastutorial.com/tutorials" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">keyboard_arrow_down</i></a>
                 </div>
             </div>
+        </div>
         </div>
         <div style="margin-top:0;height:auto;background-image: url('https://kelastutorial.com/images/about-kelastutorial-contact.jpg');background-size:cover;background-color: #ffcdd2 ;background-position:center;padding:50px 20px 75px 20px;text-align:center;color:#fff;font-size:18px;">
             <h4>Hubungi Kami</h4>
