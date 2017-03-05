@@ -10,17 +10,16 @@
         </div>
         <div class="" style="">
             <div class="row">
-                <div class="col s3 m3 l3 red">
+                <div class="col s3 m3 l3 red" style="background-image:url(https://kelastutorial.com/images/kelastutorial-about-programming.jpg);background-size:cover;">
+                </div>
+                <div class="col s3 m3 l3 blue" style="background-image:url(https://kelastutorial.com/images/kelastutorial-about-programming.jpg);background-size:cover;">
+                   a 
+                </div>
+                <div class="col s3 m3 l3 green" style="background-image:url(https://kelastutorial.com/images/kelastutorial-about-programming.jpg);background-size:cover;">
                     
                 </div>
-                <div class="col s3 m3 l3 blue">
-                    
-                </div>
-                <div class="col s3 m3 l3 green">
-                    
-                </div>
-                <div class="col s3 m3 l3 yellow">
-                    
+                <div class="col s3 m3 l3 yellow" style="background-image:url(https://kelastutorial.com/images/kelastutorial-about-programming.jpg);background-size:cover;">
+                    c
                 </div>
             </div>
         </div>
