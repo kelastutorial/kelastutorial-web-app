@@ -30,7 +30,7 @@
                 </div>
                 <div class="col s12 m6 l6">
                     <h4>Pelajari berbagai cabang ilmu</h4>
-                    <p>Kembangkan diri anda untuk membuat sebuah penemuan sebuah aplikasi sains, bisnis, dan apapun yang berguna.</p>
+                    <p>Kembangkan diri anda untuk membuat sebuah penemuan aplikasi sains, bisnis, dan apapun yang berguna.</p>
                     <div class="row" style="margin:40px 0 10px 0;">
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">

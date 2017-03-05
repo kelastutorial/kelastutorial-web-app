@@ -2,6 +2,7 @@
             <div class="row footer-menu-wrapper">
                 <div class="col s6 m6 l3 footer-box-wrapper" style="padding:35px 20px 50px 20px;background-color:#f5f5f5;">
                     <span class="footer-menu">Kelas Tutorial</span><br/>
+                    <a href="<?php echo site_url('about'); ?>"><span class="footer-submenu">Tentang Kami</span></a><br/>
                     <a href="<?php echo site_url('site-terms'); ?>"><span class="footer-submenu">Syarat Ketentuan</span></a><br/>
                     <a href="<?php echo site_url('privacy-policy'); ?>"><span class="footer-submenu">Kebijakan Privasi</span></a><br/>
                     <a href="mailto:support@kelastutorial.com"><span class="footer-submenu">Hubungi Kami</span></a>  
