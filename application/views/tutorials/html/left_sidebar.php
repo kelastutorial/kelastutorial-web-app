@@ -7,30 +7,30 @@
                 Introduction
             </div>
             <div class="grey lighten-3 left-sidebar">
-                <span class="subtutorial">Python Basic</span><br/>
-                <a href="" class="subtutorial-list">Python - Home</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Syntax</a><br/>
-                <a href="" class="subtutorial-list">Python - Variable Types</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Python - Loops</a><br/>
-                <a href="" class="subtutorial-list">Python - Numbers</a><br/>
-                <a href="" class="subtutorial-list">Python - Lists</a><br/>
-                <a href="" class="subtutorial-list">Python - Tuples</a><br/>
-                <a href="" class="subtutorial-list">Python - Dictionary</a><br/>
+                <span class="subtutorial">Git Basic</span><br/>
+                <a href="" class="subtutorial-list">Git - Home</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Syntax</a><br/>
+                <a href="" class="subtutorial-list">Git - Variable Types</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
+                <a href="" class="subtutorial-list">Git - Loops</a><br/>
+                <a href="" class="subtutorial-list">Git - Numbers</a><br/>
+                <a href="" class="subtutorial-list">Git - Lists</a><br/>
+                <a href="" class="subtutorial-list">Git - Tuples</a><br/>
+                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
             </div>
             <div class="grey lighten-3 left-sidebar">
-                <span class="subtutorial">Python Intermediate</span><br/>
-                <a href="" class="subtutorial-list">Python - Home</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Syntax</a><br/>
-                <a href="" class="subtutorial-list">Python - Variable Types</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Python - Dictionary</a><br/>
+                <span class="subtutorial">Git Intermediate</span><br/>
+                <a href="" class="subtutorial-list">Git - Home</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Syntax</a><br/>
+                <a href="" class="subtutorial-list">Git - Variable Types</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
+                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
             </div>
             <div class="grey lighten-3 left-sidebar">
-                <span class="subtutorial">Python Advance</span><br/>
-                <a href="" class="subtutorial-list">Python - Home</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Python - Dictionary</a><br/>
+                <span class="subtutorial">Git Advance</span><br/>
+                <a href="" class="subtutorial-list">Git - Home</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
+                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
             </div>
                 </div>
         </div>
@@ -45,17 +45,17 @@
                 
                 <li><a href="#" style="font-weight:500">Introduction</a></li>
                 <ul class='collapsible collapsible-accordion'>
-                <li><a class='collapsible-header waves-effect waves-yellow lighten-3' style="font-weight:500">Memulai Python</a>
+                <li><a class='collapsible-header waves-effect waves-yellow lighten-3' style="font-weight:500">Memulai Git</a>
                 <div class='collapsible-body'>
                 <ul>
-                <li><a href='http://www.belajarhtml.com#memulai-html'>Pengenalan Python</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/instalasi-html.html'>Instalasi Python</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/menjalankan-html.html'>Menjalankan Python</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/integrated-development-environment-ide.html'>IDE Python</a></li>
+                <li><a href='http://www.belajarhtml.com#memulai-html'>Pengenalan Git</a></li>
+                <li><a href='http://www.belajarhtml.com/2015/05/instalasi-html.html'>Instalasi Git</a></li>
+                <li><a href='http://www.belajarhtml.com/2015/05/menjalankan-html.html'>Menjalankan Git</a></li>
+                <li><a href='http://www.belajarhtml.com/2015/05/integrated-development-environment-ide.html'>IDE Git</a></li>
                 </ul>
                 </div>
                 </li>
-                <li><a class='collapsible-header  waves-effect waves-yellow lighten-3' style="font-weight:500">Python Dasar</a>
+                <li><a class='collapsible-header  waves-effect waves-yellow lighten-3' style="font-weight:500">Git Dasar</a>
                 <div class='collapsible-body'>
                 <ul>
                 <li><a href='http://www.belajarhtml.com/2015/05/hello-world-html.html'>Hello World</a></li>
@@ -87,30 +87,30 @@
                 Introduction
             </div>
             <div class="left-sidebar">
-                <span class="subtutorial">Python Basic</span><br/>
-                <a href="" class="subtutorial-list">Python - Home</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Syntax</a><br/>
-                <a href="" class="subtutorial-list">Python - Variable Types</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Python - Loops</a><br/>
-                <a href="" class="subtutorial-list">Python - Numbers</a><br/>
-                <a href="" class="subtutorial-list">Python - Lists</a><br/>
-                <a href="" class="subtutorial-list">Python - Tuples</a><br/>
-                <a href="" class="subtutorial-list">Python - Dictionary</a><br/>
+                <span class="subtutorial">Git Basic</span><br/>
+                <a href="" class="subtutorial-list">Git - Home</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Syntax</a><br/>
+                <a href="" class="subtutorial-list">Git - Variable Types</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
+                <a href="" class="subtutorial-list">Git - Loops</a><br/>
+                <a href="" class="subtutorial-list">Git - Numbers</a><br/>
+                <a href="" class="subtutorial-list">Git - Lists</a><br/>
+                <a href="" class="subtutorial-list">Git - Tuples</a><br/>
+                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
             </div>
             <div class="left-sidebar">
-                <span class="subtutorial">Python Intermediate</span><br/>
-                <a href="" class="subtutorial-list">Python - Home</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Syntax</a><br/>
-                <a href="" class="subtutorial-list">Python - Variable Types</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Python - Dictionary</a><br/>
+                <span class="subtutorial">Git Intermediate</span><br/>
+                <a href="" class="subtutorial-list">Git - Home</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Syntax</a><br/>
+                <a href="" class="subtutorial-list">Git - Variable Types</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
+                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
             </div>
             <div class="left-sidebar">
-                <span class="subtutorial">Python Advance</span><br/>
-                <a href="" class="subtutorial-list">Python - Home</a><br/>
-                <a href="" class="subtutorial-list">Python - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Python - Dictionary</a><br/>
+                <span class="subtutorial">Git Advance</span><br/>
+                <a href="" class="subtutorial-list">Git - Home</a><br/>
+                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
+                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
             </div>-->
         </ul>
      </div>

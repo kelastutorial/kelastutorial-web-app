@@ -19,3 +19,18 @@ Referensi header/nav aboug page, dll :
 
 Image design ref :
 - http://www.owendavey.com/Pallet-Magazine-Issue-3
+
+
+sql command to create new tutorial table :
+
+CREATE TABLE html (
+        id int(11) NOT NULL AUTO_INCREMENT,
+        title varchar(128) NOT NULL,
+        slug varchar(128) NOT NULL,
+        content text NOT NULL,
+        meta_desc varchar(128) NOT NULL,
+        published date,
+        last_update date,
+        PRIMARY KEY (id),
+        KEY slug (slug)
+);
