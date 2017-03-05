@@ -28,7 +28,7 @@
                 <div class="col s12 m6 l6">
                     a
                 </div>
-                <div class="col s12 m6 l6">
+                <div class="col s12 m6 l6" style="margin-top:40px;">
                     <h4>Explore new worlds</h4>
                     <p>Visit famous museums, far away cities, other planets and beyond.</p>
                     <div class="row">
