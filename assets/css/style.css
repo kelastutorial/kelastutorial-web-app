@@ -407,12 +407,6 @@ nav{
 
 /* About */
 
-.about-tutorials-wrapper{
-    background-image:url(https://kelastutorial.com/images/kelastutorial-about-book.jpg);
-    background-position: left;
-    background-size:70%;
-    background-repeat: no-repeat;
-}
 .about-tutorials{
     padding:90px 0 90px 0;
 }

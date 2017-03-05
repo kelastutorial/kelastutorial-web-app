@@ -5,8 +5,8 @@
             <div style="width:10%;border-bottom:0.2px solid white;margin:0 auto;margin-top:30px;"></div>
         </div>
         <div class="container" style="height:auto;padding:100px 20px 100px 20px;max-width:900px;text-align:center">
-            <p style="font-size:36px;font-weight:300;color:#E53935;margin:0;">A personalized learning resource for all ages</p>
-            <p style="margin:17px 0 5px 0;font-size:17px;text-align:left;">Kelastutorial offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom. We tackle math, science, computer programming, history, art history, economics, and more. Our math missions guide learners from kindergarten to calculus using state-of-the-art, adaptive technology that identifies strengths and learning gaps. We've also partnered with institutions like NASA, The Museum of Modern Art, The California Academy of Sciences, and MIT to offer specialized content..</p>
+            <p style="font-size:36px;font-weight:300;color:#E53935;margin:0;">Pustaka tutorial untuk untuk semua orang</p>
+            <p style="margin:17px 0 5px 0;font-size:17px;text-align:left;">Kelastutorial memberikan panduan yang ditampilkan dalam tutorial yang simpel dan terstruktur untuk memudahkan pembaca memahami dan mempraktekan apa yang dipelajari. Kami membahas berbagai macam topik diantaranya adalah pemrograman komputer, sains, matematika, desain, komunikasi, bisnis, sejarah, ekonomi dan lain-lain. Semua bahasan yang disajikan di Kelastutorial sangatlah dinamis, maka dari itu Kami akan selalu mengupdate tutorial apapun agar pembaca selalu menguasai apa yang sedang baru di era sekarang. Kelastutorial akan selalu berkomitmen agar tutorial bisa diakses dengan mudah, cepat dan gratis.</p>
         </div>
         <div >
             <div class="row">
@@ -23,15 +23,14 @@
                 </div>
             </div>
         </div>
-        <div class="about-tutorials-wrapper">
         <div class="container about-tutorials center">
             <div class="row">
                 <div class="col s12 m6 l6">
                     &nbsp;
                 </div>
                 <div class="col s12 m6 l6">
-                    <h4>Explore new worlds</h4>
-                    <p>Visit famous museums, far away cities, other planets and beyond.</p>
+                    <h4>Pelajari berbagai cabang ilmu</h4>
+                    <p>Kembangkan diri anda untuk membuat sebuah penemuan sebuah aplikasi sains, bisnis, dan apapun yang berguna.</p>
                     <div class="row" style="margin:40px 0 10px 0;">
                         <div class="col s4 m4 l4" style="margin-bottom:15px;">
                             <a href="#">
@@ -91,7 +90,6 @@
                     <a href="https://kelastutorial.com/tutorials" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">keyboard_arrow_down</i></a>
                 </div>
             </div>
-        </div>
         </div>
         <div style="margin-top:0;height:auto;background-image: url('https://kelastutorial.com/images/about-kelastutorial-contact.jpg');background-size:cover;background-color: #ffcdd2 ;background-position:center;padding:50px 20px 75px 20px;text-align:center;color:#fff;font-size:18px;">
             <h4>Hubungi Kami</h4>
