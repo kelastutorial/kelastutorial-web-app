@@ -74,7 +74,14 @@
                                 <span>HTML</span>
                             </a>
                         </div>
+                        <div class="col s3 m3 l3" style="margin-bottom:15px;">
+                            <a href="#">
+                                <img width="100%" src="https://kelastutorial.com/images/kelastutorial-about-programming.jpg"/>
+                                <span>HTML</span>
+                            </a>
+                        </div>
                     </div>
+                    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">keyboard_arrow_down</i></a>
                 </div>
             </div>
         </div>
