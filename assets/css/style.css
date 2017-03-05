@@ -407,6 +407,16 @@ nav{
 
 /* About */
 
+.about-tutorials{
+    margin:100px 0 100px 0;
+}
+.about-tutorials a{
+    color:#444;
+    margin-bottom:20px;
+}
+.about-tutorials a:hover{
+    color:#E53935 ;
+}
 
 /* End About */
 

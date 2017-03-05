@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container about-tutorials">
             <div class="row">
                 <div class="col s12 m6 l6">
                     a
