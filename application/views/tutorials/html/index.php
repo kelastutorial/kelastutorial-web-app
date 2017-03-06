@@ -1,4 +1,4 @@
-<div style="background-color:#fafbfc;background-image:url(https://kelastutorial.com/images/html-wallpaper.jpg)">
+<div style="background-color:#fafbfc;background-image:url(https://kelastutorial.com/images/html-wallpaper.jpg);background-position:right;background-width:50%;background-repeat:no-repeat">
     <div class="container" style="padding:200px 0 130px 0;">
         <div class="row">
             <div class="col s12 m6 l6">
