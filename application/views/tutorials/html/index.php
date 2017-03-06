@@ -31,13 +31,13 @@
                 </div>
             </div>
         </div>
-        <div style="background-color:#F4F4F6;padding:80px 0 80px 0" id="html-sylabus">
+        <div class=" deep-orange darken-1" style="padding:80px 0 80px 0" id="html-sylabus">
             <div class="container">
                 <h4 class="tutorials-index-head-four" style="color:#777;text-align:center">Apa yang akan Anda pelajari ?</h4>
-                <div style="max-width:800px;padding:20px 0 20px 0;margin:0 auto;">
+                <div style="max-width:850px;padding:20px 0 20px 0;margin:0 auto;">
                     <ul class="collapsible" data-collapsible="expandable">
                     <li>
-                      <div class="collapsible-header"><i class="materials-icon">keyboard_arrow_down</i>Pendahuluan</div>
+                      <div class="collapsible-header"><i class="materials-icon">expand_more</i>Pendahuluan</div>
                       <div class="collapsible-body">
                           <div class="row">
                               <div class="col s6 m6 l6">
@@ -58,7 +58,7 @@
                       </div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="materials-icon">keyboard_arrow_down</i>HTML Dasar</div>
+                      <div class="collapsible-header"><i class="materials-icon">ic_expand_more</i>HTML Dasar</div>
                       <div class="collapsible-body">
                           
                           <div class="row">
@@ -80,7 +80,7 @@
                       </div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="materials-icon">keyboard_arrow_down</i>HTML Menengah</div>
+                      <div class="collapsible-header"><i class="materials-icon">expand_more</i>HTML Menengah</div>
                       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                   </ul>
