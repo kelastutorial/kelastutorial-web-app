@@ -1,10 +1,12 @@
-<div class="container" style="padding:200px 0 130px 0;background-color:#fafbfc;">
-    <div class="row">
-        <div class="col s12 m6 l6">
-            <span>Hyper Text Markup Language</span>
-        </div>
-        <div class="col s12 m6 l6" style="background-image:url(http://materializecss.com/images/sample-1.jpg);background-size:cover;">
-            
+<div style="background-color:#fafbfc;">
+    <div class="container" style="padding:200px 0 130px 0;">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <span>Hyper Text Markup Language</span>
+            </div>
+            <div class="col s12 m6 l6" style="backgrond-image:url(https://kelastutorial.com/images/test.jpg)">
+                
+            </div>
         </div>
     </div>
 </div>
