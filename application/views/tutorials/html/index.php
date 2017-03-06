@@ -2,7 +2,7 @@
         <div style="background-color:#fafbfc;t">
             <div class="container center" style="padding:180px 0 130px 0;">
                 <span class="tutorials-index-category">PENGEMBANGAN WEB</span>
-                <h3 class="tutorials-index-head-three">Tutorial HTML</h3>
+                <h2 class="tutorials-index-head-two">Tutorial HTML</h2>
                 <p>HTML and CSS are markup languages and the building blocks that make up the web.</p>
             </div>
         </div>
@@ -17,7 +17,7 @@
                             <a style="width:100%" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
                         </div>
                         <div class="col s6 m6 l6">
-                            <a href="html-sylabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
+                            <a href="#html-sylabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
                         </div>
                     </div>
                 </div>
@@ -34,8 +34,8 @@
         </div>
         <div style="background-color:#F4F4F6;padding:90px 0 90px 0" id="html-sylabus">
             <div class="container">
-                <h4 class="tutorials-index-head-four" style="color:#E44D26;">Apa yang akan Anda pelajari ?</h4>
-                <div style="max-width:800px;padding:40px 0 40px 0">
+                <h4 class="tutorials-index-head-four" style="color:#E44D26;text-align:center">Apa yang akan Anda pelajari ?</h4>
+                <div style="max-width:800px;padding:20px 0 20px 0">
                     <ul class="collapsible" data-collapsible="expandable">
                     <li>
                       <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
