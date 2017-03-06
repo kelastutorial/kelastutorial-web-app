@@ -37,7 +37,7 @@
                 <div style="max-width:850px;padding:20px 0 20px 0;margin:0 auto;">
                     <ul class="collapsible white" data-collapsible="expandable">
                     <li>
-                      <div class="collapsible-header">Pendahuluan</div>
+                      <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Pendahuluan</div>
                       <div class="collapsible-body">
                           <div class="row">
                               <div class="col s6 m6 l6">
@@ -58,7 +58,7 @@
                       </div>
                     </li>
                     <li>
-                      <div class="collapsible-header">HTML Dasar</div>
+                      <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Dasar</div>
                       <div class="collapsible-body">
                           
                           <div class="row">
@@ -80,7 +80,7 @@
                       </div>
                     </li>
                     <li>
-                      <div class="collapsible-header">HTML Menengah</div>
+                      <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Menengah</div>
                       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                   </ul>
