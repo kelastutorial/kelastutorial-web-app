@@ -1,7 +1,6 @@
         
         <div style="background-color:#fafbfc;t">
-            <div class="container center" style="padding:180px 0 130px 0;">
-                <span class="tutorials-index-category">PENGEMBANGAN WEB</span>
+            <div class="container center" style="padding:150px 0 130px 0;">
                 <h2 class="tutorials-index-head-two">Tutorial HTML</h2>
                 <p>HTML and CSS are markup languages and the building blocks that make up the web.</p>
             </div>
@@ -38,18 +37,18 @@
                 <div style="max-width:800px;padding:20px 0 20px 0;margin:0 auto;">
                     <ul class="collapsible" data-collapsible="expandable">
                     <li>
-                      <div class="collapsible-header">Pendahuluan</div>
+                      <div class="collapsible-header"><i class="materials-icon">keyboard_arrow_down</i>Pendahuluan</div>
                       <div class="collapsible-body">
                           <div class="row">
                               <div class="col s6 m6 l6">
-                                <ol>
+                                <ol type="i">
                                     <li>Pengertian HTML</li>
                                     <li>Sejarah HTML</li>
                                     <li>Struktur HTML</li>
                                 </ol>
                               </div>
                               <div class="col s6 m6 l6">
-                                  <ol>
+                                  <ol type="i">
                                     <li>Pengertian HTML</li>
                                     <li>Sejarah HTML</li>
                                     <li>Struktur HTML</li>
@@ -59,19 +58,19 @@
                       </div>
                     </li>
                     <li>
-                      <div class="collapsible-header">HTML Dasar</div>
+                      <div class="collapsible-header"><i class="materials-icon">keyboard_arrow_down</i>HTML Dasar</div>
                       <div class="collapsible-body">
                           
                           <div class="row">
                               <div class="col s6 m6 l6">
-                                <ol>
+                                <ol type="i">
                                     <li>Pengertian HTML</li>
                                     <li>Sejarah HTML</li>
                                     <li>Struktur HTML</li>
                                 </ol>
                               </div>
                               <div class="col s6 m6 l6">
-                                  <ol>
+                                  <ol type="i">
                                     <li>Pengertian HTML</li>
                                     <li>Sejarah HTML</li>
                                     <li>Struktur HTML</li>
@@ -81,7 +80,7 @@
                       </div>
                     </li>
                     <li>
-                      <div class="collapsible-header">HTML Menengah</div>
+                      <div class="collapsible-header"><i class="materials-icon">keyboard_arrow_down</i>HTML Menengah</div>
                       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                   </ul>
