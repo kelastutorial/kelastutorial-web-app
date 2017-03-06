@@ -11,7 +11,7 @@ class html extends CI_Controller {
     public function index($slug = NULL) {
         $data['html'] = $this->html_model->get_html();
         $data2["meta_desc"] = "Meta desc for html";
-        $data2["title"] = "Git";
+        $data2["title"] = "HTML";
         $data2["structured_data"] = '<script type="application/ld+json">
         {
           "@context": "http://schema.org",
