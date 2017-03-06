@@ -15,22 +15,10 @@
             <div class="center">
                 <img style="width:70%;" src="https://kelastutorial.com/images/html-logo.png"/>
             </div>
-            <table>
-                <tr>
-                    <td>LEVEL</td>
-                    <td> : </td>
-                    <td>PEMULA</td>
-                </tr>
-                <tr>
-                    <td>KLASIFIKASI</td>
-                    <td> : </td>
-                    <td>PENGEMBANGAN WEB</td>
-                </tr>
-            </table>
             <span class="tutorials-index-category">LEVEL</span><br/>
-            <span>PEMULA</span><br/><br/>
+            <span class="tutorials-index-category bolder">PEMULA</span><br/><br/>
             <span class="tutorials-index-category">KLASIFIKASI</span><br/>
-            <span>PENGEMBANGAN WEB</span>
+            <span class="tutorials-index-category bold">PENGEMBANGAN WEB</span>
         </div>
     </div>
 </div>
