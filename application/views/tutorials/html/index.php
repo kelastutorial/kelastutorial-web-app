@@ -17,7 +17,7 @@
                             <a style="width:100%" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
                         </div>
                         <div class="col s6 m6 l6">
-                            <a style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
+                            <a href="html-sylabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
                         </div>
                     </div>
                 </div>
@@ -32,20 +32,24 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="background-color:#F4F4F6;padding:130px 0 130px 0">
-            <h4 class="tutorials-index-head-four" style="color:#E44D26;">Apa yang akan Anda pelajari ?</h4>
-            <ul class="collapsible" data-collapsible="expandable">
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                </li>
-              </ul>
+        <div style="background-color:#F4F4F6;padding:90px 0 90px 0" id="html-sylabus">
+            <div class="container">
+                <h4 class="tutorials-index-head-four" style="color:#E44D26;">Apa yang akan Anda pelajari ?</h4>
+                <div style="max width:800px;padding:40px 0 40px 0">
+                    <ul class="collapsible" data-collapsible="expandable">
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
         </div>
