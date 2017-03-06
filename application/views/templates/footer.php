@@ -27,7 +27,7 @@
                     <span style=" line-height: 20px;color:#424242">Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.</span>
                 </div>
             </div>
-            <div class="section" style="background-color:#37474F">
+            <div class="section" style="background-color:#333">
                 <div class="footer-menu-wrapper" style="padding:9px 0 7px 20px;">
                     <span>&copy; 2017 Kelastutorial - All right reserved.</span>
                 </div>
