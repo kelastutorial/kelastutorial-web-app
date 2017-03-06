@@ -42,16 +42,16 @@
                           <div class="row" style="padding:20px 0 0 31px;">
                               <div class="col s6 m6 l6">
                                 <ol type="i">
-                                    <li>Pengertian HTML</li>
-                                    <li>Sejarah HTML</li>
-                                    <li>Struktur HTML</li>
+                                    <li><a href="#">Pengertian HTM</a>L</li>
+                                    <li><a href="#"> HTML</a></li>
+                                    <li><a href="#">Struktur HTML</a></li>
                                 </ol>
                               </div>
                               <div class="col s6 m6 l6">
                                   <ol type="i">
-                                    <li>Pengertian HTML</li>
-                                    <li>Sejarah HTML</li>
-                                    <li>Struktur HTML</li>
+                                    <li><a href="#">Pengertian HTML</a></li>
+                                    <li><a href="#"> HTML</a></li>
+                                    <li><a href="#"> HTML</a></li>
                                 </ol>
                               </div>
                           </div>
@@ -61,12 +61,12 @@
                       <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Dasar</div>
                       <div class="collapsible-body">
                           
-                          <div class="row" style="padding:20px 0 0 31px;">
+                          <div class="row" style="padding:20px 0 0 20px;">
                               <div class="col s6 m6 l6">
                                 <ol type="i">
-                                    <li><a href="">Pengertian HTML</a></li>
-                                    <li><a href="">Sejarah HTML</a></li>
-                                    <li><a href=""> HTML</a></li>
+                                    <li><a href="#">Pengertian HTML</a></li>
+                                    <li><a href="#">Sejarah HTML</a></li>
+                                    <li><a href="#"> HTML</a></li>
                                 </ol>
                               </div>
                               <div class="col s6 m6 l6">
