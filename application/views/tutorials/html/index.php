@@ -1,13 +1,8 @@
-<div style="background-color:#fafbfc;background-image:url(https://kelastutorial.com/images/html-wallpaper.jpg);background-position:right;background-width:50%;background-repeat:no-repeat">
-    <div class="container" style="padding:200px 0 130px 0;">
-        <div class="row">
-            <div class="col s12 m6 l6">
-                <span>Hyper Text Markup Language</span>
-            </div>
-            <div class="col s12 m6 l6">
-                
-            </div>
-        </div>
+<div style="background-color:#fafbfc;t">
+    <div class="container center" style="padding:100px 0 130px 0;">
+        <span>PENGEMBANGAN WEB</span>
+        <h3>Hyper Text Markup Language</h3>
+        <p>HTML and CSS are markup languages and the building blocks that make up the web.</p>
     </div>
 </div>
 <div class="container">
