@@ -35,7 +35,7 @@
         <div style="background-color:#F4F4F6;padding:90px 0 90px 0" id="html-sylabus">
             <div class="container">
                 <h4 class="tutorials-index-head-four" style="color:#E44D26;">Apa yang akan Anda pelajari ?</h4>
-                <div style="max width:800px;padding:40px 0 40px 0">
+                <div style="max-width:800px;padding:40px 0 40px 0">
                     <ul class="collapsible" data-collapsible="expandable">
                     <li>
                       <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
