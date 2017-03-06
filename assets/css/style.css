@@ -453,3 +453,20 @@ nav{
     border-top:1px solid #e0e0e0;
     padding:10px 0 0 0;
 }
+
+
+/* Tutorials */
+.tutorials-index-category{
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #909090;
+    font-size: 14px;
+}
+.tutorials-index-head-tree{
+    font-weight: 300;
+    margin: 25px 0 25px;
+}
+.tutorials-index-head-four{
+    font-size:28px;
+    font-weight: 300;
+}
