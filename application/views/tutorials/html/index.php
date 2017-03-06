@@ -34,19 +34,54 @@
         </div>
         <div style="background-color:#F4F4F6;padding:80px 0 80px 0" id="html-sylabus">
             <div class="container">
-                <h4 class="tutorials-index-head-four" style="color:#E44D26;text-align:center">Apa yang akan Anda pelajari ?</h4>
+                <h4 class="tutorials-index-head-four" style="color:#777;text-align:center">Apa yang akan Anda pelajari ?</h4>
                 <div style="max-width:800px;padding:20px 0 20px 0;margin:0 auto;">
                     <ul class="collapsible" data-collapsible="expandable">
                     <li>
-                      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                      <div class="collapsible-header">Pendahuluan</div>
+                      <div class="collapsible-body">
+                          <div class="row">
+                              <div class="col s6 m6 l6">
+                                <ol>
+                                    <li>Pengertian HTML</li>
+                                    <li>Sejarah HTML</li>
+                                    <li>Struktur HTML</li>
+                                </ol>
+                              </div>
+                              <div class="col s6 m6 l6">
+                                  <ol>
+                                    <li>Pengertian HTML</li>
+                                    <li>Sejarah HTML</li>
+                                    <li>Struktur HTML</li>
+                                </ol>
+                              </div>
+                          </div>
+                      </div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                      <div class="collapsible-header">HTML Dasar</div>
+                      <div class="collapsible-body">
+                          
+                          <div class="row">
+                              <div class="col s6 m6 l6">
+                                <ol>
+                                    <li>Pengertian HTML</li>
+                                    <li>Sejarah HTML</li>
+                                    <li>Struktur HTML</li>
+                                </ol>
+                              </div>
+                              <div class="col s6 m6 l6">
+                                  <ol>
+                                    <li>Pengertian HTML</li>
+                                    <li>Sejarah HTML</li>
+                                    <li>Struktur HTML</li>
+                                </ol>
+                              </div>
+                          </div>
+                      </div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                      <div class="collapsible-header">HTML Menengah</div>
                       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                   </ul>
