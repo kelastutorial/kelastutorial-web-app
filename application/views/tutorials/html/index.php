@@ -12,7 +12,9 @@
             <p>HTML and CSS are markup languages and the building blocks that make up the web. This course is called "Not your Typical Intro" because it does not follow the usual pattern of other courses and tutorials that you find on the Internet. Usually HTML and CSS are taught with a focus on language syntax. But knowing syntax alone does not enable you to create a webpage from a design. You need to know where to start and how to approach the task, in other words - you need to learn how to think like a front-end developer.</p>
         </div>
         <div class="col s12 m6 l6">
-            <img style="width:80%;margin:0 auto;" src="https://kelastutorial.com/images/html-logo.png"/><br/>
+            <div class="center">
+                <img style="width:80%;" src="https://kelastutorial.com/images/html-logo.png"/>
+            </div>
             <span class="tutorials-index-category">LEVEL</span><br/>
             <span>PEMULA</span>
             <span class="tutorials-index-category">KLASIFIKASI</span><br/>
