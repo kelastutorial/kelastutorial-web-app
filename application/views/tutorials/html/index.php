@@ -4,7 +4,7 @@
             <div class="col s12 m6 l6">
                 <span>Hyper Text Markup Language</span>
             </div>
-            <div class="col s12 m6 l6" style="backgrond-image:url(https://kelastutorial.com/images/test.jpg)">
+            <div class="col s12 m6 l6" style="backgrond-image:url(https://kelastutorial.com/images/test.jpg):background-size:100%">
                 
             </div>
         </div>
