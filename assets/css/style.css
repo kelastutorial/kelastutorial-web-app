@@ -479,7 +479,7 @@ nav{
     padding:80px 0 80px 0
 }
 .about-this-tutorial{
-    padding:0 200px 0 0;
+    padding:0 100px 0 0;
 }
 @media only screen and (max-width: 601px) {
     .about-this-tutorial{
@@ -499,13 +499,10 @@ nav{
     color:#f4511e;
 }
 .sylabus-content a:hover{
-    color:#c34118;
+    color:#333;
 }
 @media only screen and (max-width: 601px) {
     .sylabus-tutorial-container{
         padding:50px 0 50px 0
-    }
-    .sylabus-content{
-        padding:15px 0 0 0;
     }
 }
