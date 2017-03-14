@@ -511,9 +511,13 @@ nav{
 }
 .requirements-tutorial-container p{
     font-size:18px;
+    font-weight:300;
+    color:#777;
 }
 .requirements-tutorial-container li{
     font-size:18px;
+    font-weight:300;
+    color:#777;
 }
 @media only screen and (max-width: 601px) {
     .requirements-tutorial-container{
