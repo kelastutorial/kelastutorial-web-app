@@ -507,5 +507,13 @@ nav{
     }
 }
 .requirements-tutorial-container{
-    padding:80px 0 80px 0
+    padding:80px 0 80px 0;
+}
+.requirements-tutorial-container p{
+    font-size:20px;
+}
+@media only screen and (max-width: 601px) {
+    .requirements-tutorial-container{
+        padding:50px 0 50px 0
+    }
 }

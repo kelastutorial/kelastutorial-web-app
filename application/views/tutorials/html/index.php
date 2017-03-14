@@ -98,11 +98,12 @@
                     <p style="margin-top:35px;">Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai beberapa persyaratan minimal dibawah ini :</p>
                     <p>
                         <ol type="i">
+                            <li>Aktif dan menyukai dunia Internet</li>
                             <li>Menguasai dasar Jaringan Komputer</li>
-                            <li>Menguasai dasar Internet</li>
+                            <li>Menguasai pengetahuan dasar Internet</li>
                         </ol>
                     </p>
-                    <div class="row" style="margin-top:50px;">
+                    <div class="row" style="margin-top:110px;">
                         <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                         <div class="col s12 m6 l6">
                             <a style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
