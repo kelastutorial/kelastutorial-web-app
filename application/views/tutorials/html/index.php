@@ -93,15 +93,24 @@
         </div>
         <div class="white requirements-tutorial-container">
             <div class="container">
-                <div style="max-width:850px;">
+                <div style="max-width:850px;margin:0 auto;">
                     <h4 class="tutorials-index-head-four" style="text-align:center">Prasyarat dan Persyaratan</h4>
-                    <p>Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai beberapa persyaratan minimal dibawah ini :</p>
+                    <p style="margin-top:35px;">Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai beberapa persyaratan minimal dibawah ini :</p>
                     <p>
                         <ol type="i">
                             <li>Menguasai dasar Jaringan Komputer</li>
                             <li>Menguasai dasar Internet</li>
                         </ol>
                     </p>
+                    <div class="row" style="margin-top:50px;">
+                        <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
+                        <div class="col s12 m6 l6">
+                            <a style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
+                        </div>
+                        <div class="col s12 m6 l6">
+                            <a href="#html-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
