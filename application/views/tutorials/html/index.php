@@ -15,10 +15,10 @@
     This course teaches basic tasks that are necessary to create web applications with a strong semantic structure, re-usable style components and custom interactive features. This course includes hands-on labs that enable the learner to build basic HTML pages that are the components of a web application used to solve real world problems.HTML and CSS are markup languages and the building blocks that make up the web. This course is called "Not your Typical Intro" because it does not follow the usual pattern of other courses and tutorials that you find on the Internet. Usually HTML and CSS are taught with a focus on language syntax. But knowing syntax alone does not enable you to create a webpage from a design. You need to know where to start and how to approach the task, in other words - you need to learn how to think like a front-end developer.</p>
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
-                            <div class="col s6 m6 l6">
+                            <div class="col s12 m6 l6">
                                 <a style="width:100%" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
                             </div>
-                            <div class="col s6 m6 l6">
+                            <div class="col s12 m6 l6">
                                 <a href="#html-sylabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
                             </div>
                         </div>
