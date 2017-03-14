@@ -19,7 +19,7 @@
                                 <a style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
                             </div>
                             <div class="col s12 m6 l6">
-                                <a href="#html-sylabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
+                                <a href="#html-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class=" deep-orange darken-1 sylabus-tutorial-container" id="html-sylabus">
+        <div class=" deep-orange darken-1 syllabus-tutorial-container" id="html-syllabus">
             <div class="container">
                 <h4 class="tutorials-index-head-four" style="color:#fff;text-align:center">Apa yang akan Anda pelajari ?</h4>
                 <div style="max-width:850px;padding:20px 0 20px 0;margin:0 auto;">
@@ -43,7 +43,7 @@
                     <li>
                       <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Pendahuluan</div>
                       <div class="collapsible-body">
-                          <div class="row sylabus-content">
+                          <div class="row syllabus-content">
                               <div class="col s12 m6 l6">
                                 <ol type="i">
                                     <li><a href="#">Pengertian HTML</a></li>
@@ -91,8 +91,15 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div style="height:1000px;">
-                a
+        <div class="white requirements-tutorial-container">
+            <div class="container">
+                <h4 class="tutorials-index-head-four" style="text-align:center">Prasyarat dan Persyaratan</h4>
+                <p>Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai beberapa persyaratan minimal dibawah ini :</p>
+                <p>
+                    <ol type="i">
+                        <li>Menguasai dasar Jaringan Komputer</li>
+                        <li>Menguasai dasar Internet</li>
+                    </ol>
+                </p>
             </div>
         </div>
