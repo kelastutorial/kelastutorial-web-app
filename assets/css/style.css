@@ -475,11 +475,11 @@ nav{
     font-size:36px;
     font-weight: 300;
 }
-.about-tutorial-summary{
+.about-this-tutorial{
     padding:0 400px 0 0;
 }
 @media only screen and (max-width: 601px) {
-    .about-tutorial-summary{
+    .about-this-tutorial{
         padding:0 20px 0 20px;
     }
 }

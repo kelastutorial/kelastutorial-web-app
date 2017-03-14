@@ -7,7 +7,7 @@
         </div>
         <div class="container" style="padding:80px 0 80px 0">
             <div class="row">
-                <div class="col s12 m6 l6 about-tutorial-summary">
+                <div class="col s12 m6 l6 about-this-tutorial">
                     <h4 class="tutorials-index-head-four" style="color:#E44D26;">Tentang Bahasa HTML</h4>
                     <p>This computer science course introduces JavaScript and HTML as programming and markup languages that are used to create web applications. The learner will gain experience with each language individually and then combine them together to create compelling web application solutions. The learner will have an opportunity to use Visual Studio Code on their operating system of choice to create and test their web applications.
 
