@@ -483,7 +483,7 @@ nav{
 }
 @media only screen and (max-width: 601px) {
     .about-this-tutorial{
-        padding:0 20px 40px 20px;
+        padding:0 0 40px 0;
     }
     .about-this-tutorial-container{
         padding:50px 0 50px 0
