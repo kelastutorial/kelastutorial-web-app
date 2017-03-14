@@ -489,3 +489,23 @@ nav{
         padding:50px 0 50px 0
     }
 }
+.sylabus-tutorial-container{
+    padding:80px 0 80px 0
+}
+.sylabus-content{
+    padding:15px 0 0 20px;
+}
+.sylabus-content a{
+    color:#f4511e;
+}
+.sylabus-content a:hover{
+    color:#c34118;
+}
+@media only screen and (max-width: 601px) {
+    .sylabus-tutorial-container{
+        padding:50px 0 50px 0
+    }
+    .sylabus-content{
+        padding:15px 0 0 0;
+    }
+}

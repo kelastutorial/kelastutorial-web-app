@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class=" deep-orange darken-1" style="padding:80px 0 80px 0" id="html-sylabus">
+        <div class=" deep-orange darken-1 sylabus-tutorial-container" id="html-sylabus">
             <div class="container">
                 <h4 class="tutorials-index-head-four" style="color:#fff;text-align:center">Apa yang akan Anda pelajari ?</h4>
                 <div style="max-width:850px;padding:20px 0 20px 0;margin:0 auto;">
@@ -43,7 +43,7 @@
                     <li>
                       <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Pendahuluan</div>
                       <div class="collapsible-body">
-                          <div class="row" style="padding:15px 0 0 20px;">
+                          <div class="row sylabus-content">
                               <div class="col s6 m6 l6">
                                 <ol type="i">
                                     <li><a href="#">Pengertian HTML</a></li>
