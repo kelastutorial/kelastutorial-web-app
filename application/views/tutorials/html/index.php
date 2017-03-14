@@ -93,13 +93,15 @@
         </div>
         <div class="white requirements-tutorial-container">
             <div class="container">
-                <h4 class="tutorials-index-head-four" style="text-align:center">Prasyarat dan Persyaratan</h4>
-                <p>Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai beberapa persyaratan minimal dibawah ini :</p>
-                <p>
-                    <ol type="i">
-                        <li>Menguasai dasar Jaringan Komputer</li>
-                        <li>Menguasai dasar Internet</li>
-                    </ol>
-                </p>
+                <div style="max-width:850px;">
+                    <h4 class="tutorials-index-head-four" style="text-align:center">Prasyarat dan Persyaratan</h4>
+                    <p>Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai beberapa persyaratan minimal dibawah ini :</p>
+                    <p>
+                        <ol type="i">
+                            <li>Menguasai dasar Jaringan Komputer</li>
+                            <li>Menguasai dasar Internet</li>
+                        </ol>
+                    </p>
+                </div>
             </div>
         </div>
