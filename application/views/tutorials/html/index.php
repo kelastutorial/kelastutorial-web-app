@@ -5,7 +5,7 @@
                 <p>Learn the essential skills to create an interactive web application using HTML5, JavaScript.</p>
             </div>
         </div>
-        <div class="container" style="padding:80px 0 80px 0">
+        <div class="container about-this-tutorial-container">
             <div class="row">
                 <div class="col s12 m6 l6">
                     <div class="about-this-tutorial">
