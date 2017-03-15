@@ -37,47 +37,48 @@
                 <div class="header-mobile grey lighten-3" style="height:110px;padding:33px 5px 0 0;text-align:center">
                     <img src="<?php echo site_url('images/kelastutorial-logo.svg'); ?>" height="38px"/>
                 </div>
-                <li><a href="#">Semua Tutorial</a></li>
-                <li style="border-bottom:1px solid #e0e0e0"><a href="#">Masuk</a></li>
+                <li style="border-bottom:1px solid #e0e0e0"><a href="<?php echo site_url('tutorials'); ?>">Semua Tutorial</a></li>
                 
-                <li><a href="#" style="font-weight:500">Introduction</a></li>
-                <ul class='collapsible collapsible-accordion'>
-                <li><a class='collapsible-header waves-effect waves-yellow lighten-3' style="font-weight:500">Memulai Git</a>
-                <div class='collapsible-body'>
-                <ul>
-                <li><a href='#'>Pengenalan Git</a></li>
-                <li><a href='#'>Instalasi Git</a></li>
-                <li><a href='#'>Menjalankan Git</a></li>
-                <li><a href='#'>IDE Git</a></li>
-                </ul>
-                </div>
+                <ul class='collapsible collapsible-accordion'> 
+                    
+                <li><a class='collapsible-header waves-effect waves-yellow lighten-3' style="font-weight:500">Pendahuluan</a>
+                    <div class='collapsible-body'>
+                    <ul>
+                    <li><a href='#'>HTML - Pengertian</a></li>
+                    <li><a href='#'>HTML - Sejarah</a></li>
+                    <li><a href='#'>HTML - Versi</a></li>
+                    </ul>
+                    </div>
                 </li>
-                <li><a class='collapsible-header  waves-effect waves-yellow lighten-3' style="font-weight:500">Git Dasar</a>
-                <div class='collapsible-body'>
-                <ul>
-                <li><a href='http://www.belajarhtml.com/2015/05/hello-world-html.html'>Hello World</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/komentar-html.html'>Komentar</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/tipe-data-html.html'>Tipe Data</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/variabel-html.html'>Variabel</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/operator-html.html'>Operator</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/kondisi-if-html.html'>Kondisi If</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/kondisi-if-else-html.html'>Kondisi If Else</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/kondisi-elif-html.html'>Kondisi Elif</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/pengulangan-for-html.html'>Pengulangan For</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/pengulangan-while-html.html'>Pengulangan While</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/number-html.html'>Number</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/string-html.html'>String</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/lists-html.html'>Lists</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/tuples-html.html'>Tuples</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/dictionary-html.html'>Dictionary</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/tanggal-dan-waktu-html.html'>Tanggal & Waktu</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/fungsi-html.html'>Fungsi</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/modul-html.html'>Modul</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/input-output-html.html'>File I/O</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/exception-html.html'>Exception</a></li>
-                </ul>
-                </div>
+                    
+                <li><a class='collapsible-header waves-effect waves-yellow lighten-3' style="font-weight:500">HTML Dasar</a>
+                    <div class='collapsible-body'>
+                    <ul>
+                    <li><a href='#'>HTML - Syntax Dasar</a></li>
+                    <li><a href='#'>HTML - Elemen</a></li>
+                    <li><a href='#'>HTML - Atribut</a></li>
+                    <li><a href='#'>HTML - Atribut Khusus</a></li>
+                    <li><a href='#'>HTML - Event</a></li>
+                    <li><a href='#'>HTML - Form</a></li>
+                    <li><a href='#'>HTML - SVG</a></li>
+                    <li><a href='#'>HTML - Layout</a></li>
+                    <li><a href='#'>HTML - Audio</a></li>
+                    <li><a href='#'>HTML - Video</a></li>
+                    </ul>
+                    </div>
                 </li>
+                    
+                <li><a class='collapsible-header waves-effect waves-yellow lighten-3' style="font-weight:500">HTML Tingkat Lanjut</a>
+                    <div class='collapsible-body'>
+                    <ul>
+                    <li><a href='#'>HTML - Geolocation</a></li>
+                    <li><a href='#'>HTML - Microdata</a></li>
+                    <li><a href='#'>HTML - Drag &amp; Drop</a></li>
+                    <li><a href='#'>HTML - Layout Responsive</a></li>
+                    </ul>
+                    </div>
+                </li>
+                
                 </ul>
         </ul>
      </div>
