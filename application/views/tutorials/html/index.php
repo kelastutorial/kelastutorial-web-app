@@ -10,9 +10,7 @@
                 <div class="col s12 m6 l6">
                     <div class="about-this-tutorial">
                         <h4 class="tutorials-index-head-four" style="color:#E44D26;">Tentang Bahasa HTML</h4>
-                        <p>This computer science course introduces JavaScript and HTML as programming and markup languages that are used to create web applications. The learner will gain experience with each language individually and then combine them together to create compelling web application solutions. The learner will have an opportunity to use Visual Studio Code on their operating system of choice to create and test their web applications.
-    
-    This course teaches basic tasks that are necessary to create web applications with a strong semantic structure, re-usable style components and custom interactive features. This course includes hands-on labs that enable the learner to build basic HTML pages that are the components of a web application used to solve real world problems.HTML and CSS are markup languages and the building blocks that make up the web. This course is called "Not your Typical Intro" because it does not follow the usual pattern of other courses and tutorials that you find on the Internet. Usually HTML and CSS are taught with a focus on language syntax. But knowing syntax alone does not enable you to create a webpage from a design. You need to know where to start and how to approach the task, in other words - you need to learn how to think like a front-end developer.</p>
+                        <p>HyperText Markup Language (HTML) adalah sebuah standar bahasa markup untuk membuat sebuah halaman web atau aplikasi web. HTML biasanya di kombinasikan dengan Cascading Style Sheets (CSS) dan Javascript agar halaman atau aplikasi website menjadi lebih menarik dan berguna. Web browser menerima dokumen HTML dari webserver atau dari penyimpanan lokal kemudian merendernya menjadi halaman yang diiginkan. Dokumen HTML terdiri dari beberapa elemen seperti heading, paragraphs, lists, links, quotes dan lain-lain.</p>
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                             <div class="col s12 m6 l6">
@@ -98,9 +96,9 @@
                     <p style="margin-top:35px;">Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai beberapa persyaratan minimal dibawah ini :</p>
                     <p>
                         <ol type="i">
-                            <li>Aktif dan menyukai dunia Internet</li>
-                            <li>Menguasai dasar Jaringan Komputer</li>
-                            <li>Menguasai pengetahuan dasar Internet</li>
+                            <li>Aktif dan menyukai dunia internet</li>
+                            <li>Menguasai dasar jaringan komputer</li>
+                            <li>Menguasai pengetahuan dasar internet</li>
                         </ol>
                     </p>
                     <div class="row" style="margin-top:110px;">
