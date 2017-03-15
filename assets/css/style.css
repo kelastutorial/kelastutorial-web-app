@@ -499,10 +499,10 @@ nav{
     padding:15px 0 0 20px;
 }
 .syllabus-content a{
-    color:#f4511e;
+    color:#333;
 }
 .syllabus-content a:hover{
-    color:#333;
+    color:#f4511e;
 }
 @media only screen and (max-width: 601px) {
     .syllabus-tutorial-container{
