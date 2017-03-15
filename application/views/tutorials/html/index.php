@@ -15,10 +15,10 @@
                         <p>Anda juga akan mempelajari bagaimana membuat website yang responsive, dimana halaman website akan tetap terlihat bagus saat dilihat di Komputer Desktop maupun di Tablet atau di Smartphone</p>
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
-                            <div class="col s12 m6 l6">
+                            <div class="col s12 m12 l6">
                                 <a style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
                             </div>
-                            <div class="col s12 m6 l6">
+                            <div class="col s12 m12 l6">
                                 <a href="#html-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
                             </div>
                         </div>
