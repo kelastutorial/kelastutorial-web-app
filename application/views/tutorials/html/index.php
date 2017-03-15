@@ -40,69 +40,67 @@
                 <h4 class="tutorials-index-head-four" style="color:#fff;text-align:center">Apa yang akan Anda pelajari ?</h4>
                 <div style="max-width:850px;padding:20px 0 20px 0;margin:0 auto;">
                     <ul class="collapsible white" data-collapsible="expandable">
-                    <li>
-                      <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Pendahuluan</div>
-                      <div class="collapsible-body">
-                          <div class="row syllabus-content">
-                              <div class="col s12 m6 l6">
-                                <ol type="i">
-                                    <li><a href="./pengertian-html.html">Pengertian HTML</a></li>
-                                    <li><a href="#">Sejarah HTML</a></li>
-                                    <li><a href="#">Versi HTML</a></li>
-                                </ol>
-                              </div>
-                              <div class="col s12 m6 l6">
-                                  
-                              </div>
-                          </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Dasar</div>
-                      <div class="collapsible-body">
-                          
-                          <div class="row" style="padding:20px 0 0 20px;">
-                              <div class="col s6 m6 l6">
-                                <ol type="i">
-                                    <li><a href="#">Syntax Dasar HTML</a></li>
-                                    <li><a href="#">Elemen HTML</a></li>
-                                    <li><a href="#">Atribut HTML</a></li>
-                                    <li><a href="#">Atribut Khusus HTML</a></li>
-                                    <li><a href="#">Event HTML</a></li>
-                                </ol>
-                              </div>
-                              <div class="col s6 m6 l6">
-                                  <ol type="i">
-                                    <li><a href="#">Form HTML</a></li>
-                                    <li><a href="#">SVG HTML</a></li>
-                                    <li><a href="#">Layout HTML</a></li>
-                                    <li><a href="#">Audio HTML</a></li>
-                                    <li><a href="#">Video HTML</a></li>
-                                </ol>
-                              </div>
-                          </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Tingkat Lanjut</div>
-                      <div class="collapsible-body">
-                          
-                          <div class="row" style="padding:20px 0 0 20px;">
-                              <div class="col s6 m6 l6">
-                                <ol type="i">
-                                    <li><a href="#">Geolocation HTML</a></li>
-                                    <li><a href="#">Microdata HTML</a></li>
-                                    <li><a href="#">Drag &amp; Drop HTML</a></li>
-                                    <li><a href="#">Layout Responsive HTML</a></li>
-                                </ol>
-                              </div>
-                              <div class="col s6 m6 l6">
-                                  
-                              </div>
-                          </div>
-                      </div>
-                    </li>
-                  </ul>
+                        <li>
+                            <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Pendahuluan</div>
+                            <div class="collapsible-body">
+                                <div class="row syllabus-content">
+                                    <div class="col s12 m6 l6">
+                                        <ol type="i">
+                                            <li><a href="./pengertian-html.html">Pengertian HTML</a></li>
+                                            <li><a href="#">Sejarah HTML</a></li>
+                                            <li><a href="#">Versi HTML</a></li>
+                                        </ol>
+                                    </div>
+                                    <div class="col s12 m6 l6">
+                                          
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Dasar</div>
+                            <div class="collapsible-body">
+                                <div class="row syllabus-content">
+                                    <div class="col s6 m6 l6">
+                                        <ol type="i">
+                                            <li><a href="#">Syntax Dasar HTML</a></li>
+                                            <li><a href="#">Elemen HTML</a></li>
+                                            <li><a href="#">Atribut HTML</a></li>
+                                            <li><a href="#">Atribut Khusus HTML</a></li>
+                                            <li><a href="#">Event HTML</a></li>
+                                        </ol>
+                                    </div>
+                                    <div class="col s6 m6 l6">
+                                        <ol type="i">
+                                            <li><a href="#">Form HTML</a></li>
+                                            <li><a href="#">SVG HTML</a></li>
+                                            <li><a href="#">Layout HTML</a></li>
+                                            <li><a href="#">Audio HTML</a></li>
+                                            <li><a href="#">Video HTML</a></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Tingkat Lanjut</div>
+                            <div class="collapsible-body">
+                                <div class="row syllabus-content">
+                                    <div class="col s6 m6 l6">
+                                        <ol type="i">
+                                            <li><a href="#">Geolocation HTML</a></li>
+                                            <li><a href="#">Microdata HTML</a></li>
+                                            <li><a href="#">Drag &amp; Drop HTML</a></li>
+                                            <li><a href="#">Layout Responsive HTML</a></li>
+                                        </ol>
+                                    </div>
+                                    <div class="col s6 m6 l6">
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
