@@ -2,7 +2,7 @@
         <div style="background-color:#fafbfc;t">
             <div class="container center" style="padding:150px 0 130px 0;">
                 <h2 class="tutorials-index-head-two">Tutorial HTML</h2>
-                <p>Learn the essential skills to create an interactive web application using HTML5, JavaScript.</p>
+                <p>Pelajari kemampuan dasar untuk membuat halaman atau aplikasi website modern dengan HTML.</p>
             </div>
         </div>
         <div class="container about-this-tutorial-container">
@@ -10,7 +10,10 @@
                 <div class="col s12 m6 l6">
                     <div class="about-this-tutorial">
                         <h4 class="tutorials-index-head-four" style="color:#E44D26;">Tentang Bahasa HTML</h4>
-                        <p>HyperText Markup Language (HTML) adalah sebuah standar bahasa markup untuk membuat sebuah halaman web atau aplikasi web. HTML biasanya di kombinasikan dengan Cascading Style Sheets (CSS) dan Javascript agar halaman atau aplikasi website menjadi lebih menarik dan berguna. Web browser menerima dokumen HTML dari webserver atau dari penyimpanan lokal kemudian merendernya menjadi halaman yang diiginkan. Dokumen HTML terdiri dari beberapa elemen seperti heading, paragraphs, lists, links, quotes dan lain-lain.</p>
+                        <p>HyperText Markup Language (HTML) adalah sebuah standar bahasa markup untuk membuat sebuah halaman web atau aplikasi web. HTML biasanya di kombinasikan dengan Cascading Style Sheets (CSS) dan Javascript agar halaman atau aplikasi website menjadi lebih menarik dan berguna.</p>
+                        <p>Dokumen HTML bekerja dengan sangat sederhana. Web browser menerima dokumen HTML dari webserver atau dari penyimpanan lokal kemudian merendernya menjadi halaman yang diiginkan.</p>
+                        <p>Pada tutorial ini Anda akan mempelajari bagaimana cara membuat halaman website statis dengan HTML. Anda akan mulai belajar dari syntax dasar, elemen-elemen HTML, layout dan pengetahuan dasar lainya tentang HTML.</p>
+                        <p>Anda juga akan mempelajari tentang desain website yang responsive, dimana halaman website akan tetap terlihat bagus saat dilihat di Komputer Desktop maupun di Tablet atau di Smartphone</p>
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                             <div class="col s12 m6 l6">
