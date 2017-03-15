@@ -16,7 +16,7 @@
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                             <div class="col s12 m12 l6">
-                                <a href="./pengertian-html.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
+                                <a href="./html/pengertian-html.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
                             </div>
                             <div class="col s12 m12 l6">
                                 <a href="#html-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
@@ -46,7 +46,7 @@
                                 <div class="row syllabus-content">
                                     <div class="col s12 m6 l6">
                                         <ol type="i">
-                                            <li><a href="./pengertian-html.html">Pengertian HTML</a></li>
+                                            <li><a href="./html/pengertian-html.html">Pengertian HTML</a></li>
                                             <li><a href="#">Sejarah HTML</a></li>
                                             <li><a href="#">Versi HTML</a></li>
                                         </ol>
@@ -119,7 +119,7 @@
                     <div class="row" style="margin-top:110px;">
                         <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                         <div class="col s12 m6 l6">
-                            <a href="./pengertian-html.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
+                            <a href="./html/pengertian-html.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
                         </div>
                         <div class="col s12 m6 l6">
                             <a href="#html-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
