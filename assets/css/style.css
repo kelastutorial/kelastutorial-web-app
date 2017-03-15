@@ -504,6 +504,9 @@ nav{
 .syllabus-content a:hover{
     color:#f4511e;
 }
+.syllabus-header{
+    font-weight:700;
+}
 @media only screen and (max-width: 601px) {
     .syllabus-tutorial-container{
         padding:50px 0 50px 0
