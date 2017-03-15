@@ -4,33 +4,30 @@
         <div class="col s12 m12 l3 hide-on-tablet">
                 <div class="left-sidebar-container">
             <div class="grey lighten-3 left-sidebar">
-                Introduction
+                <span class="subtutorial">Pendahuluan</span><br/>
+                <a href="" class="subtutorial-list">HTML - Pengertian</a><br/>
+                <a href="" class="subtutorial-list">HTML - Sejarah</a><br/>
+                <a href="" class="subtutorial-list">HTML - Versi</a><br/>
             </div>
             <div class="grey lighten-3 left-sidebar">
-                <span class="subtutorial">Git Basic</span><br/>
-                <a href="" class="subtutorial-list">Git - Home</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Syntax</a><br/>
-                <a href="" class="subtutorial-list">Git - Variable Types</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Git - Loops</a><br/>
-                <a href="" class="subtutorial-list">Git - Numbers</a><br/>
-                <a href="" class="subtutorial-list">Git - Lists</a><br/>
-                <a href="" class="subtutorial-list">Git - Tuples</a><br/>
-                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
+                <span class="subtutorial">HTML Dasar</span><br/>
+                <a href="" class="subtutorial-list">HTML - Syntax Dasar</a><br/>
+                <a href="" class="subtutorial-list">HTML - Elemen</a><br/>
+                <a href="" class="subtutorial-list">HTML - Atribut</a><br/>
+                <a href="" class="subtutorial-list">HTML - Atribut Khusus</a><br/>
+                <a href="" class="subtutorial-list">HTML - Event</a><br/>
+                <a href="" class="subtutorial-list">HTML - Form</a><br/>
+                <a href="" class="subtutorial-list">HTML - SVG</a><br/>
+                <a href="" class="subtutorial-list">HTML - Layout</a><br/>
+                <a href="" class="subtutorial-list">HTML - Audio</a><br/>
+                <a href="" class="subtutorial-list">HTML - Video</a><br/>
             </div>
             <div class="grey lighten-3 left-sidebar">
-                <span class="subtutorial">Git Intermediate</span><br/>
-                <a href="" class="subtutorial-list">Git - Home</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Syntax</a><br/>
-                <a href="" class="subtutorial-list">Git - Variable Types</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
-            </div>
-            <div class="grey lighten-3 left-sidebar">
-                <span class="subtutorial">Git Advance</span><br/>
-                <a href="" class="subtutorial-list">Git - Home</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
+                <span class="subtutorial">HTML Tingkat Lanjut</span><br/>
+                <a href="" class="subtutorial-list">HTML - Geolocation</a><br/>
+                <a href="" class="subtutorial-list">HTML - Microdata</a><br/>
+                <a href="" class="subtutorial-list">HTML - Drag &amp; Drop</a><br/>
+                <a href="" class="subtutorial-list">HTML - Layout Responsive</a><br/>
             </div>
                 </div>
         </div>
@@ -48,10 +45,10 @@
                 <li><a class='collapsible-header waves-effect waves-yellow lighten-3' style="font-weight:500">Memulai Git</a>
                 <div class='collapsible-body'>
                 <ul>
-                <li><a href='http://www.belajarhtml.com#memulai-html'>Pengenalan Git</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/instalasi-html.html'>Instalasi Git</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/menjalankan-html.html'>Menjalankan Git</a></li>
-                <li><a href='http://www.belajarhtml.com/2015/05/integrated-development-environment-ide.html'>IDE Git</a></li>
+                <li><a href='#'>Pengenalan Git</a></li>
+                <li><a href='#'>Instalasi Git</a></li>
+                <li><a href='#'>Menjalankan Git</a></li>
+                <li><a href='#'>IDE Git</a></li>
                 </ul>
                 </div>
                 </li>
@@ -82,35 +79,5 @@
                 </div>
                 </li>
                 </ul>
-            <!--
-            <div class=" left-sidebar">
-                Introduction
-            </div>
-            <div class="left-sidebar">
-                <span class="subtutorial">Git Basic</span><br/>
-                <a href="" class="subtutorial-list">Git - Home</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Syntax</a><br/>
-                <a href="" class="subtutorial-list">Git - Variable Types</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Git - Loops</a><br/>
-                <a href="" class="subtutorial-list">Git - Numbers</a><br/>
-                <a href="" class="subtutorial-list">Git - Lists</a><br/>
-                <a href="" class="subtutorial-list">Git - Tuples</a><br/>
-                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
-            </div>
-            <div class="left-sidebar">
-                <span class="subtutorial">Git Intermediate</span><br/>
-                <a href="" class="subtutorial-list">Git - Home</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Syntax</a><br/>
-                <a href="" class="subtutorial-list">Git - Variable Types</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
-            </div>
-            <div class="left-sidebar">
-                <span class="subtutorial">Git Advance</span><br/>
-                <a href="" class="subtutorial-list">Git - Home</a><br/>
-                <a href="" class="subtutorial-list">Git - Basic Operators</a><br/>
-                <a href="" class="subtutorial-list">Git - Dictionary</a><br/>
-            </div>-->
         </ul>
      </div>

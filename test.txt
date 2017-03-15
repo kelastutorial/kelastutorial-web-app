@@ -35,3 +35,6 @@ CREATE TABLE html (
         PRIMARY KEY (id),
         KEY slug (slug)
 );
+
+last work :
+ - left sidebar html
