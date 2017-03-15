@@ -481,6 +481,9 @@ nav{
 .about-this-tutorial{
     padding:0 100px 0 0;
 }
+.about-this-tutorial p{
+    margin-top:30px;
+}
 @media only screen and (max-width: 601px) {
     .about-this-tutorial{
         padding:0 0 40px 0;

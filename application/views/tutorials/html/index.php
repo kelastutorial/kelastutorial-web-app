@@ -10,8 +10,7 @@
                 <div class="col s12 m6 l6">
                     <div class="about-this-tutorial">
                         <h4 class="tutorials-index-head-four" style="color:#E44D26;">Tentang Bahasa HTML</h4>
-                        <p>HyperText Markup Language (HTML) adalah sebuah standar bahasa markup untuk membuat sebuah halaman web atau aplikasi web. HTML biasanya di kombinasikan dengan Cascading Style Sheets (CSS) dan Javascript agar halaman atau aplikasi website menjadi lebih menarik dan berguna.</p>
-                        <p>Dokumen HTML bekerja dengan sangat sederhana. Web browser menerima dokumen HTML dari webserver atau dari penyimpanan lokal kemudian merendernya menjadi halaman yang diiginkan.</p>
+                        <p>HyperText Markup Language (HTML) adalah sebuah standar bahasa markup untuk membuat sebuah halaman web atau aplikasi web. HTML biasanya di kombinasikan dengan Cascading Style Sheets (CSS) dan Javascript agar halaman atau aplikasi website menjadi lebih menarik dan berguna. Dokumen HTML bekerja dengan sangat sederhana. Web browser menerima dokumen HTML dari webserver atau dari penyimpanan lokal kemudian merendernya menjadi halaman yang diiginkan.</p>
                         <p>Pada tutorial ini Anda akan mempelajari bagaimana cara membuat halaman website statis dengan HTML. Anda akan mulai belajar dari syntax dasar, elemen-elemen HTML, layout dan pengetahuan dasar lainya tentang HTML.</p>
                         <p>Anda juga akan mempelajari tentang desain website yang responsive, dimana halaman website akan tetap terlihat bagus saat dilihat di Komputer Desktop maupun di Tablet atau di Smartphone</p>
                         <div class="row" style="margin-top:50px;">
