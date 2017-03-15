@@ -16,7 +16,7 @@
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                             <div class="col s12 m12 l6">
-                                <a style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
+                                <a href="./pengertian-html.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
                             </div>
                             <div class="col s12 m12 l6">
                                 <a href="#html-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
@@ -46,17 +46,13 @@
                           <div class="row syllabus-content">
                               <div class="col s12 m6 l6">
                                 <ol type="i">
-                                    <li><a href="#">Pengertian HTML</a></li>
-                                    <li><a href="#"> HTML</a></li>
-                                    <li><a href="#">Struktur HTML</a></li>
+                                    <li><a href="./pengertian-html.html">Pengertian HTML</a></li>
+                                    <li><a href="#">Sejarah HTML</a></li>
+                                    <li><a href="#">Versi HTML</a></li>
                                 </ol>
                               </div>
                               <div class="col s12 m6 l6">
-                                  <ol type="i">
-                                    <li><a href="#">Pengertian HTML</a></li>
-                                    <li><a href="#"> HTML</a></li>
-                                    <li><a href="#"> HTML</a></li>
-                                </ol>
+                                  
                               </div>
                           </div>
                       </div>
@@ -68,24 +64,43 @@
                           <div class="row" style="padding:20px 0 0 20px;">
                               <div class="col s6 m6 l6">
                                 <ol type="i">
-                                    <li><a href="#">Pengertian HTML</a></li>
-                                    <li><a href="#">Sejarah HTML</a></li>
-                                    <li><a href="#"> HTML</a></li>
+                                    <li><a href="#">Syntax Dasar HTML</a></li>
+                                    <li><a href="#">Elemen HTML</a></li>
+                                    <li><a href="#">Atribut HTML</a></li>
+                                    <li><a href="#">Atribut Khusus HTML</a></li>
+                                    <li><a href="#">Event HTML</a></li>
                                 </ol>
                               </div>
                               <div class="col s6 m6 l6">
                                   <ol type="i">
-                                    <li><a href="">Pengertian HTML</a></li>
-                                    <li><a href=""> HTML</a></li>
-                                    <li><a href=""> HTML</a></li>
+                                    <li><a href="#">Form HTML</a></li>
+                                    <li><a href="#">SVG HTML</a></li>
+                                    <li><a href="#">Layout HTML</a></li>
+                                    <li><a href="#">Audio HTML</a></li>
+                                    <li><a href="#">Video HTML</a></li>
                                 </ol>
                               </div>
                           </div>
                       </div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Menengah</div>
-                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                      <div class="collapsible-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Tingkat Lanjut</div>
+                      <div class="collapsible-body">
+                          
+                          <div class="row" style="padding:20px 0 0 20px;">
+                              <div class="col s6 m6 l6">
+                                <ol type="i">
+                                    <li><a href="#">Geolocation HTML</a></li>
+                                    <li><a href="#">Microdata HTML</a></li>
+                                    <li><a href="#">Drag &amp; Drop HTML</a></li>
+                                    <li><a href="#">Layout Responsive HTML</a></li>
+                                </ol>
+                              </div>
+                              <div class="col s6 m6 l6">
+                                  
+                              </div>
+                          </div>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -95,7 +110,7 @@
             <div class="container">
                 <div style="max-width:850px;margin:0 auto;">
                     <h4 class="tutorials-index-head-four" style="text-align:center">Prasyarat dan Persyaratan</h4>
-                    <p style="margin-top:35px;">Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai beberapa persyaratan minimal dibawah ini :</p>
+                    <p style="margin-top:35px;">Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai terlebih dahulu beberapa persyaratan minimal dibawah ini :</p>
                     <p>
                         <ol type="i">
                             <li>Aktif dan menyukai dunia internet</li>
@@ -106,7 +121,7 @@
                     <div class="row" style="margin-top:110px;">
                         <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                         <div class="col s12 m6 l6">
-                            <a style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
+                            <a href="./pengertian-html.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
                         </div>
                         <div class="col s12 m6 l6">
                             <a href="#html-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
