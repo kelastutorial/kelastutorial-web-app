@@ -11,6 +11,9 @@ Issues :
 Referensi about page :
 - https://vr.google.com/daydream/experiences/
 
+Add canonical SEO :
+- add in header        <link rel="canonical" href="<?php echo site_url('images/kelastutorial-icon-large.png'); ?>"/>
+
 
 Referensi header/nav aboug page, dll :
 - https://vr.google.com/daydream/developers/
