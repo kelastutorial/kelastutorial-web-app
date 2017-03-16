@@ -10,17 +10,31 @@ class java extends CI_Controller {
     
     public function index($slug = NULL) {
         $data['java'] = $this->java_model->get_java();
-        
-        $data['java_item'] = $this->java_model->get_java($slug);
-        $this->load->view('templates/header');
-        $this->load->view('tutorials/java/left_sidebar');
+        $data2["meta_desc"] = "Java adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
+        $data2["title"] = "Java";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Course",
+          "name": "Tutorial Java Dasar",
+          "description": "Java adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $data['item'] = $this->java_model->get_java($slug);
+        $this->load->view('templates/header', $data2);
         $this->load->view('tutorials/java/index', $data);
-        $this->load->view('tutorials/java/right_sidebar');
+        $this->load->view('templates/footer');
     }
     
     public function view($slug = NULL) {
-        $data['java_item'] = $this->java_model->get_java($slug);
-        $this->load->view('templates/header');
+        $data['item'] = $this->java_model->get_java($slug);
+        $this->load->view('templates/header', $data);
         $this->load->view('tutorials/java/left_sidebar');
         $this->load->view('tutorials/java/view', $data);
         $this->load->view('tutorials/java/right_sidebar');
@@ -42,6 +56,9 @@ class java extends CI_Controller {
                 $this->load->library('form_validation');
                 $this->form_validation->set_rules('title', 'Title', 'required');
                 $this->form_validation->set_rules('content', 'Content', 'required');
+                $this->form_validation->set_rules('meta_desc', 'Meta Description', 'required');
+                $this->form_validation->set_rules('published', 'Published', 'required');
+                $this->form_validation->set_rules('last_update', 'Last Update', 'required');
                 
                 if($this->form_validation->run() === FALSE) {
                     $this->load->view('tutorials/java/adminAddPost');
@@ -61,9 +78,12 @@ class java extends CI_Controller {
                 $this->load->library('form_validation');
                 $this->form_validation->set_rules('title', 'Title', 'required');
                 $this->form_validation->set_rules('content', 'Content', 'required');
+                $this->form_validation->set_rules('meta_desc', 'Meta Description', 'required');
+                $this->form_validation->set_rules('published', 'Published', 'required');
+                $this->form_validation->set_rules('last_update', 'Last Update', 'required');
                 
                 if($this->form_validation->run() === FALSE) {
-                    $data['java_item'] = $this->java_model->get_java_id($id);
+                    $data['item'] = $this->java_model->get_java_id($id);
                     $this->load->view('tutorials/java/adminUpdatePost', $data);
                 }else{
                     $this->java_model->update_java($id);

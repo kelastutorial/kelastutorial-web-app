@@ -79,7 +79,7 @@
                       
                     <div class="col s0 m0 l4 navigation-menu hide-on-tablet">
                         <a href="<?php echo site_url('tutorials'); ?>"  style="margin-right:30px;color:#000;">SEMUA TUTORIAL</a>
-                        <a class="waves-effect red darken-1 white-text waves-light" style="margin-right:-12px;margin-bottom:-1px;padding:0 50px 0 50px;">MASUK</a>
+                        <!--<a class="waves-effect red darken-1 white-text waves-light" style="margin-right:-12px;margin-bottom:-1px;padding:0 50px 0 50px;">MASUK</a>-->
                     </div>
                     
                 </div>

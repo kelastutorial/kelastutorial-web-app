@@ -10,17 +10,31 @@ class python extends CI_Controller {
     
     public function index($slug = NULL) {
         $data['python'] = $this->python_model->get_python();
-        
-        $data['python_item'] = $this->python_model->get_python($slug);
-        $this->load->view('templates/header');
-        $this->load->view('tutorials/python/left_sidebar');
+        $data2["meta_desc"] = "Python adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
+        $data2["title"] = "Python";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Course",
+          "name": "Tutorial Python Dasar",
+          "description": "Python adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $data['item'] = $this->python_model->get_python($slug);
+        $this->load->view('templates/header', $data2);
         $this->load->view('tutorials/python/index', $data);
-        $this->load->view('tutorials/python/right_sidebar');
+        $this->load->view('templates/footer');
     }
     
     public function view($slug = NULL) {
-        $data['python_item'] = $this->python_model->get_python($slug);
-        $this->load->view('templates/header');
+        $data['item'] = $this->python_model->get_python($slug);
+        $this->load->view('templates/header', $data);
         $this->load->view('tutorials/python/left_sidebar');
         $this->load->view('tutorials/python/view', $data);
         $this->load->view('tutorials/python/right_sidebar');
@@ -42,6 +56,9 @@ class python extends CI_Controller {
                 $this->load->library('form_validation');
                 $this->form_validation->set_rules('title', 'Title', 'required');
                 $this->form_validation->set_rules('content', 'Content', 'required');
+                $this->form_validation->set_rules('meta_desc', 'Meta Description', 'required');
+                $this->form_validation->set_rules('published', 'Published', 'required');
+                $this->form_validation->set_rules('last_update', 'Last Update', 'required');
                 
                 if($this->form_validation->run() === FALSE) {
                     $this->load->view('tutorials/python/adminAddPost');
@@ -61,9 +78,12 @@ class python extends CI_Controller {
                 $this->load->library('form_validation');
                 $this->form_validation->set_rules('title', 'Title', 'required');
                 $this->form_validation->set_rules('content', 'Content', 'required');
+                $this->form_validation->set_rules('meta_desc', 'Meta Description', 'required');
+                $this->form_validation->set_rules('published', 'Published', 'required');
+                $this->form_validation->set_rules('last_update', 'Last Update', 'required');
                 
                 if($this->form_validation->run() === FALSE) {
-                    $data['python_item'] = $this->python_model->get_python_id($id);
+                    $data['item'] = $this->python_model->get_python_id($id);
                     $this->load->view('tutorials/python/adminUpdatePost', $data);
                 }else{
                     $this->python_model->update_python($id);

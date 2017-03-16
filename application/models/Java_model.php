@@ -23,6 +23,9 @@ class Java_model extends CI_Model {
         $data = array(
             'title' => $this->input->post('title'),
             'content' => $this->input->post('content'),
+            'meta_desc' => $this->input->post('meta_desc'),
+            'published' => $this->input->post('published'),
+            'last_update' => $this->input->post('last_update'),
             'slug' => $slug  
         );
         return $this->db->insert('java', $data);
@@ -35,6 +38,9 @@ class Java_model extends CI_Model {
         $data = array(
             'title' => $this->input->post('title'),
             'content' => $this->input->post('content'),
+            'meta_desc' => $this->input->post('meta_desc'),
+            'published' => $this->input->post('published'),
+            'last_update' => $this->input->post('last_update'),
             'slug' => $slug  
         );
         

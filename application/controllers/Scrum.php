@@ -10,17 +10,31 @@ class scrum extends CI_Controller {
     
     public function index($slug = NULL) {
         $data['scrum'] = $this->scrum_model->get_scrum();
-        
-        $data['scrum_item'] = $this->scrum_model->get_scrum($slug);
-        $this->load->view('templates/header');
-        $this->load->view('tutorials/scrum/left_sidebar');
+        $data2["meta_desc"] = "Scrum adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
+        $data2["title"] = "Scrum";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Course",
+          "name": "Tutorial Scrum Dasar",
+          "description": "Scrum adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $data['item'] = $this->scrum_model->get_scrum($slug);
+        $this->load->view('templates/header', $data2);
         $this->load->view('tutorials/scrum/index', $data);
-        $this->load->view('tutorials/scrum/right_sidebar');
+        $this->load->view('templates/footer');
     }
     
     public function view($slug = NULL) {
-        $data['scrum_item'] = $this->scrum_model->get_scrum($slug);
-        $this->load->view('templates/header');
+        $data['item'] = $this->scrum_model->get_scrum($slug);
+        $this->load->view('templates/header', $data);
         $this->load->view('tutorials/scrum/left_sidebar');
         $this->load->view('tutorials/scrum/view', $data);
         $this->load->view('tutorials/scrum/right_sidebar');
@@ -42,6 +56,9 @@ class scrum extends CI_Controller {
                 $this->load->library('form_validation');
                 $this->form_validation->set_rules('title', 'Title', 'required');
                 $this->form_validation->set_rules('content', 'Content', 'required');
+                $this->form_validation->set_rules('meta_desc', 'Meta Description', 'required');
+                $this->form_validation->set_rules('published', 'Published', 'required');
+                $this->form_validation->set_rules('last_update', 'Last Update', 'required');
                 
                 if($this->form_validation->run() === FALSE) {
                     $this->load->view('tutorials/scrum/adminAddPost');
@@ -61,9 +78,12 @@ class scrum extends CI_Controller {
                 $this->load->library('form_validation');
                 $this->form_validation->set_rules('title', 'Title', 'required');
                 $this->form_validation->set_rules('content', 'Content', 'required');
+                $this->form_validation->set_rules('meta_desc', 'Meta Description', 'required');
+                $this->form_validation->set_rules('published', 'Published', 'required');
+                $this->form_validation->set_rules('last_update', 'Last Update', 'required');
                 
                 if($this->form_validation->run() === FALSE) {
-                    $data['scrum_item'] = $this->scrum_model->get_scrum_id($id);
+                    $data['item'] = $this->scrum_model->get_scrum_id($id);
                     $this->load->view('tutorials/scrum/adminUpdatePost', $data);
                 }else{
                     $this->scrum_model->update_scrum($id);

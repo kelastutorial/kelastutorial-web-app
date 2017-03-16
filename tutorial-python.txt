@@ -1,0 +1,585 @@
+Instalasi Python
+<p>Sebelum Anda menggunakan Python, Anda harus menginstalnya terlebih dahulu di sistem operasi komputer Anda. Saat ini Python memiliki 2 versi yang berbeda, yaitu Python versi 3.4.3 dan Python versi 2.7.10. Disini kita akan belajar bahasa pemrograman Python menggunakan versi terbaru 3.4.3</p>
+
+<h3>Linux</h3>
+<p>
+<ol>
+<li>Buka browser, kunjungi <a href="http://www.python.org/downloads/source/" target="_blank">http://www.python.org/downloads/source/</a></li>
+<li>Download versi terbaru Python berbentuk file zip untuk Unix/Linux</li>
+<li>Ekstrak file zip yang baru saja di download</li>
+<li>Edit file Modules/Setup jika Anda ingin kostumisasi Python</li>
+<li>Jalankan <code class="syntax">./configure script</code></li>
+<li><code class="syntax">make</code></li>
+<li><code class="syntax">make install</code></li>
+</ol>
+</p>
+
+<p>Langkah ini akan menginstal Python di lokasi standar <code class="syntax">/usr/local/bin</code> dan library di <code class="syntax">/usr/local/lib/pythonXX</code> dimana XX adalah versi terbaru Python yang anda gunakan.</p>
+
+<h3>Windows</h3>
+<p>
+<ol>
+<li>Buka browser, kunjungi <a href="http://www.python.org/downloads/windows/" target="_blank">http://www.python.org/downloads/windows/</a></li>
+<li>ATAU, klik direct link <a href="https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi" target="_blank">https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi</a></li>
+<li>Buka (klik 2x) file installer python yang baru saja di download</li>
+<li>Ikuti langkah instalasi sampai selesai</li>
+</ol>
+</p>
+
+<h3>Mac</h3>
+<p>
+<ol>
+<li>Buka browser, kunjungi <a href="http://www.python.org/download/mac/" target="_blank">http://www.python.org/download/mac/</a></li>
+<li>Download versi terbaru Python untuk Macintosh</li>
+<li>Buka file yang baru saja di download</li>
+<li>Ikuti langkah instalasi sampai selesai</li>
+</ol>
+</p>
+
+
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="../python" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./menjalankan-python.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+
+-----------------------------------
+Menjalankan Python
+<p>Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan sheel, terminal atau menggunakan IDE (Integrated Development Environment). Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.</p>
+
+<h3>Linux</h3>
+<p>
+<ol>
+<li>Buka terminal (Ctrl + Alt + T)</li>
+<li>Ketik <code class="syntax">python</code> maka Anda akan masuk ke sheel Python.</li>
+<li>Tuliskan script Python Anda, contoh: <code class="syntax">print("Selamat datang di Python")</code>. jika sudah tekan tombol Enter, dan script Python akan dijalankan/eksekusi.</li>
+<li>Untuk keluar dari sheel Python ketik <code class="syntax">exit()</code></li>
+</ol>
+
+atau
+
+<ol>
+<li>Gunakan teks editor, misalnya gedit.</li>
+<li>Buat file baru, dan ketikan script python Anda, contoh: <code class="syntax">print("Selamat datang di Python")</code>.</li>
+<li>Save As dengan ekstensi .py (contoh: cetak.py).</li>
+<li>Jalankan file dengan menggunakan Terminal.</li>
+<li>Buka terminal (Ctrl + Alt + T).</li>
+<li>Masuk ke direktori dimana file Python Anda disimpan (contoh: <code class="syntax">cd /Users/admin/Desktop/</code>).</li>
+<li>Jalankan script Python dengan menggunakan python diikuti dengan nama file (contoh: <code class="syntax">python cetak.py</code>).</li>
+<li>Script Python Anda akan dieksekusi/dijalankan.</li>
+</ol>
+</p>
+<h3>Windows</h3>
+<p>
+<ol>
+<li>Buka Python sheel, Anda bisa mencarinya di tombol Start.</li>
+<li>Tuliskan script Python Anda, contoh: <code class="syntax">print("Selamat datang di Python")</code>. jika sudah tekan tombol Enter, dan script Python akan dijalankan/eksekusi.</li>
+<li>Untuk keluar dari sheel Python ketik <code class="syntax">exit()</code></li>
+</ol>
+</p>
+
+<h3>Mac</h3>
+<p>
+<ol>
+<li>Buka terminal.</li>
+<li>Ketik python maka Anda akan masuk ke sheel Python.</li>
+<li>Tuliskan script Python Anda, contoh: <code class="syntax">print("Selamat datang di Python")</code>. jika sudah tekan tombol Enter, dan script Python akan dijalankan/eksekusi.</li>
+<li>Untuk keluar dari sheel Python ketik <code class="syntax">exit()</code></li>
+</ol>
+atau
+<ol>
+<li>Gunakan teks editor.</li>
+<li>Buat file baru, dan ketikan script python Anda, contoh: <code class="syntax">print("Selamat datang di Python")</code>.</li>
+<li>Save As dengan ekstensi .py (contoh: cetak.py).</li>
+<li>Jalankan file dengan menggunakan Terminal.</li>
+<li>Buka terminal (Ctrl + Alt + T).</li>
+<li>Masuk ke direktori dimana file Python Anda disimpan (contoh: <code class="syntax">cd /Users/admin/Desktop/</code>).</li>
+<li>Jalankan script Python dengan menggunakan python diikuti dengan nama file (contoh: <code class="syntax">python cetak.py</code>).</li>
+<li>Script Python Anda akan dieksekusi/dijalankan.</li>
+</ol>
+</p>
+
+<p>Jika Anda belum ingin menginstal Python di komputer, Anda bisa menggunakan online console yang sudah disediakan PythonAnywhere dibawah ini. Dengan console Python ini Anda bisa mempelajari bahasa pemrograman Python dengan praktis.
+</p>
+
+<h3>Console Python Online</h3>
+<iframe name="embedded_python_anywhere" src="https://console.python.org/python-dot-org-console/" style="border: none; height: 370px; width: 100%;">
+</iframe>
+
+
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./instalasi-python.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./ide-python.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+--------------------------------------
+Ide Python
+<p>IDE adalah sebuah software aplikasi yang memberikan Anda fasilitas bermanfaat ketika membuat program. Biasanya sebuah IDE terdiri dari source code editor build automation tools dan debugger.</p>
+
+<p>Untuk menulis sebuah program, bisa menggunakan text editor atau IDE nya. Bagi yang sudah mahir, menulis program dengan text editor bukanlah menjadi masalah. Tetapi untuk pemula, akan lebih mudah menggunakan IDE.</p>
+
+<p>IDE untuk Python sangatlah banyak, tersedia bermacam-macam IDE dengan kelebihan dan kekurangan masing-masing. </p>
+
+<p>Beberapa IDE untuk Python yang cukup populer adalah :
+<ol>
+<li><a href="https://wiki.python.org/moin/Komodo" target="_blank">Komodo</a></li>
+<li><a href="http://www.liclipse.com/" target="_blank">LiClipse</a></li>
+<li><a href="https://wiki.python.org/moin/NetBeans" target="_blank">NetBeans</a></li>
+<li><a href="http://www.jetbrains.com/pycharm/" target="_blank">PyCharm</a></li>
+<li><a href="http://kdevelop.org/" target="_blank">KDevelop</a></li>
+<li><a href="https://wiki.python.org/moin/PyDev" target="_blank">PyDev</a></li>
+<li><a href="http://wingware.com/" target="_blank">Wing IDE</a></li>
+</ol>
+</p>
+
+<p>dan masih banyak lainnya (<a href="http://wiki.python.org/moin/IntegratedDevelopmentEnvironments" target="_blank">http://wiki.python.org/moin/IntegratedDevelopmentEnvironments</a>). </p>
+
+
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./menjalankan-python.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./hello-world-python.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+----------------------------------------
+Hello world Python
+<p>Syntax bahasa Python hampir sama dengan bahasa pemrograman pada umumnya seperti Java atau PHP.</p>
+
+<h3>Syntax Dasar</h3>
+<p>Dibawah ini adalah contoh fungsi Python yang digunakan untuk mencetak. Di Python untuk mencetak cukup gunakan fungsi <code class="syntax">print()</code> , dimana sesuatu yang akan dicetak harus diletakkan diantara kurung buka dan kurung tutup, bahkan di Python versi 2.x Anda tidak harus menggunakan tanda kurung kurawal, cukup pisahkan dengan spasi.</p>
+
+<p>Jika ingin mencetak tipe data String langsung, Anda harus memasukanya ke dalam tanda kutip terlebih dahulu.</p>
+
+
+<pre><code class="python">print("Hello World")</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<p>Saat anda menjalankan script diatas, Anda akan melihat output berupa text Hello World</p>
+
+<h3>Python Case Sensitivity</h3>
+<p>Python bersifat case sensitif, ini artinya huruf besar dan huruf kecil memiliki perbedaan. Sebagai contoh jika Anda menggunakan fungsi print dengan huruf kecil <code class="syntax">print()</code> akan berhasil. Lain hal jika anda menggunakan huruf kapital <code class="syntax">Print()</code> atau <code class="syntax">PRINT()</code> , akan muncul pesan error.</p>
+
+<p>Aturan ini berlaku untuk nama variabel ataupun fungsi-fungsi lainya.</p>
+
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./ide-python.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./komentar-python.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+
+----------------------
+Komentar Python
+<p>Komentar (comment) adalah kode di dalam script Python yang tidak dieksekusi atau tidak dijalankan mesin. Komentar hanya digunakan untuk menandai atau memberikan keterangan tertulis pada script. </p>
+
+<p>Komentar biasa digunakan untuk membiarkan orang lain memahami apa yang dilakukan script. atau untuk mengingatkan kepada programmer sendiri jika suatu saat kembali mengedit script tersebut.</p>
+
+<p>Untuk menggunakan komentar anda cukup menulis tanda pagar #, diikuti dengan komentar Anda.
+</p>
+<p>Dibawah ini adalah contoh penggunaan komentar pada Python</p>
+
+
+<pre><code class="python">#Ini adalah komentar
+# Tulisan ini tidak akan dieksekusi
+
+#komentar dengan tanda pagar hanya bisa digunakan
+#untuk
+#satu
+#baris
+
+print("Hello World") #ini juga komentar
+
+#print("Welcome")
+
+# komentar bisa berisi spesial karakter !@#$%^&*(),./;'[]\
+
+#mencetak nama
+print("Budi")
+
+#mencetak angka/integer
+print(123)</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<br/>
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./hello-world-python.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./tipe-data-python.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+
+
+
+
+----------------------
+Tipe Data Python
+<p>Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi.</p>
+
+<p>Python sendiri mempunyai tipe data yang cukup unik bila kita bandingkan dengan bahasa pemrograman yang lain.</p>
+
+<p>Berikut adalah tipe data dari bahasa pemrograman Python :</p>
+<table>
+<tr>
+<th>Tipe Data</th>
+<th>Contoh</th>
+<th>Penjelasan</th>
+</tr>
+<tr>
+<td>Boolean</td>
+<td><code class="syntax">True</code> atau <code class="syntax">False</code></td>
+<td>Menyatakan benar(True) yang bernilai 1, atau salah(False) yang bernilai 0</td>
+</tr>
+<tr>
+<td>String</td>
+<td><code class="syntax">"Ayo belajar Python"</code></td>
+<td>Menyatakan karakter/kalimat bisa berupa huruf angka, dll (diapit tanda <code class="syntax">"</code> atau <code class="syntax">'</code>)</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td><code class="syntax">True</code> atau <code class="syntax">False</code></td>
+<td>Menyatakan benar(True) yang bernilai 1, atau salah(False) yang bernilai 0</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td><code class="syntax">True</code> atau <code class="syntax">False</code></td>
+<td>Menyatakan benar(True) yang bernilai 1, atau salah(False) yang bernilai 0</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td><code class="syntax">True</code> atau <code class="syntax">False</code></td>
+<td>Menyatakan benar(True) yang bernilai 1, atau salah(False) yang bernilai 0</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td><code class="syntax">True</code> atau <code class="syntax">False</code></td>
+<td>Menyatakan benar(True) yang bernilai 1, atau salah(False) yang bernilai 0</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td><code class="syntax">True</code> atau <code class="syntax">False</code></td>
+<td>Menyatakan benar(True) yang bernilai 1, atau salah(False) yang bernilai 0</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td><code class="syntax">True</code> atau <code class="syntax">False</code></td>
+<td>Menyatakan benar(True) yang bernilai 1, atau salah(False) yang bernilai 0</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td><code class="syntax">True</code> atau <code class="syntax">False</code></td>
+<td>Menyatakan benar(True) yang bernilai 1, atau salah(False) yang bernilai 0</td>
+</tr>
+</table>
+String	"Ayo belajar Python"	Menyatakan karakter/kalimat bisa berupa huruf angka, dll (diapit tanda " atau ')
+Integer	25 atau 1209	Menyatakan bilangan bulat
+Float	3.14 atau 0.99	Menyatakan bilangan yang mempunyai koma
+Hexadecimal	9a atau 1d3	Menyatakan bilangan dalam format heksa (bilangan berbasis 16)
+Complex	1 + 5j	Menyatakan pasangan angka real dan imajiner
+List	['xyz', 786, 2.23]	Data untaian yang menyimpan berbagai tipe data dan isinya bisa diubah-ubah
+Tuple	('xyz', 768, 2.23)	Data untaian yang menyimpan berbagai tipe data tapi isinya tidak bisa diubah
+Dictionary	{'nama': 'adi','id':2}	Data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai
+
+<p>Untuk mencoba berbagai macam tipe data, silahkan coba script Python dibawah ini.</p>
+
+<pre><code class="python">#tipe data Boolean
+print(True)
+
+#tipe data String
+print("Ayo belajar Python")
+print('Belajar Python Sangat Mudah')
+
+#tipe data Integer
+print(20)
+
+#tipe data Float
+print(3.14)
+
+#tipe data Hexadecimal
+print(9a)
+
+#tipe data Complex
+print(5j)
+
+#tipe data List
+print([1,2,3,4,5])
+print(["satu", "dua", "tiga"])
+
+#tipe data Tuple
+print((1,2,3,4,5))
+print(("satu", "dua", "tiga"))
+
+#tipe data Dictionary
+print({"nama":"Budi", 'umur':20})
+#tipe data Dictionary dimasukan ke dalam variabel biodata
+biodata = {"nama":"Andi", 'umur':21} #proses inisialisasi variabel biodata
+print(biodata) #proses pencetakan variabel biodata yang berisi tipe data Dictionary
+type(biodata) #fungsi untuk mengecek jenis tipe data. akan tampil <class 'dict'> yang berarti dict adalah tipe data dictionary</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<br/>
+
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./komentar-python.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./variabel-python.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+
+-------------------------
+Variabel Python<p>Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai-nilai. Ini berarti bahwa ketika Anda membuat sebuah variabel Anda memesan beberapa ruang di memori. Variabel menyimpan data yang dilakukan selama program dieksekusi, yang natinya isi dari variabel tersebut dapat diubah oleh operasi - operasi tertentu pada program yang menggunakan variabel.</p>
+
+<p>Variabel dapat menyimpan berbagai macam tipe data. Di dalam pemrograman Python, variabel mempunyai sifat yang dinamis, artinya variabel Python tidak perlu didekralasikan tipe data tertentu dan variabel Python dapat diubah saat program dijalankan.</p>
+
+<p>Penulisan variabel Python sendiri juga memiliki aturan tertentu, yaitu :</p>
+<p>
+<ol>
+<li>Karakter pertama harus berupa huruf atau garis bawah/underscore <code class="syntax">_</code></li>
+<li>Karakter selanjutnya dapat berupa huruf, garis bawah/underscore <code class="syntax">_</code> atau angka</li>
+<li>Karakter pada nama variabel bersifat sensitif (case-sensitif). Artinya huruf kecil dan huruf besar dibedakan. Sebagai contoh, variabel <code class="syntax">namaDepan</code> dan <code class="syntax">namadepan</code> adalah variabel yang berbeda.</li>
+</ol></p>
+
+<p>Untuk mulai membuat variabel di Python caranya sangat mudah, Anda cukup menuliskan variabel lalu mengisinya dengan suatu nilai dengan cara menambahkan tanda sama dengan <code class="syntax">= diikuti dengan nilai yang ingin dimasukan.</p>
+
+<p>Dibawah ini adalah contoh penggunaan variabel dalam bahasa pemrograman Python</p>
+<pre><code class="python">#proses memasukan data ke dalam variabel
+nama = "John Doe"
+#proses mencetak variabel
+print(nama)
+
+#nilai dan tipe data dalam variabel  dapat diubah
+umur = 20               #nilai awal
+print(umur)             #mencetak nilai umur
+type(umur)              #mengecek tipe data umur
+umur = "dua puluh satu" #nilai setelah diubah
+print(umur)             #mencetak nilai umur
+type(umur)              #mengecek tipe data umur
+
+namaDepan = "Budi"
+namaBelakang = "Susanto"
+nama = namaDepan + " " + namaBelakang
+umur = 22
+hobi = "Berenang"
+print("Biodata\n", nama, "\n", umur, "\n", hobi)
+
+#contoh variabel lainya
+inivariabel = "Halo"
+ini_juga_variabel = "Hai"
+_inivariabeljuga = "Hi"
+inivariabel222 = "Bye" 
+
+panjang = 10
+lebar = 5
+luas = panjang * lebar
+print(luas)
+</code></pre></code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<br/>
+
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./tipe-data-python.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./operator-python.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+Operator Python
+<p>Operator adalah konstruksi yang dapan memanipulasi nilai dari operan. </p>
+
+<p>Sebagai contoh operasi 3 + 2 = 5. Disini 3 dan 2 adalah operan dan + adalah operator.</p>
+
+<p>Bahasa pemrograman Python mendukung berbagai macam operator, diantaranya :
+<ol>
+<li>Operator Aritmatika (Arithmetic Operators)</li>
+<li>Operator Perbandingan (Comparison (Relational) Operators)</li>
+<li>Operator Penugasan (Assignment Operators)</li>
+<li>Operator Logika (Logical Operators)</li>
+<li>Operator Bitwise (Bitwise Operators)</li>
+<li>Operator Keanggotaan (Membership Operators)</li>
+<li>Operator Identisas (Identity Operators)</li>
+</ol></p>
+
+<p>Mari kita membahasnya satu-persatu.</p>
+
+<h3>Operator Aritmatika</h3>
+<table>
+<tr>
+<th>Operator</th>
+<th>Contoh</th>
+<th>Penjelasan</th>
+</tr>
+<tr>
+<td>Penjumlahan</td>
+<td><code class="syntax">1 + 3 = 4</code></td>
+<td>Menjumlahkan nilai dari masing-masing operan atau bilangan</td>
+</tr>
+<tr>
+<td>Pengurangan</td>
+<td><code class="syntax">3 - 1 = 2</code></td>
+<td>Mengurangi nilai operan di sebelah kiri menggunakan operan di sebelah kanan</td>
+</tr>
+<tr>
+<td>Perkalian</td>
+<td><code class="syntax">2 * 5 = 10</code></td>
+<td>Mengalikan operan/bilangan</td>
+</tr>
+<tr>
+<td>Pembagian</td>
+<td><code class="syntax">12 / 6 = 2</code></td>
+<td>Untuk membagi operan di sebelah kiri menggunakan operan di sebelah kanan</td>
+</tr>
+<tr>
+<td>Sisa Bagi</td>
+<td><code class="syntax">11 % 2 = 1</code></td>
+<td>Mendapatkan sisa pembagian dari operan di sebelah kiri operator ketika dibagi oleh operan di sebelah kanan</td>
+</tr>
+<tr>
+<td>Pangkat</td>
+<td><code class="syntax">8 ** 2 = 64</code></td>
+<td>Memangkatkan operan disebelah kiri operator dengan operan di sebelah kanan operator</td>
+</tr>
+<tr>
+<td>Pembagian Bulat</td>
+<td><code class="syntax">10 // 3 = 3</code></td>
+<td>Sama seperti pembagian. Hanya saja angka dibelakang koma dihilangkan</td>
+</tr>
+</table>
+
+<p>Dibawah ini adalah contoh penggunaan Operator Aritmatika dalam bahasa pemrograman Python</p>
+
+<pre><code class="python">
+#OPERATOR ARITMATIKA
+
+#Penjumlahan
+print(13 + 2)
+apel = 7
+jeruk = 9
+buah = apel + jeruk #
+print(buah)
+
+#Pengurangan
+hutang = 10000
+bayar = 5000
+sisaHutang = hutang - bayar
+print("Sisa hutang Anda adalah ", sisaHutang)
+
+#Perkalian
+panjang = 15
+lebar = 8
+luas = panjang * lebar
+print(luas)
+
+#Pembagian
+kue = 16
+anak = 4
+kuePerAnak = kue / anak
+print("Setiap anak akan mendapatkan bagian kue sebanyak ", kuePerAnak)
+
+#Sisa Bagi / Modulus
+bilangan1 = 14
+bilangan2 = 5
+hasil = bilangan1 % bilangan2
+print("Sisa bagi dari bilangan ", bilangan1, " dan ", bilangan2, " adalah ", hasil)
+
+#Pangkat
+bilangan3 = 8
+bilangan4 = 2
+hasilPangkat = bilangan3 ** bilangan4
+print(hasilPangkat)
+
+#Pembagian Bulat
+print(10//3) 
+#10 dibagi 3 adalah 3.3333. Karena dibulatkan maka akan menghasilkan nilai 3</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+
+<h3>Operator Perbandingan </h3>
+<p>Operator perbandingan (comparison operators) digunakan untuk membandingkan suatu nilai dari masing-masing operan.</p>
+
+
+
+<pre><code class="python">#Ini adalah komentar
+# Tulisan ini tidak akan dieksekusi
+
+#komentar dengan tanda pagar hanya bisa digunakan
+#untuk
+#satu
+#baris
+
+print("Hello World") #ini juga komentar
+
+#print("Welcome")
+
+# komentar bisa berisi spesial karakter !@#$%^&*(),./;'[]\
+
+#mencetak nama
+print("Budi")
+
+#mencetak angka/integer
+print(123)</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<br/>
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./hello-world-python.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./tipe-data-python.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>

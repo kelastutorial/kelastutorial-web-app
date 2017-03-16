@@ -10,17 +10,31 @@ class json extends CI_Controller {
     
     public function index($slug = NULL) {
         $data['json'] = $this->json_model->get_json();
-        
-        $data['json_item'] = $this->json_model->get_json($slug);
-        $this->load->view('templates/header');
-        $this->load->view('tutorials/json/left_sidebar');
+        $data2["meta_desc"] = "JSON adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
+        $data2["title"] = "JSON";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Course",
+          "name": "Tutorial JSON Dasar",
+          "description": "JSON adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $data['item'] = $this->json_model->get_json($slug);
+        $this->load->view('templates/header', $data2);
         $this->load->view('tutorials/json/index', $data);
-        $this->load->view('tutorials/json/right_sidebar');
+        $this->load->view('templates/footer');
     }
     
     public function view($slug = NULL) {
-        $data['json_item'] = $this->json_model->get_json($slug);
-        $this->load->view('templates/header');
+        $data['item'] = $this->json_model->get_json($slug);
+        $this->load->view('templates/header', $data);
         $this->load->view('tutorials/json/left_sidebar');
         $this->load->view('tutorials/json/view', $data);
         $this->load->view('tutorials/json/right_sidebar');
@@ -42,6 +56,9 @@ class json extends CI_Controller {
                 $this->load->library('form_validation');
                 $this->form_validation->set_rules('title', 'Title', 'required');
                 $this->form_validation->set_rules('content', 'Content', 'required');
+                $this->form_validation->set_rules('meta_desc', 'Meta Description', 'required');
+                $this->form_validation->set_rules('published', 'Published', 'required');
+                $this->form_validation->set_rules('last_update', 'Last Update', 'required');
                 
                 if($this->form_validation->run() === FALSE) {
                     $this->load->view('tutorials/json/adminAddPost');
@@ -61,9 +78,12 @@ class json extends CI_Controller {
                 $this->load->library('form_validation');
                 $this->form_validation->set_rules('title', 'Title', 'required');
                 $this->form_validation->set_rules('content', 'Content', 'required');
+                $this->form_validation->set_rules('meta_desc', 'Meta Description', 'required');
+                $this->form_validation->set_rules('published', 'Published', 'required');
+                $this->form_validation->set_rules('last_update', 'Last Update', 'required');
                 
                 if($this->form_validation->run() === FALSE) {
-                    $data['json_item'] = $this->json_model->get_json_id($id);
+                    $data['item'] = $this->json_model->get_json_id($id);
                     $this->load->view('tutorials/json/adminUpdatePost', $data);
                 }else{
                     $this->json_model->update_json($id);

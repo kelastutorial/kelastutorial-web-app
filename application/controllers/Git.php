@@ -10,14 +10,14 @@ class git extends CI_Controller {
     
     public function index($slug = NULL) {
         $data['git'] = $this->git_model->get_git();
-        $data2["meta_desc"] = "Meta desc for git";
+        $data2["meta_desc"] = "Git adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
         $data2["title"] = "Git";
         $data2["structured_data"] = '<script type="application/ld+json">
         {
           "@context": "http://schema.org",
           "@type": "Course",
           "name": "Tutorial Git Dasar",
-          "description": "Tutorial yang membahas tentang software VCS (Version Control System) bernama Git dari level pemula, menengah sampai dengan level mahir.",
+          "description": "Git adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.",
           "provider": {
             "@type": "Organization",
             "name": "Kelastutorial Instructor",
@@ -28,9 +28,8 @@ class git extends CI_Controller {
         ';
         $data['item'] = $this->git_model->get_git($slug);
         $this->load->view('templates/header', $data2);
-        $this->load->view('tutorials/git/left_sidebar');
         $this->load->view('tutorials/git/index', $data);
-        $this->load->view('tutorials/git/right_sidebar');
+        $this->load->view('templates/footer');
     }
     
     public function view($slug = NULL) {

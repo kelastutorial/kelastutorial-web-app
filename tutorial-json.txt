@@ -1,0 +1,624 @@
+Pengenalan JSON
+<p>JSON atau JavaScript Object Notation adalah format pertukaran data berbasis teks yang ringan, mudah dibaca dan ditulis oleh manusia, serta mudah diterjemahkan atau di generate oleh mesin komputer. Format ini dibuat berdasarkan bagian dari Bahasa Pemprograman JavaScript, <a href="http://www.ecma-international.org/publications/files/ecma-st/ECMA-262.pdf" target="_blank">Standar ECMA-262 Edisi ke-3 - Desember 1999</a>.</p>
+
+<p>JSON merupakan format teks yang tidak bergantung pada bahasa pemprograman apapun karena menggunakan gaya bahasa yang umum digunakan oleh programmer keluarga C termasuk C, C++, C#, Java, JavaScript, Perl, Python dll. Oleh karena sifat-sifat tersebut, menjadikan JSON ideal sebagai bahasa pertukaran-data.
+<ol>
+<li>JSON adalah singkatan dari JavaScript Object Notation.</li>
+<li>Format ini ditentukan oleh Douglas Crockford.</li>
+<li>JSON dirancang untuk format pertukaran data yang mudah untuk dibaca manusia.</li>
+<li>JSON diperpanjang (extended) dari bahasa scripting JavaScript.</li>
+<li>Ekstensi nama file-nya adalah .json.</li>
+<li>Uniform Type Identifier adalah public.json.</li>
+</ol>
+</p>
+
+<h3>Pengunaan JSON</h3>
+<p>
+<ol>
+<li>Digunakan saat menulis aplikasi berbasis JavaScript yang mencakup ekstensi browser dan situs web.</li>
+<li>Format JSON digunakan untuk serialisasi dan transmisi data terstruktur melalui koneksi jaringan.</li>
+<li>Digunakan untuk mengirimkan data antara server dan aplikasi web.</li>
+<li>Layanan web dan API menggunakan format JSON untuk menyediakan data publik.</li>
+<li>JSON dapat digunakan untuk bahasa pemrograman modern.</li>
+</ol>
+</p>
+
+<h3>Karakteristik JSON</h3>
+<p>
+<ol>
+<li>JSON mudah untuk dibaca dan ditulis.</li>
+<li>JSON adalah format pertukaran data berbasis teks yang ringan.</li>
+<li>JSON adalah bahasa yang independen.</li>
+</ol>
+</p>
+
+<h3>Contoh sederhana JSON</h3>
+<p>
+Dibawah ini adalah contoh yang menunjukkan bagaimana cara menulis JSON untuk menyimpan informasi tentang daftar mahasiswa.</p>
+
+<pre><code class="json">{
+   "mahasiswa": [
+	
+      {
+         "id":"01",
+         "nim": "0112123123",
+         "nama": "Andi Maulana",
+         "jurusan": "Teknik Informatika"
+      },
+	
+      {
+         "id":"02",
+         "nim": "0112123124",
+         "nama": "Anita Sari",
+         "jurusan": "Teknik Informatika"
+      }
+   ]
+}
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<h3>Contoh JSON pada HTML</h3>
+<p>Dibawah ini adalah contoh penggunaan format JSON pada sebuah dokumen HTML sederhana.</p>
+
+<pre><code class="html">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Contoh penggunaan JSON pada file HTML&lt;/title&gt;	
+    &lt;script language = &quot;javascript&quot; &gt;
+    
+    //contoh penggunaan format data json yang disimpan ke dalan variabel object1
+    var object1 = {
+        &quot;name&quot; : &quot;Andri&quot;,
+        &quot;city&quot; : &quot;Jakarta&quot;
+    };
+    
+    //memanggil variabel yang berisi data dalam bentuk json
+    document.write(&quot;Nama = &quot; + object1.name );
+    document.write(&quot;, Kota = &quot; + object1.city ); 
+
+    &lt;/script&gt;		
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;	
+&lt;/html&gt;
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+<p>
+Setelah Anda menjalankan kode html diatas, Anda akan melihat hasil <code class="syntax">Nama = Andri, Kota = Jakarta</code></p>
+
+
+<br/>
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./syntax-penulisan-json.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+--------------------------------
+Syntax Penulisan JSON
+
+<p>Mari kita belajar tentang syntax dasar dari JSON itu sendiri. Syntax JSON pada dasarnya dianggap sebagai bagian dari syntax Javascript yang meliputih :</p>
+
+<ol>
+<li>Data direpresentasikan dalam pasangan nama / nilai.</li>
+<li>Kurung kurawal dan kurung penutup  {} membungkus JSON dan setiap nama diikuti oleh : (titik dua), masing-masing nama dan nilai dipisahkan dengan tanda , (koma).</li>
+<li>Tanda kurung kotak [] digunakan untuk membungkus array, dimana masing-masing array dipisahkan juga dengan koma
+</ol>
+
+<p>Dibawah ini adalah contoh sederhananya :</p>
+
+<pre><code class="json">{
+   "hewan": [
+	
+      {
+         "id":"01",
+         "nama": "Singa",
+         "jenis": "mamalia",
+         "deskripsi": "Memiliki 4 kaki dengan tubuh besar dan bulu berwarna coklat, pemakan daging",
+      },
+		
+      {
+         "id":"02",
+         "nama": "Kuda",
+         "jenis": "mamalia",
+         "deskripsi": "Memiliki 4 kaki dengan tubuh yang besar, pemakan rumput",
+      },
+		
+      {
+         "id":"03",
+         "nama": "Ular",
+         "jenis": "Reptil",
+         "deskripsi": "Memiliki tubuh yang panjang tanpa kaki, memiliki kulit sisik, pemakan daging"
+      }
+		
+   ]
+}
+
+
+
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+
+<p>JSON mendukung 2 data struktur dibawah ini :</p>
+
+<ol>
+<li>Koleksi (Collection) pasang nama dan nilai. Data struktir ini didukung oleh beberapa bahasa pemrograman yang berbeda.</li>
+<li>List Berurutan (Ordered List) dari sebuah nilai. Ini termasuk array, list, vector atau urutan (sequence).</li>
+</ol>
+<br/>
+<br/>
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./pengenalan-json.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./tipe-data-json.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+
+--------------------
+Tipe Data JSON
+<p>JSON mendukung beberapa tipe data dibawah ini :</p>
+
+<table>
+<tr>
+<th>Tipe Data</th>
+<th>Deskripsi</th>
+</tr>
+<tr>
+<td>Number</td>
+<td>Format Double floating-point presisi di Javascript</td>
+</tr>
+<tr>
+<td>String</td>
+<td>Menyatakan karakter/kalimat bisa berupa huruf angka, dll (diapit tanda " atau ')</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td><code class="syntax">true</code> atau <code class="syntax">false</code></td>
+</tr>
+<tr>
+<td>Array</td>
+<td>Urutan nilai/values yang berurut</td>
+</tr>
+<tr>
+<td>Object</td>
+<td>Collection tidak berurut dari pasangan key:value</td>
+</tr>
+<tr>
+<td>Whitespace</td>
+<td>Dapat digunakan diantara beberapa pasang token</td>
+</tr>
+<tr>
+<td>null</td>
+<td>empty</td>
+</tr>
+</table>
+<br/>
+<h3>Number</h3>
+<ol>
+<li>Format Double floating-point presisi di Javascript dan tergantung dari implementasinya</li>
+<li>Format Octal (Angka berbasis 8) dan Hexadecimal (Angka berbasis 16) tidak digunakan disini.</li>
+<li>Tidak ada <code class="syntax">Nan</code> atau angka yang tak terbatas digunakan di Number.</li>
+</ol>
+<p>Dibawah ini adalah tabel yang menunjukan beberapa type Number :</p>
+<table>
+<tr>
+<th>Type</th>
+<th>Deskripsi</th>
+</tr>
+<tr>
+<td>Integer</td>
+<td>Angka 1-9, 0 dan bilangan positif atau negatif</td>
+</tr>
+<tr>
+<td>Pecahan (Fraction)</td>
+<td>Pecahan (fraction) seperti .7, .4</td>
+</tr>
+<tr>
+<td>Eksponen (Exponent)</td>
+<td>Bilangan eksponen (exponent) seperti e, e+, e-, E, E+, E-</td>
+</tr>
+</table>
+<pSyntax</p>
+<code class="syntax">var nama_objek = { string : nilai_number, .......}</code>
+
+<p>Contoh</p>
+<p>Dibawah ini adalah contoh yang menunjukan tipedata Number</p>
+<pre><code class="json">var obj = {marks: 97}
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+<br/>
+<h3>String</h3>
+<ol>
+<li>String ditulis dalam tanda kutip dua (double quote)</li>
+<li>String juga bisa ditulis dalam tanda kutip satu (single quote)</li>
+</ol>
+<p>Dibawah ini adalah tabel yang menunjukan beberapa type String :</p>
+<table>
+<tr>
+<th>Type</th>
+<th>Deskripsi</th>
+</tr>
+<tr>
+<td>"</td>
+<td>Tanda kutip ganda</td>
+</tr>
+<tr>
+<td>\</td>
+<td>Garis miring terbalik</td>
+</tr>
+<tr>
+<td>/</td>
+<td>Garis miring</td>
+</tr>
+<tr>
+<td>b</td>
+<td>Backspace</td>
+</tr>
+<tr>
+<td>f</td>
+<td>Form Feed</td>
+</tr>
+<tr>
+<td>n</td>
+<td>Baris baru (new line)</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Kembali (return)</td>
+</tr>
+<tr>
+<td>t</td>
+<td>Tab Horisontal</td>
+</tr>
+<tr>
+<td>u</td>
+<td>Empat digit hexadesimal</td>
+</tr>
+</table>
+
+<p>Syntax</p>
+<code class="syntax">var nama_objek = { string : "nilai string", .......}</code>
+
+<p>Contoh</p>
+<p>Dibawah ini adalah contoh yang menunjukan tipedata String</p>
+<pre><code class="json">var obj = {nama: 'Anita'}
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<br/>
+<h3>Boolean</h3>
+<ol>
+<li>Berisi <code class="syntax">true</code> atau <code class="syntax">false</code></li>
+</ol>
+
+<p>Syntax</p>
+<code class="syntax">var nama_objek = { string : true/false, .......}</code>
+
+<p>Contoh</p>
+<p>Dibawah ini adalah contoh yang menunjukan tipedata Boolean</p>
+<pre><code class="json">var obj = {name: 'Anita', nilai: 80, lulus: true}
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+<br/>
+<h3>Array</h3>
+<ol>
+<li>Array adalah kumpulan dari nilai.</li>
+<li>Array diapit tanda kurung kotak (square brackets) yang berarti bahwa array dimulai dengan. <code class="syntax">[</code> dan berakhir dengan <code class="syntax">]</code></li>
+<li>Setiap nilai dipisahkan dengan tanda , (koma).</li>
+<li>Indeks array bisa dimulai dari 0 atau 1.</li>
+<li>Array biasa digunakan ketika nama key adalah angka berurutan</li>
+</ol>
+<p>Syntax</p>
+<code class="syntax">[ nilai, .......]</code>
+
+<p>Contoh</p>
+<p>Dibawah ini adalah contoh yang menunjukan tipedata Array</p>
+<pre><code class="json">{
+   "buku": [
+      { "bahasa":"Java" , "edisi":"pertama" },
+      { "bahasa":"C++" , "edisi":"kedua" },
+      { "bahasa":"C" , "edisi":"ketiga" }
+   ]
+}
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+<br/>
+
+<h3>Objek</h3>
+<ol>
+<li>Objek adalah list yang tidak berurutan yang terdiri dari sepasang nama/nilai</li>
+<li>Objek diapit tanda kurung kerting (curly brackets) yang berarti bahwa array dimulai dengan. <code class="syntax">{</code> dan berakhir dengan <code class="syntax">}</code></li>
+<li>Setiap nama diikuti dengan ":" (titik dua) dan setiap pasangan nama & nilai dipisahkan dengan tanda , (koma).</li>
+<li>Key harus berisi string dan berbeda antara key satu dengan key lainya.</li>
+<li>Array biasa digunakan ketika nama key adalah arbitrary strings</li>
+</ol>
+<p>Syntax</p>
+<code class="syntax">{ string : nilai, .......}</code>
+
+<p>Contoh</p>
+<pre><code class="json">{
+   "id": "011A",
+   "bahasa": "Javascript",
+   "harga": 45000,
+}
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<br/>
+<h3>Whitespace</h3>
+<ol>
+<li>Dapat disisipkan di antara setiap pasangan token. Whitespace dapat digunakan agar code mudah dibaca.</li>
+</ol>
+<p>Syntax</p>
+<code class="syntax">null</code>
+
+<p>Contoh</p>
+<pre><code class="json">var i = " sarah";
+var j = " sanny"
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<br/>
+<h3>null</h3>
+<ol>
+<li>Berarti kosong</li>
+</ol>
+<p>Syntax</p>
+<code class="syntax">{string:" ",....}</code>
+
+<p>Contoh</p>
+<pre><code class="javascript">var i = null;
+
+if(i == 1){
+   document.write("value is 1");
+}
+else{
+   document.write("value is null");
+}
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+
+<br/>
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./syntax-penulisan-json.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./objek-json.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+
+
+----------------------------
+Object JSON
+<h3>Pembuatan Objek Simpel</h3>
+<p>Objek JSON  dapat dibuat dengan Javascript. Dibawah ini adalah beberapa cara membuat objek JSON menggunakan Javascript.</p>
+<ol>
+<li>Contoh pembuatan objek kosong <code class="syntax">var ObjekJSON = {};</code></li>
+<li>Contoh pembuatan objek baru <code class="syntax">var ObjekJSON = new Object();</code></li>
+<li>Pembuatan objek dengan atribut book name dengan nilai dalam string, atribut harga dengan nilai numeric.<code class="syntax">var JSONObj = { "bookname ":"VB BLACK BOOK", "price":500 };</code></li>
+</ol>
+
+<p>Dibawah ini adalah contoh yang menunjukan pembuatan sebuah objek di Javascript menggunakan JSON.</p>
+<pre><code class="json">&lt;html&gt;
+   &lt;head&gt;
+      &lt;title&gt;Pembuatan Objek dengan Javascript&lt;/title&gt;
+	
+      &lt;script language = &quot;javascript&quot;&gt;
+
+         var ObjekJSON = { &quot;nama&quot; : &quot;kelastutorial.com&quot;, &quot;tahun&quot;  : 2017 };
+		
+         document.write(&quot;&lt;h1&gt;Contoh JSON menggunakan Javascript&lt;/h1&gt;&quot;);
+         document.write(&quot;&lt;br&gt;&quot;);
+         document.write(&quot;&lt;h3&gt;Nama Website = &quot;+ObjekJSON.nama+&quot;&lt;/h3&gt;&quot;);  
+         document.write(&quot;&lt;h3&gt;Tahun = &quot;+ObjekJSON.tahun+&quot;&lt;/h3&gt;&quot;);  
+
+      &lt;/script&gt;
+		
+   &lt;/head&gt;
+	
+   &lt;body&gt;
+   &lt;/body&gt;
+	
+&lt;/html&gt;
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<p>Sekarang mari kita mencoba membuka Objek JSON menggunakan Firefox, Chrome atau browser lain yang mengizinkan penggunaan Javascript. Hasilnya akan seperti dibawah ini :</p>
+
+<p><code>Contoh JSON menggunakan Javascript<br/>
+Nama Website = kelastutorial.com<br/>
+Tahun = 2017</code></p>
+
+
+<h3>Pembuatan Objek Array</h3>
+<p>Dibawah ini adalah contoh pembuatan objek array pada javascript menggunakan JSON.</p>
+
+<pre><code class="json">&lt;html&gt;
+   &lt;head&gt;
+      &lt;title&gt;Pembuatan objek array pada javascript menggunakan JSON&lt;/title&gt;
+		
+      &lt;script language = &quot;javascript&quot; &gt;
+
+         document.writeln(&quot;&lt;h2&gt;Objek Array JSON&lt;/h2&gt;&quot;);
+
+         var books = { &quot;Python&quot; : [ 
+            { &quot;Nama&quot;  : &quot;Python Made Simple&quot;, &quot;Harga&quot; : 700 },
+            { &quot;Nama&quot;  : &quot;Guide to Python&quot;, &quot;Harga&quot; : 400 }],  
+				
+            &quot;PHP&quot;  : [
+               { &quot;Nama&quot;  : &quot;PHP for the Impatient&quot;, &quot;Harga&quot; : 1000 }, 
+               { &quot;Nama&quot;  : &quot;PHP in Depth&quot;, &quot;Harga&quot; : 1300 }]    
+         }    
+
+         var i = 0
+         document.writeln(&quot;&lt;table border = &#039;2&#039;&gt;&lt;tr&gt;&quot;);
+			
+         for(i = 0;i&lt;books.Python.length;i++){	
+            document.writeln(&quot;&lt;td&gt;&quot;);
+            document.writeln(&quot;&lt;table border = &#039;1&#039; width = 100 &gt;&quot;);
+            document.writeln(&quot;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nama&lt;/b&gt;&lt;/td&gt;&lt;td width = 50&gt;&quot; + books.Python[i].Nama+&quot;&lt;/td&gt;&lt;/tr&gt;&quot;);
+            document.writeln(&quot;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Harga&lt;/b&gt;&lt;/td&gt;&lt;td width = 50&gt;&quot; + books.Python[i].Harga +&quot;&lt;/td&gt;&lt;/tr&gt;&quot;);
+            document.writeln(&quot;&lt;/table&gt;&quot;);
+            document.writeln(&quot;&lt;/td&gt;&quot;);
+         }
+
+         for(i = 0;i&lt;books.PHP.length;i++){
+            document.writeln(&quot;&lt;td&gt;&quot;);
+            document.writeln(&quot;&lt;table border = &#039;1&#039; width = 100 &gt;&quot;);
+            document.writeln(&quot;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nama&lt;/b&gt;&lt;/td&gt;&lt;td width = 50&gt;&quot; + books.PHP[i].Nama+&quot;&lt;/td&gt;&lt;/tr&gt;&quot;);
+            document.writeln(&quot;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Harga&lt;/b&gt;&lt;/td&gt;&lt;td width = 50&gt;&quot; + books.PHP[i].Harga+&quot;&lt;/td&gt;&lt;/tr&gt;&quot;);
+            document.writeln(&quot;&lt;/table&gt;&quot;);
+            document.writeln(&quot;&lt;/td&gt;&quot;);
+         }
+			
+         document.writeln(&quot;&lt;/tr&gt;&lt;/table&gt;&quot;);
+
+      &lt;/script&gt;
+
+   &lt;/head&gt;
+	
+   &lt;body&gt;
+   &lt;/body&gt;
+	
+&lt;/html&gt;
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<p>Buka di browser dan Anda akan melihat hasilnya seperti dibawah ini :</p>
+<img src="../images/contoh objek array pada JSON.png"/>
+
+
+<br/>
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./tipe-data-json.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./schema-json.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
+
+
+
+
+
+-----------------------
+Schema JSON
+<p>Skema JSON adalah sebuah spesifikasi untuk JSON berdasarkan format untuk mendefinisikan struktur dari data JSON.</p>
+<p>Dibawah ini adalah ciri-ciri Skema JSON :</p>
+<ol>
+<li>Contoh pembuatan objek kosong <code class="syntax">var ObjekJSON = {};</code></li>
+<li>Contoh pembuatan objek baru <code class="syntax">var ObjekJSON = new Object();</code></li>
+<li>Pembuatan objek dengan atribut book name dengan nilai dalam string, atribut harga dengan nilai numeric.<code class="syntax">var JSONObj = { "bookname ":"VB BLACK BOOK", "price":500 };</code></li>
+</ol>
+
+<p>Dibawah ini adalah contoh yang menunjukan pembuatan sebuah objek di Javascript menggunakan JSON.</p>
+<pre><code class="json"><html>
+   <head>
+      <title>Pembuatan Objek dengan Javascript</title>
+	
+      <script language = "javascript">
+
+         var ObjekJSON = { "nama" : "kelastutorial.com", "tahun"  : 2017 };
+		
+         document.write("<h1>Contoh JSON menggunakan Javascript</h1>");
+         document.write("<br>");
+         document.write("<h3>Nama Website = "+ObjekJSON.nama+"</h3>");  
+         document.write("<h3>Tahun = "+ObjekJSON.tahun+"</h3>");  
+
+      </script>
+		
+   </head>
+	
+   <body>
+   </body>
+	
+</html>
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<p>Sekarang mari kita mencoba membuka Objek JSON menggunakan Firefox, Chrome atau browser lain yang mengizinkan penggunaan Javascript. Hasilnya akan seperti dibawah ini :</p>
+
+<p><code>Contoh JSON menggunakan Javascript<br/>
+Nama Website = kelastutorial.com<br/>
+Tahun = 2017</code></p>
+
+
+<h3>Pembuatan Objek Array</h3>
+<p>Dibawah ini adalah contoh pembuatan objek array pada javascript menggunakan JSON.</p>
+
+<pre><code class="json"><html>
+   <head>
+      <title>Pembuatan objek array pada javascript menggunakan JSON</title>
+		
+      <script language = "javascript" >
+
+         document.writeln("<h2>Objek Array JSON</h2>");
+
+         var books = { "Python" : [ 
+            { "Nama"  : "Python Made Simple", "Harga" : 700 },
+            { "Nama"  : "Guide to Python", "Harga" : 400 }],  
+				
+            "PHP"  : [
+               { "Nama"  : "PHP for the Impatient", "Harga" : 1000 }, 
+               { "Nama"  : "PHP in Depth", "Harga" : 1300 }]    
+         }    
+
+         var i = 0
+         document.writeln("<table border = '2'><tr>");
+			
+         for(i = 0;i<books.Python.length;i++){	
+            document.writeln("<td>");
+            document.writeln("<table border = '1' width = 100 >");
+            document.writeln("<tr><td><b>Nama</b></td><td width = 50>" + books.Python[i].Nama+"</td></tr>");
+            document.writeln("<tr><td><b>Harga</b></td><td width = 50>" + books.Python[i].Harga +"</td></tr>");
+            document.writeln("</table>");
+            document.writeln("</td>");
+         }
+
+         for(i = 0;i<books.PHP.length;i++){
+            document.writeln("<td>");
+            document.writeln("<table border = '1' width = 100 >");
+            document.writeln("<tr><td><b>Nama</b></td><td width = 50>" + books.PHP[i].Nama+"</td></tr>");
+            document.writeln("<tr><td><b>Harga</b></td><td width = 50>" + books.PHP[i].Harga+"</td></tr>");
+            document.writeln("</table>");
+            document.writeln("</td>");
+         }
+			
+         document.writeln("</tr></table>");
+
+      </script>
+
+   </head>
+	
+   <body>
+   </body>
+	
+</html>
+</code></pre><div class="github-button">View in github - <a target="_blank" href="https://github.com/purwanto1337/belajarPython/blob/master/python_dasar/hello_world.py">python/pengenalan_python.py</a></div>
+
+<p>Buka di browser dan Anda akan melihat hasilnya seperti dibawah ini :</p>
+<img src="../images/contoh objek array pada JSON.png"/>
+
+
+<br/>
+<div class="row">
+<div class="col s6 m6 l6">
+<a href="./tipe-data-json.html" class="hoverable waves-effect waves-light red lighten-2 navigation-button"><i class="material-icons left">fast_rewind</i>
+PREV</a>
+</div>
+<div class="col s6 m6 l6" style="text-align:right">
+<a href="./schema-json.html" class="hoverable waves-effect waves-light red darken-1 navigation-button">
+NEXT<i class="material-icons right">fast_forward</i></a>
+</div>
+</div>
