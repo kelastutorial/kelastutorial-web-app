@@ -26,7 +26,7 @@
                 </div>
                 <div class="col s12 m6 l6">
                     <div class="center" style="padding:30px 0 30px 0;">
-                        <img style="width:60%;" alt="logo java" title="logo java" src="https://kelastutorial.com/images/java-logo.png"/>
+                        <img style="width:60%;" alt="logo java" title="logo java" src="https://kelastutorial.com/images/logo-bahasa-pemrograman-java.jpg"/>
                     </div>
                     <span class="tutorials-index-category">LEVEL</span><br/>
                     <span style="font-weight:600;color:#444;">PEMULA</span><br/><br/>
