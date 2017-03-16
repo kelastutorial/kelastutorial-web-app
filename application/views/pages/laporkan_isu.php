@@ -12,7 +12,7 @@
                 <li><a href="<?php echo site_url('about'); ?>">Tentang Kami</a></li>
                 <li><a href="<?php echo site_url('site-terms'); ?>">Syarat dan Ketentuan</a></li>
                 <li><a href="<?php echo site_url('privacy-policy'); ?>">Kebijakan Privasi</a></li>
-                <li><a href="<?php echo site_url('mailto:support@kelastutorial.com'); ?>">Hubungi Kami</a></li>
+                <li><a href="mailto:support@kelastutorial.com">Hubungi Kami</a></li>
                 <li><a href="<?php echo site_url('program'); ?>">Program</a></li>
                 <li><a href="<?php echo site_url('partner'); ?>">Partner</a></li>
                 <li><a href="<?php echo site_url('reference'); ?>">Referensi</a></li>
