@@ -1,7 +1,7 @@
         
         <div style="background-color:#fafbfc;t">
             <div class="container center" style="padding:150px 0 130px 0;">
-                <h2 class="tutorials-index-head-two">Tutorial HTML</h2>
+                <h2 class="tutorials-index-head-two">Tutorial Java</h2>
                 <p>Pelajari kemampuan dasar untuk membuat halaman atau aplikasi website modern dengan HTML.</p>
             </div>
         </div>
@@ -16,7 +16,7 @@
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                             <div class="col s12 m12 l6">
-                                <a href="./java/pengertian-java.java" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
+                                <a href="./java/pengertian-java.java" style="width:100%;margin-bottom:13px;background-color:#0375BC;" class="waves-effect waves-light btn-large"><i class="material-icons right">school</i>pelajari</a>
                             </div>
                             <div class="col s12 m12 l6">
                                 <a href="#java-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class=" deep-orange darken-1 syllabus-tutorial-container" id="java-syllabus">
+        <div class=" syllabus-tutorial-container" style="background-color:#0375BC;" id="java-syllabus">
             <div class="container">
                 <h4 class="tutorials-index-head-four" style="color:#fff;text-align:center">Apa yang akan Anda pelajari ?</h4>
                 <div style="max-width:850px;padding:20px 0 20px 0;margin:0 auto;">
@@ -119,7 +119,7 @@
                     <div class="row" style="margin-top:110px;">
                         <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                         <div class="col s12 m6 l6">
-                            <a href="./java/pengertian-java.java" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
+                            <a href="./java/pengertian-java.java" style="width:100%;margin-bottom:13px;background-color:#0375BC;" class="waves-effect waves-light btn-large "><i class="material-icons right">school</i>pelajari</a>
                         </div>
                         <div class="col s12 m6 l6">
                             <a href="#java-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
