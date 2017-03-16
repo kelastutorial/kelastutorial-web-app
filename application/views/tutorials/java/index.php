@@ -26,7 +26,7 @@
                 </div>
                 <div class="col s12 m6 l6">
                     <div class="center" style="padding:30px 0 30px 0;">
-                        <img style="width:60%;" alt="logo java" title="logo java" src="https://kelastutorial.com/images/logo-bahasa-pemrograman-java.jpg"/>
+                        <img style="width:90%;" alt="logo java" title="logo java" src="https://kelastutorial.com/images/logo-bahasa-pemrograman-java.jpg"/>
                     </div>
                     <span class="tutorials-index-category">LEVEL</span><br/>
                     <span style="font-weight:600;color:#444;">PEMULA</span><br/><br/>
@@ -96,7 +96,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Tingkat Menengah</div>
+                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Java Tingkat Menengah</div>
                             <div class="collapsible-body">
                                 <div class="row syllabus-content">
                                     <div class="col s6 m6 l6">
@@ -119,7 +119,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Tingkat Lanjut</div>
+                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Java Tingkat Lanjut</div>
                             <div class="collapsible-body">
                                 <div class="row syllabus-content">
                                     <div class="col s6 m6 l6">

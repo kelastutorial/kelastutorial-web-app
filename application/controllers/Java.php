@@ -10,14 +10,14 @@ class java extends CI_Controller {
     
     public function index($slug = NULL) {
         $data['java'] = $this->java_model->get_java();
-        $data2["meta_desc"] = "Java adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
-        $data2["title"] = "Java";
+        $data2["meta_desc"] = "Java adalah bahasa pemrograman komputer umum general-purpose yang berbasis class dan berorientasi objek. Pada tutorial ini Anda akan mempelajari penggunaan bahasa pemrograman Java secara mendasar. Anda akan mulai belajar dari syntax dasar, tipe data, variabel, encapsulation sampai dengan level mahir.";
+        $data2["title"] = "Tutorial Java";
         $data2["structured_data"] = '<script type="application/ld+json">
         {
           "@context": "http://schema.org",
           "@type": "Course",
-          "name": "Tutorial Java Dasar",
-          "description": "Java adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.",
+          "name": "Tutorial Bahasa Pemrograman Java",
+          "description": "Java adalah bahasa pemrograman komputer umum general-purpose yang berbasis class dan berorientasi objek. Pada tutorial ini Anda akan mempelajari penggunaan bahasa pemrograman Java secara mendasar. Anda akan mulai belajar dari syntax dasar, tipe data, variabel, encapsulation sampai dengan level mahir.",
           "provider": {
             "@type": "Organization",
             "name": "Kelastutorial Instructor",

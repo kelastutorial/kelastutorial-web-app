@@ -11,7 +11,7 @@ class html extends CI_Controller {
     public function index($slug = NULL) {
         $data['html'] = $this->html_model->get_html();
         $data2["meta_desc"] = "HTML adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
-        $data2["title"] = "HTML";
+        $data2["title"] = "Tutorial HTML";
         $data2["structured_data"] = '<script type="application/ld+json">
         {
           "@context": "http://schema.org",
