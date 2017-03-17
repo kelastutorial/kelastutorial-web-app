@@ -17,7 +17,7 @@
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                             <div class="col s12 m12 l6">
-                                <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;background-color: #FFDB65;" class="waves-effect waves-light btn-large "><i class="material-icons right">school</i>pelajari</a>
+                                <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large amber darken-1"><i class="material-icons right">school</i>pelajari</a>
                             </div>
                             <div class="col s12 m12 l6">
                                 <a href="#python-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="col s12 m6 l6">
                     <div class="center" style="padding:30px 0 30px 0;">
-                        <img style="width:60%;" alt="logo python" title="logo python" src="<?php echo site_url('images/logo-python-standard.jpg'); ?>"/>
+                        <img style="width:90%;" alt="logo python" title="logo python" src="<?php echo site_url('images/logo-python-standard.jpg'); ?>"/>
                     </div>
                     <span class="tutorials-index-category">LEVEL</span><br/>
                     <span style="font-weight:600;color:#444;">PEMULA</span><br/><br/>
@@ -120,7 +120,7 @@
                     <div class="row" style="margin-top:110px;">
                         <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                         <div class="col s12 m6 l6">
-                            <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;background-color: #FFDB65;" class="waves-effect waves-light btn-large  "><i class="material-icons right">school</i>pelajari</a>
+                            <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large amber darken-1"><i class="material-icons right">school</i>pelajari</a>
                         </div>
                         <div class="col s12 m6 l6">
                             <a href="#python-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
