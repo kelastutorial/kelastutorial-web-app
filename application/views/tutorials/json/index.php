@@ -25,7 +25,7 @@
                 </div>
                 <div class="col s12 m6 l6">
                     <div class="center" style="padding:30px 0 30px 0;">
-                        <img style="width:90%;" alt="logo json" title="logo json" src="https://kelastutorial.com/images/logo-json.gif"/>
+                        <img style="width:59%;" alt="logo json" title="logo json" src="https://kelastutorial.com/images/logo-json.gif"/>
                     </div>
                     <span class="tutorials-index-category">LEVEL</span><br/>
                     <span style="font-weight:600;color:#444;">MENENGAH</span><br/><br/>
