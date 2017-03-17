@@ -1,7 +1,7 @@
         
         <div style="background-color:#fafbfc;t">
             <div class="container center" style="padding:150px 0 130px 0;">
-                <h2 class="tutorials-index-head-two">Tutorial HTML</h2>
+                <h2 class="tutorials-index-head-two">Tutorial Python</h2>
                 <p>Pelajari kemampuan dasar untuk membuat halaman atau aplikasi website modern dengan HTML.</p>
             </div>
         </div>
