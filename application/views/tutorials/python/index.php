@@ -3,7 +3,7 @@
             <div class="container center" style="padding:150px 0 130px 0;">
                 <img width="100px" src="<?php echo site_url('images/tutorial-python-logo.png'); ?>" alt="Logo Python" title="Logo Python"/>
                 <h2 class="tutorials-index-head-two">Tutorial Python</h2>
-                <p style="font-size:20px;">Python adalah bahasa serbaguna yang digunakan dalam berbagai aplikasi.<br/>Dengan sintaks yang simpel, sederhana dan dokumentasi yang lengkap <br/>membuat Python menjadi bahasa pemrograman yang mudah untuk dipelajari.</p>
+                <p style="font-size:20px;">Python adalah bahasa serbaguna yang digunakan dalam berbagai aplikasi.Dengan sintaks yang simpel, sederhana dan dokumentasi yang lengkap membuat Python menjadi bahasa pemrograman yang mudah untuk dipelajari.</p>
             </div>
         </div>
         <div class="container about-this-tutorial-container">
@@ -17,7 +17,7 @@
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari bahasa pemrograman Python sekarang dan kembangkan aplikasi tercanggih buatan Anda.</p>
                             <div class="col s12 m12 l6">
-                                <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large amber darken-1"><i class="material-icons right">school</i>pelajari</a>
+                                <a href="./python/pengertian-python.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large amber darken-1"><i class="material-icons right">school</i>pelajari</a>
                             </div>
                             <div class="col s12 m12 l6">
                                 <a href="#python-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
@@ -30,7 +30,7 @@
                         <img style="width:90%;" alt="logo python" title="logo python" src="<?php echo site_url('images/logo-python-standard.jpg'); ?>"/>
                     </div>
                     <span class="tutorials-index-category">LEVEL</span><br/>
-                    <span style="font-weight:600;color:#444;">PEMULA</span><br/><br/>
+                    <span style="font-weight:600;color:#444;">PEMULA, MENENGAH, LANJUTAN</span><br/><br/>
                     <span class="tutorials-index-category">KLASIFIKASI</span><br/>
                     <span style="font-weight:600;color:#444;">BAHASA PEMROGRAMAN</span>
                 </div>
@@ -47,9 +47,12 @@
                                 <div class="row syllabus-content">
                                     <div class="col s12 m6 l6">
                                         <ol type="i">
-                                            <li><a href="./python/pengertian-python.python">Pengertian HTML</a></li>
-                                            <li><a href="#">Sejarah HTML</a></li>
-                                            <li><a href="#">Versi HTML</a></li>
+                                            <li><a href="./python/pengertian-python.python">Pengertian Python</a></li>
+                                            <li><a href="#">Sejarah Python</a></li>
+                                            <li><a href="#">Versi Python</a></li>
+                                            <li><a href="#">Instalasi Python</a></li>
+                                            <li><a href="#">Menjalankan Python</a></li>
+                                            <li><a href="#">IDE Python</a></li>
                                         </ol>
                                     </div>
                                     <div class="col s12 m6 l6">
@@ -59,44 +62,74 @@
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Dasar</div>
+                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Python Dasar</div>
                             <div class="collapsible-body">
                                 <div class="row syllabus-content">
                                     <div class="col s6 m6 l6">
                                         <ol type="i">
-                                            <li><a href="#">Syntax Dasar HTML</a></li>
-                                            <li><a href="#">Elemen HTML</a></li>
-                                            <li><a href="#">Atribut HTML</a></li>
-                                            <li><a href="#">Atribut Khusus HTML</a></li>
-                                            <li><a href="#">Event HTML</a></li>
+                                            <li><a href="#">Syntax Dasar Python</a></li>
+                                            <li><a href="#">Komentar Python</a></li>
+                                            <li><a href="#">Tipe Data Python</a></li>
+                                            <li><a href="#">Variabel Python</a></li>
+                                            <li><a href="#">Operator Python</a></li>
+                                            <li><a href="#">If Else Python</a></li>
+                                            <li><a href="#">Nested If Python</a></li>
+                                            <li><a href="#">Pengulangan Python</a></li>
+                                            <li><a href="#">Numbers Python</a></li>
                                         </ol>
                                     </div>
                                     <div class="col s6 m6 l6">
                                         <ol type="i">
-                                            <li><a href="#">Form HTML</a></li>
-                                            <li><a href="#">SVG HTML</a></li>
-                                            <li><a href="#">Layout HTML</a></li>
-                                            <li><a href="#">Audio HTML</a></li>
-                                            <li><a href="#">Video HTML</a></li>
+                                            <li><a href="#">Strings Python</a></li>
+                                            <li><a href="#">Lists Python</a></li>
+                                            <li><a href="#">Tuples Python</a></li>
+                                            <li><a href="#">Dictionary Python</a></li>
+                                            <li><a href="#">Tanggal &amp; Waktu Python</a></li>
+                                            <li><a href="#">Functions Python</a></li>
+                                            <li><a href="#">Modules Python</a></li>
+                                            <li><a href="#">Files I/O Python</a></li>
+                                            <li><a href="#">Exception Python</a></li>
                                         </ol>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>HTML Tingkat Lanjut</div>
+                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Python Tingkat Menengah</div>
                             <div class="collapsible-body">
                                 <div class="row syllabus-content">
                                     <div class="col s6 m6 l6">
                                         <ol type="i">
-                                            <li><a href="#">Geolocation HTML</a></li>
-                                            <li><a href="#">Microdata HTML</a></li>
-                                            <li><a href="#">Drag &amp; Drop HTML</a></li>
-                                            <li><a href="#">Layout Responsive HTML</a></li>
+                                            <li><a href="#">Objek dan Class Python</a></li>
+                                            <li><a href="#">Reg Expressions Python</a></li>
                                         </ol>
                                     </div>
                                     <div class="col s6 m6 l6">
-                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Python Tingkat Lanjut</div>
+                            <div class="collapsible-body">
+                                <div class="row syllabus-content">
+                                    <div class="col s6 m6 l6">
+                                        <ol type="i">
+                                            <li><a href="#">CGI Programming Python</a></li>
+                                            <li><a href="#">Akses Database dengan Python</a></li>
+                                            <li><a href="#">Networking/Jaringan dengan Python</a></li>
+                                            <li><a href="#">Email dengan Python</a></li>
+                                            <li><a href="#">Multithreading Python</a></li>
+                                        </ol>
+                                    </div>
+                                    <div class="col s6 m6 l6">
+                                        <ol type="i">
+                                            <li><a href="#">GUI Programming Python</a></li>
+                                            <li><a href="#">Framework Python</a></li>
+                                            <li><a href="#">Website dengan Python</a></li>
+                                            <li><a href="#">Data Mining Python</a></li>
+                                            <li><a href="#">Machine Learning Python</a></li>
+                                        </ol>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +153,7 @@
                     <div class="row" style="margin-top:110px;">
                         <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari bahasa pemrograman Python sekarang dan kembangkan aplikasi tercanggih buatan Anda.</p>
                         <div class="col s12 m6 l6">
-                            <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large amber darken-1"><i class="material-icons right">school</i>pelajari</a>
+                            <a href="./python/pengertian-python.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large amber darken-1"><i class="material-icons right">school</i>pelajari</a>
                         </div>
                         <div class="col s12 m6 l6">
                             <a href="#python-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
