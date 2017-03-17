@@ -11,7 +11,7 @@ class git extends CI_Controller {
     public function index($slug = NULL) {
         $data['git'] = $this->git_model->get_git();
         $data2["meta_desc"] = "Git adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
-        $data2["title"] = "Git";
+        $data2["title"] = "Tutorial Git";
         $data2["structured_data"] = '<script type="application/ld+json">
         {
           "@context": "http://schema.org",
