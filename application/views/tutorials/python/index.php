@@ -10,14 +10,14 @@
             <div class="row">
                 <div class="col s12 m6 l6">
                     <div class="about-this-tutorial">
-                        <h4 class="tutorials-index-head-four" style="color:#E44D26;">Tentang Bahasa HTML</h4>
+                        <h4 class="tutorials-index-head-four" style="color:#E44D26;">Tentang Bahasa Python</h4>
                         <p>HyperText Markup Language (HTML) adalah sebuah standar bahasa markup untuk membuat sebuah halaman web atau aplikasi web. HTML biasanya di kombinasikan dengan Cascading Style Sheets (CSS) dan Javascript agar halaman atau aplikasi website menjadi lebih menarik dan berguna. Dokumen HTML bekerja dengan sangat sederhana, web browser menerima dokumen HTML dari webserver atau dari penyimpanan lokal kemudian me-rendernya menjadi halaman website yang diiginkan.</p>
                         <p>Pada tutorial ini Anda akan mempelajari bagaimana cara membuat halaman website statis dengan HTML. Anda akan mulai belajar dari syntax dasar, elemen-elemen HTML, layout dan pengetahuan dasar lainya tentang HTML.</p>
                         <p>Anda juga akan mempelajari bagaimana membuat website yang responsive, dimana halaman website akan tetap terlihat bagus saat dilihat di Komputer Desktop maupun di Tablet atau di Smartphone</p>
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                             <div class="col s12 m12 l6">
-                                <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
+                                <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;background-color: #FFDB65;" class="waves-effect waves-light btn-large "><i class="material-icons right">school</i>pelajari</a>
                             </div>
                             <div class="col s12 m12 l6">
                                 <a href="#python-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
@@ -27,16 +27,16 @@
                 </div>
                 <div class="col s12 m6 l6">
                     <div class="center" style="padding:30px 0 30px 0;">
-                        <img style="width:60%;" alt="logo python" title="logo python" src="https://kelastutorial.com/images/python-logo.png"/>
+                        <img style="width:60%;" alt="logo python" title="logo python" src="<?php echo site_url('images/logo-python-standard.jpg'); ?>"/>
                     </div>
                     <span class="tutorials-index-category">LEVEL</span><br/>
                     <span style="font-weight:600;color:#444;">PEMULA</span><br/><br/>
                     <span class="tutorials-index-category">KLASIFIKASI</span><br/>
-                    <span style="font-weight:600;color:#444;">PENGEMBANGAN WEB</span>
+                    <span style="font-weight:600;color:#444;">BAHASA PEMROGRAMAN</span>
                 </div>
             </div>
         </div>
-        <div class=" deep-orange darken-1 syllabus-tutorial-container" id="python-syllabus">
+        <div style="background-color: #224969;" class="syllabus-tutorial-container" id="python-syllabus">
             <div class="container">
                 <h4 class="tutorials-index-head-four" style="color:#fff;text-align:center">Apa yang akan Anda pelajari ?</h4>
                 <div style="max-width:850px;padding:20px 0 20px 0;margin:0 auto;">
@@ -120,7 +120,7 @@
                     <div class="row" style="margin-top:110px;">
                         <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
                         <div class="col s12 m6 l6">
-                            <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange darken-1"><i class="material-icons right">school</i>pelajari</a>
+                            <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;background-color: #FFDB65;" class="waves-effect waves-light btn-large  "><i class="material-icons right">school</i>pelajari</a>
                         </div>
                         <div class="col s12 m6 l6">
                             <a href="#python-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>

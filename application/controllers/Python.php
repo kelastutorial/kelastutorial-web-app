@@ -11,7 +11,7 @@ class python extends CI_Controller {
     public function index($slug = NULL) {
         $data['python'] = $this->python_model->get_python();
         $data2["meta_desc"] = "Python adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
-        $data2["title"] = "Python";
+        $data2["title"] = "Tutorial Python";
         $data2["structured_data"] = '<script type="application/ld+json">
         {
           "@context": "http://schema.org",
