@@ -3,19 +3,19 @@
             <div class="container center" style="padding:150px 0 130px 0;">
                 <img width="100px" src="<?php echo site_url('images/tutorial-python-logo.png'); ?>" alt="Logo Python" title="Logo Python"/>
                 <h2 class="tutorials-index-head-two">Tutorial Python</h2>
-                <p>Pelajari kemampuan dasar untuk membuat halaman atau aplikasi website modern dengan HTML.</p>
+                <p>Python adalah bahasa serbaguna yang digunakan dalam berbagai aplikasi. Dengan sintaks yang simpel, sederhana dan dokumentasi yang lengkap membuat Python menjadi bahasa pemrograman yang mudah untuk dipelajari.</p>
             </div>
         </div>
         <div class="container about-this-tutorial-container">
             <div class="row">
                 <div class="col s12 m6 l6">
                     <div class="about-this-tutorial">
-                        <h4 class="tutorials-index-head-four" style="color:#E44D26;">Tentang Bahasa Python</h4>
-                        <p>HyperText Markup Language (HTML) adalah sebuah standar bahasa markup untuk membuat sebuah halaman web atau aplikasi web. HTML biasanya di kombinasikan dengan Cascading Style Sheets (CSS) dan Javascript agar halaman atau aplikasi website menjadi lebih menarik dan berguna. Dokumen HTML bekerja dengan sangat sederhana, web browser menerima dokumen HTML dari webserver atau dari penyimpanan lokal kemudian me-rendernya menjadi halaman website yang diiginkan.</p>
-                        <p>Pada tutorial ini Anda akan mempelajari bagaimana cara membuat halaman website statis dengan HTML. Anda akan mulai belajar dari syntax dasar, elemen-elemen HTML, layout dan pengetahuan dasar lainya tentang HTML.</p>
-                        <p>Anda juga akan mempelajari bagaimana membuat website yang responsive, dimana halaman website akan tetap terlihat bagus saat dilihat di Komputer Desktop maupun di Tablet atau di Smartphone</p>
+                        <h4 class="tutorials-index-head-four" style="color:#224969;">Tentang Bahasa Python</h4>
+                        <p>Python adalah bahasa pemrograman interpretatif multiguna. Tidak seperti bahasa lain yang susah untuk dibaca dan dipahami, python lebih menekankan pada keterbacaan kode agar lebih mudah untuk memahami sintaks. Hal ini membuat Python sangat mudah dipelajari baik untuk pemula maupun untuk yang sudah menguasai bahasa pemrograman lain.</p>
+                        <p>Mulailah mempelajari bahasa pemrograman Python. Buat dan bagikan proyek life-hacking python terbaik Anda.</p>
+                        <p>Pada tutorial ini Anda akan mempelajari penggunakan bahasa python mulai dari hal yang mendasar sampai dengan tingkat lanjutan.</p>
                         <div class="row" style="margin-top:50px;">
-                            <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
+                            <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari bahasa pemrograman Python sekarang dan kembangkan aplikasi tercanggih buatan Anda.</p>
                             <div class="col s12 m12 l6">
                                 <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large amber darken-1"><i class="material-icons right">school</i>pelajari</a>
                             </div>
@@ -112,13 +112,13 @@
                     <p style="margin-top:35px;">Untuk dapat dengan cepat mengikuti tutorial ini, Anda disarankan untuk menguasai terlebih dahulu beberapa persyaratan minimal dibawah ini :</p>
                     <p>
                         <ol type="i">
-                            <li>Aktif dan menyukai dunia internet</li>
-                            <li>Menguasai dasar jaringan komputer</li>
-                            <li>Menguasai pengetahuan dasar internet</li>
+                            <li>Mengetahui bagaimana komputer bekerja</li>
+                            <li>Mengetahui dasar algoritma dan pemrograman</li>
                         </ol>
                     </p>
+                    <p>Anda tidak harus berpengalaman di bahasa pemrograman. Level pemula juga sangat disarankan mengikuti tutorial pemrograman Python ini.</p>
                     <div class="row" style="margin-top:110px;">
-                        <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari HTML sekarang dan mulai membuat website yang berguna.</p>
+                        <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari bahasa pemrograman Python sekarang dan kembangkan aplikasi tercanggih buatan Anda.</p>
                         <div class="col s12 m6 l6">
                             <a href="./python/pengertian-python.python" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large amber darken-1"><i class="material-icons right">school</i>pelajari</a>
                         </div>
