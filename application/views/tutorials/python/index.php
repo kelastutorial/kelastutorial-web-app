@@ -1,8 +1,8 @@
         
         <div style="background-color:#fafbfc;t">
             <div class="container center" style="padding:150px 0 130px 0;">
-                <h2 class="tutorials-index-head-two">Tutorial Python</h2>
                 <img width="100px" src="<?php echo site_url('images/tutorial-python-logo.png'); ?>" alt="Logo Python" title="Logo Python"/>
+                <h2 class="tutorials-index-head-two">Tutorial Python</h2>
                 <p>Pelajari kemampuan dasar untuk membuat halaman atau aplikasi website modern dengan HTML.</p>
             </div>
         </div>
