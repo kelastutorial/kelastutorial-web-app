@@ -11,7 +11,7 @@ class json extends CI_Controller {
     public function index($slug = NULL) {
         $data['json'] = $this->json_model->get_json();
         $data2["meta_desc"] = "JSON adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.";
-        $data2["title"] = "JSON";
+        $data2["title"] = "Tutorial JSON";
         $data2["structured_data"] = '<script type="application/ld+json">
         {
           "@context": "http://schema.org",

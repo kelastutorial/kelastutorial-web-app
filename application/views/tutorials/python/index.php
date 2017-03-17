@@ -30,7 +30,7 @@
                         <img style="width:90%;" alt="logo python" title="logo python" src="<?php echo site_url('images/logo-python-standard.jpg'); ?>"/>
                     </div>
                     <span class="tutorials-index-category">LEVEL</span><br/>
-                    <span style="font-weight:600;color:#444;">PEMULA, MENENGAH, LANJUTAN</span><br/><br/>
+                    <span style="font-weight:600;color:#444;">PEMULA</span><br/><br/>
                     <span class="tutorials-index-category">KLASIFIKASI</span><br/>
                     <span style="font-weight:600;color:#444;">BAHASA PEMROGRAMAN</span>
                 </div>
