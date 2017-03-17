@@ -3,7 +3,7 @@
             <div class="container center" style="padding:150px 0 130px 0;">
                 <img width="100px" src="<?php echo site_url('images/tutorial-python-logo.png'); ?>" alt="Logo Python" title="Logo Python"/>
                 <h2 class="tutorials-index-head-two">Tutorial Python</h2>
-                <p>Python adalah bahasa serbaguna yang digunakan dalam berbagai aplikasi. Dengan sintaks yang simpel, sederhana dan dokumentasi yang lengkap membuat Python menjadi bahasa pemrograman yang mudah untuk dipelajari.</p>
+                <p style="font-size:20px;">Python adalah bahasa serbaguna yang digunakan dalam berbagai aplikasi.<br/>Dengan sintaks yang simpel, sederhana dan dokumentasi yang lengkap <br/>membuat Python menjadi bahasa pemrograman yang mudah untuk dipelajari.</p>
             </div>
         </div>
         <div class="container about-this-tutorial-container">
