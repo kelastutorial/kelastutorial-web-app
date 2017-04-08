@@ -32,6 +32,7 @@
                         </div>
                     </div>
                 </div>
+                        
                 <!-- Mobile Navigation -->
                 <div class="mobile-navigation">
                     <ul class="side-nav" id="mobile-demo" style="width:70%;z-index:1000;">
@@ -39,45 +40,53 @@
                             <a href="<?php echo site_url(); ?>"><img alt="logo-kelastutorial" src="<?php echo site_url('images/kelastutorial-logo.svg'); ?>" height="38px"/></a>
                         </div>
                         <li style="border-bottom:1px solid #e0e0e0"><a href="<?php echo site_url('tutorials'); ?>">Semua Tutorial</a></li>
-                        <ul class='collapsible collapsible-accordion'>    
-                            <li>
-                                <a class='collapsible-header waves-effect waves-red lighten-3' style="font-weight:500">Pendahuluan</a>
-                                <div class='collapsible-body'>
-                                    <ul>
-                                        <li><a href='#'>HTML - Pengertian</a></li>
-                                        <li><a href='#'>HTML - Sejarah</a></li>
-                                        <li><a href='#'>HTML - Versi</a></li>
-                                    </ul>
-                                </div>
-                            </li> 
-                            <li>
-                                <a class='collapsible-header waves-effect waves-red lighten-3' style="font-weight:500">HTML Dasar</a>
-                                <div class='collapsible-body'>
-                                    <ul>
-                                        <li><a href='#'>HTML - Syntax Dasar</a></li>
-                                        <li><a href='#'>HTML - Elemen</a></li>
-                                        <li><a href='#'>HTML - Atribut</a></li>
-                                        <li><a href='#'>HTML - Atribut Khusus</a></li>
-                                        <li><a href='#'>HTML - Event</a></li>
-                                        <li><a href='#'>HTML - Form</a></li>
-                                        <li><a href='#'>HTML - SVG</a></li>
-                                        <li><a href='#'>HTML - Layout</a></li>
-                                        <li><a href='#'>HTML - Audio</a></li>
-                                        <li><a href='#'>HTML - Video</a></li>
-                                    </ul>
-                                </div>
-                            </li> 
-                            <li>
-                                <a class='collapsible-header waves-effect waves-red lighten-3' style="font-weight:500">HTML Tingkat Lanjut</a>
-                                <div class='collapsible-body'>
-                                    <ul>
-                                        <li><a href='#'>HTML - Geolocation</a></li>
-                                        <li><a href='#'>HTML - Microdata</a></li>
-                                        <li><a href='#'>HTML - Drag &amp; Drop</a></li>
-                                        <li><a href='#'>HTML - Layout Responsive</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
+                        <li class="no-padding">
+                            <ul class='collapsible collapsible-accordion'>
+                                <li><a class='collapsible-header  waves-effect'>Pendahuluan</a>
+                                    <div class='collapsible-body'>
+                                        <ul>
+                                            <li><a href='<?php echo site_url('html/pengertian-html.html'); ?>'>Pengertian HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/sejarah-html.html'); ?>'>Sejarah HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/versi-html.html'); ?>'>Versi HTML</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="no-padding">
+                            <ul class='collapsible collapsible-accordion'>
+                                <li><a class='collapsible-header  waves-effect'>HTML Dasar</a>
+                                    <div class='collapsible-body'>
+                                        <ul>
+                                            <li><a href='<?php echo site_url('html/syntax-dasar-html.html'); ?>'>Syntax Dasar HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/elemen-html.html'); ?>'>Elemen HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/atribut-html.html'); ?>'>Atribut HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/atribut-khusus-html.html'); ?>'>Atribut Khusus HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/event-html.html'); ?>'>Event HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/form-html.html'); ?>'>Form HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/svg-html.html'); ?>'>SVG HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/layout-html.html'); ?>'>Layout HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/audio-html.html'); ?>'>Audio HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/video-html.html'); ?>'>Video HTML</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="no-padding">
+                            <ul class='collapsible collapsible-accordion'>
+                                <li><a class='collapsible-header  waves-effect'>HTML Tingkat Lanjut</a>
+                                    <div class='collapsible-body'>
+                                        <ul>
+                                            <li><a href='<?php echo site_url('html/geolocation-html.html'); ?>'>Geolocation HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/microdata-html.html'); ?>'>Microdata HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/drag-drop-html.html'); ?>'>Drag &amp; Drop HTML</a></li>
+                                            <li><a href='<?php echo site_url('html/layout-responsive-html.html'); ?>'>Layout Responsive HTML</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div><!-- End Mobile Navigation -->

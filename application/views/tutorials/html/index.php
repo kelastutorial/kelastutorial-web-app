@@ -138,7 +138,7 @@
                 <li style="border-bottom:1px solid #e0e0e0"><a href="<?php echo site_url('tutorials'); ?>">Semua Tutorial</a></li>
                 <li class="no-padding">
                     <ul class='collapsible collapsible-accordion'>
-                        <li><a class='collapsible-header  waves-effect'>Pendahuluan HTML</a>
+                        <li><a class='collapsible-header  waves-effect'>Pendahuluan</a>
                             <div class='collapsible-body'>
                                 <ul>
                                     <li><a href='<?php echo site_url('html/pengertian-html.html'); ?>'>Pengertian HTML</a></li>
