@@ -25,10 +25,12 @@
         </div>
         <div class="container about-tutorials center">
             <div class="row">
+                <!--
                 <div class="col s12 m6 l6">
                     &nbsp;
                 </div>
-                <div class="col s12 m6 l6">
+                -->
+                <div class="col s12 m12 l12" style="padding:80px 0 80px 0">
                     <h4>Pelajari berbagai cabang ilmu</h4>
                     <p>Kembangkan diri anda untuk membuat sebuah penemuan aplikasi sains, bisnis, dan apapun yang berguna.</p>
                     <!--
