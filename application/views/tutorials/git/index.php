@@ -126,20 +126,29 @@
                     <a href="<?php echo site_url(); ?>"><img alt="logo-kelastutorial" src="<?php echo site_url('images/kelastutorial-logo.svg'); ?>" height="38px"/></a>
                 </div>
                 <li style="border-bottom:1px solid #e0e0e0"><a href="<?php echo site_url('tutorials'); ?>">Semua Tutorial</a></li>
-                <li><a href="<?php echo site_url('repport-issue'); ?>">Pendahuluan Git</a></li>
-                <li><a class='collapsible-header  waves-effect'>Git Dasar</a>
-                    <div class='collapsible-body'>
-                        <ul>
-                            <li><a href='http://www.belajarpython.com/2015/05/objek-dan-class-python.html'>Objek dan Class</a></li>
-                            <li><a href='http://www.belajarpython.com/2015/05/akses-database.html'>Akses Database</a></li>
-                            <li><a href='http://www.belajarpython.com/2015/05/networking-python.html'>Networking</a></li>
-                            <li><a href='http://www.belajarpython.com/2015/05/multithreading-python.html'>Multithreading</a></li>
-                            <li><a href='http://www.belajarpython.com/2015/05/cgi-programming-python.html'>CGI Programming</a></li>
-                            <li><a href='http://www.belajarpython.com/2015/05/gui-programming-python.html'>GUI Programming</a></li>
-                            <li><a href='http://www.belajarpython.com/2015/05/framework-python.html'>Framework</a></li>
-                            <li><a href='http://www.belajarpython.com/2015/05/artificial-intelligence-kecerdasan.html'>Kecerdasan Buatan</a></li>
-                        </ul>
-                    </div>
+                <li class="no-padding">
+                    <ul class='collapsible collapsible-accordion'>
+                        <li><a class='collapsible-header  waves-effect'>Git Dasar</a>
+                            <div class='collapsible-body'>
+                                <ul>
+                                    <li><a href='http://www.belajarpython.com/2015/05/objek-dan-class-python.html'>Objek dan Class</a></li>
+                                    <li><a href='http://www.belajarpython.com/2015/05/akses-database.html'>Akses Database</a></li>
+                                    <li><a href='http://www.belajarpython.com/2015/05/networking-python.html'>Networking</a></li>
+                                    <li><a href='http://www.belajarpython.com/2015/05/multithreading-python.html'>Multithreading</a></li>
+                                    <li><a href='http://www.belajarpython.com/2015/05/cgi-programming-python.html'>CGI Programming</a></li>
+                                    <li><a href='http://www.belajarpython.com/2015/05/gui-programming-python.html'>GUI Programming</a></li>
+                                    <li><a href='http://www.belajarpython.com/2015/05/framework-python.html'>Framework</a></li>
+                                    <li><a href='http://www.belajarpython.com/2015/05/artificial-intelligence-kecerdasan.html'>Kecerdasan Buatan</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </li>
+
+
+
+
+
+
             </ul>
         </div><!-- End Mobile Navigation -->
