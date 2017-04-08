@@ -17,7 +17,7 @@ class git extends CI_Controller {
           "@context": "http://schema.org",
           "@type": "Course",
           "name": "Tutorial Git Dasar",
-          "description": "Git adalah sebuah standar bahasa markup untuk membuat sebuah halaman web. Pada tutorial ini Anda akan mempelajari bagaimana membuat website modern mulai dari syntax dasar, elemen-elemen, layout sampai dengan design responsive.",
+          "description": "Git adalah sebuah pengontrol versi perangkat lunak "VCS/Version Control System". Pada tutorial ini Anda akan mempelajari bagaimana menggunakan VCS Git untuk mengembangkan software dengan lebih baik.",
           "provider": {
             "@type": "Organization",
             "name": "Kelastutorial Instructor",
