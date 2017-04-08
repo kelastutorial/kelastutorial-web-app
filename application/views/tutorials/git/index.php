@@ -68,7 +68,7 @@
                                             <li><a href="./git/operasi-create-git.html">Operasi Create Git</a></li>
                                             <li><a href="./git/operasi-clone-git.html">Operasi Clone Git</a></li>
                                             <li><a href="./git/perubahan-perform-git.html">Perubahan Perform Git</a></li>
-                                            <li><a href="./git/perubahan-commit-git.html">Perubahan Commit.html</a></li>
+                                            <li><a href="./git/perubahan-commit-git.html">Perubahan Commit Git</a></li>
                                             <li><a href="./git/operasi-push-git.html">Operasi Push Git</a></li>
                                             <li><a href="./git/operasi-update-git.html">Operasi Update Git</a></li>
                                             <li><a href="./git/operasi-stash-git.html">Operasi Stash Git</a></li>
@@ -119,7 +119,7 @@
             </div>
         </div>
 
- <!-- Mobile Navigation -->
+        <!-- Mobile Navigation -->
         <div class="mobile-navigation">
             <ul class="side-nav" id="mobile-demo" style="width:70%;z-index:1000;">
                 <div class="header-mobile grey lighten-3" style="height:110px;padding:33px 5px 0 0;text-align:center">
@@ -128,27 +128,46 @@
                 <li style="border-bottom:1px solid #e0e0e0"><a href="<?php echo site_url('tutorials'); ?>">Semua Tutorial</a></li>
                 <li class="no-padding">
                     <ul class='collapsible collapsible-accordion'>
-                        <li><a class='collapsible-header  waves-effect'>Git Dasar</a>
+                        <li><a class='collapsible-header  waves-effect'>Pendahuluan Git</a>
                             <div class='collapsible-body'>
                                 <ul>
-                                    <li><a href='http://www.belajarpython.com/2015/05/objek-dan-class-python.html'>Objek dan Class</a></li>
-                                    <li><a href='http://www.belajarpython.com/2015/05/akses-database.html'>Akses Database</a></li>
-                                    <li><a href='http://www.belajarpython.com/2015/05/networking-python.html'>Networking</a></li>
-                                    <li><a href='http://www.belajarpython.com/2015/05/multithreading-python.html'>Multithreading</a></li>
-                                    <li><a href='http://www.belajarpython.com/2015/05/cgi-programming-python.html'>CGI Programming</a></li>
-                                    <li><a href='http://www.belajarpython.com/2015/05/gui-programming-python.html'>GUI Programming</a></li>
-                                    <li><a href='http://www.belajarpython.com/2015/05/framework-python.html'>Framework</a></li>
-                                    <li><a href='http://www.belajarpython.com/2015/05/artificial-intelligence-kecerdasan.html'>Kecerdasan Buatan</a></li>
+                                    <li><a href='<?php echo site_url('git/pengertian-git.html'); ?>'>Pengertian Git</a></li>
+                                    <li><a href='<?php echo site_url('git/sejarah-git.html'); ?>'>Sejarah Git</a></li>
+                                    <li><a href='<?php echo site_url('git/versi-git.html'); ?>'>Versi Git</a></li>
+                                    <li><a href='<?php echo site_url('git/instalasi-git.html'); ?>'>Instalasi Git</a></li>
+                                    <li><a href='<?php echo site_url('git/menjalankan-git.html'); ?>'>Menjalankan Git</a></li>
                                 </ul>
                             </div>
                         </li>
                     </ul>
                 </li>
-
-
-
-
-
+                <li class="no-padding">
+                    <ul class='collapsible collapsible-accordion'>
+                        <li><a class='collapsible-header  waves-effect'>Git Dasar</a>
+                            <div class='collapsible-body'>
+                                <ul>
+                                    <li><a href='<?php echo site_url('git/life-cycle-git.html'); ?>'>Life Cycle Git Git</a></li>
+                                    <li><a href='<?php echo site_url('git/operasi-create-git.html'); ?>'>Operasi Create Git</a></li>
+                                    <li><a href='<?php echo site_url('git/operasi-clone-git.html'); ?>'>Operasi Clone Git</a></li>
+                                    <li><a href='<?php echo site_url('git/perubahan-perform-git.html'); ?>'>Perubahan Perform Git</a></li>
+                                    <li><a href='<?php echo site_url('git/perubahan-commit-git.html'); ?>'>Perubahan Commit Git</a></li>
+                                    <li><a href='<?php echo site_url('git/operasi-push-git.html'); ?>'>Operasi Push Git</a></li>
+                                    <li><a href='<?php echo site_url('git/operas-update-git.html'); ?>'>Operasi Update Git</a></li>
+                                    <li><a href='<?php echo site_url('git/operasi-stash-git.html'); ?>'>Operasi Stash Git</a></li>
+                                    <li><a href='<?php echo site_url('git/opperasi-move-git.html'); ?>'>Operasi Move Git</a></li>
+                                    <li><a href='<?php echo site_url('git/operasi-rename-git.html'); ?>'>Operasi Rename Git</a></li>
+                                    <li><a href='<?php echo site_url('git/operasi-delete-git.html'); ?>'>Operasi Delete Git</a></li>
+                                    <li><a href='<?php echo site_url('git/memperbaiki-kesalahan-git.html'); ?>'>Mempebaiki Kesalahan Git</a></li>
+                                    <li><a href='<?php echo site_url('git/operasi-tag-git.html'); ?>'>Operasi Tag Git</a></li>
+                                    <li><a href='<?php echo site_url('git/operash-patch-git.html'); ?>'>Operasi Patch Git</a></li>
+                                    <li><a href='<?php echo site_url('git/mengatur-branch-git.html'); ?>'>Mengatur Branch Git</a></li>
+                                    <li><a href='<?php echo site_url('git/menangani-konflik-git.html'); ?>'>Menangani Konflik Git</a></li>
+                                    <li><a href='<?php echo site_url('git/multi-platform-git.html'); ?>'>Multi Platform Git</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
 
             </ul>
         </div><!-- End Mobile Navigation -->
