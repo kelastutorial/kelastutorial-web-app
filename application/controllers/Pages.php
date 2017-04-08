@@ -14,7 +14,23 @@ class Pages extends CI_Controller {
     
     #Search result
     public function search() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "Pencarian";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/search');
         $this->load->view('templates/footer');
     }
@@ -43,7 +59,23 @@ class Pages extends CI_Controller {
         $this->load->view('templates/footer');
     }
     public function contact() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "Hubungi Kami";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/contact');
         $this->load->view('templates/footer');
     }
@@ -90,32 +122,128 @@ class Pages extends CI_Controller {
         $this->load->view('templates/footer');
     }
     public function program() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "Program";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/program');
         $this->load->view('templates/footer');
     }
     public function partner() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "Partner";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/partner');
         $this->load->view('templates/footer');
     }
     public function referensi() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "Referensi";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/referensi');
         $this->load->view('templates/footer');
     }
     public function laporkan_isu() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "Laporkan Isu";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/laporkan_isu');
         $this->load->view('templates/footer');
     }
     public function donasi() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "Donasi";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/donasi');
         $this->load->view('templates/footer');
     }
     public function event() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "Event";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/event');
         $this->load->view('templates/footer');
     }
@@ -135,7 +263,23 @@ class Pages extends CI_Controller {
     
     
     public function tutorials() {
-        $this->load->view('templates/header');
+        $data2["meta_desc"] = "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.";
+        $data2["title"] = "Semua Tutorial";
+        $data2["structured_data"] = '<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Kelastutorial",
+          "description": "Kelas Tutorial adalah situs edukasi dengan misi untuk menyediakan pendidikan gratis dengan perpustakaan tutorial dalam bahasa Indonesia.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Kelastutorial Instructor",
+            "sameAs": "https://kelastutorial.com"
+          }
+        }
+        </script>
+        ';
+        $this->load->view('templates/header', $data2);
         $this->load->view('pages/tutorials');
         $this->load->view('templates/footer');
     }
