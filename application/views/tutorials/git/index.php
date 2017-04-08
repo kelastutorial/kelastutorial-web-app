@@ -15,7 +15,7 @@
                         <div class="row" style="margin-top:50px;">
                             <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari Git sekarang dan kembangkan aplikasi dengan lebih baik.</p>
                             <div class="col s12 m12 l6">
-                                <a href="./git/pengertian-git.git" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange "><i class="material-icons right">school</i>pelajari</a>
+                                <a href="./git/pengertian-git.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange "><i class="material-icons right">school</i>pelajari</a>
                             </div>
                             <div class="col s12 m12 l6">
                                 <a href="#git-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
@@ -45,11 +45,11 @@
                                 <div class="row syllabus-content">
                                     <div class="col s12 m6 l6">
                                         <ol type="i">
-                                            <li><a href="./git/pengertian-git.git">Pengertian Git</a></li>
-                                            <li><a href="#">Sejarah Git</a></li>
-                                            <li><a href="#">Versi Git</a></li>
-                                            <li><a href="#">Instalasi Git</a></li>
-                                            <li><a href="#">Menjalankan Git</a></li>
+                                            <li><a href="./git/pengertian-git.html">Pengertian Git</a></li>
+                                            <li><a href="./git/sejarah-git.html">Sejarah Git</a></li>
+                                            <li><a href="./git/versi-git.html">Versi Git</a></li>
+                                            <li><a href="./git/instalasi-git.html">Instalasi Git</a></li>
+                                            <li><a href="./git/menjalankan-git.html">Menjalankan Git</a></li>
                                         </ol>
                                     </div>
                                     <div class="col s12 m6 l6">
@@ -64,27 +64,27 @@
                                 <div class="row syllabus-content">
                                     <div class="col s6 m6 l6">
                                         <ol type="i">
-                                            <li><a href="#">Life Cycle Git</a></li>
-                                            <li><a href="#">Operasi Create Git</a></li>
-                                            <li><a href="#">Operasi Clone Git</a></li>
-                                            <li><a href="#">Perubahan Perform Git</a></li>
-                                            <li><a href="#">Perubahan Commit Git</a></li>
-                                            <li><a href="#">Operasi Push Git</a></li>
-                                            <li><a href="#">Operasi Update Git</a></li>
-                                            <li><a href="#">Operasi Stash Git</a></li>
-                                            <li><a href="#">Operasi Move Git</a></li>
+                                            <li><a href="./git/life-cycle-git.html">Life Cycle Git</a></li>
+                                            <li><a href="./git/operasi-create-git.html">Operasi Create Git</a></li>
+                                            <li><a href="./git/operasi-clone-git.html">Operasi Clone Git</a></li>
+                                            <li><a href="./git/perubahan-perform-git.html">Perubahan Perform Git</a></li>
+                                            <li><a href="./git/perubahan-commit-git.html">Perubahan Commit.html</a></li>
+                                            <li><a href="./git/operasi-push-git.html">Operasi Push Git</a></li>
+                                            <li><a href="./git/operasi-update-git.html">Operasi Update Git</a></li>
+                                            <li><a href="./git/operasi-stash-git.html">Operasi Stash Git</a></li>
+                                            <li><a href="./git/operasi-move-git.html">Operasi Move Git</a></li>
                                         </ol>
                                     </div>
                                     <div class="col s6 m6 l6">
                                         <ol type="i">
-                                            <li><a href="#">Operasi Rename Git</a></li>
-                                            <li><a href="#">Operasi Delete Git</a></li>
-                                            <li><a href="#">Memperbaiki Kesalahan Git</a></li>
-                                            <li><a href="#">Operasi Tag Git</a></li>
-                                            <li><a href="#">Operasi Patch Git</a></li>
-                                            <li><a href="#">Mengatur Branch Git</a></li>
-                                            <li><a href="#">Menangani Konflik Git</a></li>
-                                            <li><a href="#">Multi Platform Git</a></li>
+                                            <li><a href="./git/operasi-rename-git.html">Operasi Rename Git</a></li>
+                                            <li><a href="./git/operasi-delete-git.html">Operasi Delete Git</a></li>
+                                            <li><a href="./git/memperbaiki-kesalahan-git.html">Memperbaiki Kesalahan Git</a></li>
+                                            <li><a href="./git/operasi-tag-git.html">Operasi Tag Git</a></li>
+                                            <li><a href="./git/operasi-patch-git.html">Operasi Patch Git</a></li>
+                                            <li><a href="./git/mengatur-branch-git.html">Mengatur Branch Git</a></li>
+                                            <li><a href="./git/menangani-konflik-git.html">Menangani Konflik Git</a></li>
+                                            <li><a href="./git/multi-platform-git.html">Multi Platform Git</a></li>
                                         </ol>
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@
                     <div class="row" style="margin-top:110px;">
                         <p style="margin-left: 11px;color: #777;font-style: italic;font-size: 14px;">Pelajari Git sekarang dan kembangkan aplikasi dengan lebih baik.</p>
                         <div class="col s12 m6 l6">
-                            <a href="./git/pengertian-git.git" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange "><i class="material-icons right">school</i>pelajari</a>
+                            <a href="./git/pengertian-git.html" style="width:100%;margin-bottom:13px;" class="waves-effect waves-light btn-large  deep-orange "><i class="material-icons right">school</i>pelajari</a>
                         </div>
                         <div class="col s12 m6 l6">
                             <a href="#git-syllabus" style="width:100%" class="waves-effect waves-light btn-large grey lighten-1">lihat materi</a>
