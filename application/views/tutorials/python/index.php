@@ -187,7 +187,7 @@
                         </li>
                         <li class="no-padding">
                             <ul class='collapsible collapsible-accordion'>
-                                <li><a class='collapsible-header  waves-effect'>Java Dasar</a>
+                                <li><a class='collapsible-header  waves-effect'>Python Dasar</a>
                                     <div class='collapsible-body'>
                                         <ul>
                                             <li><a href='<?php echo site_url('python/syntax-dasar-python.html'); ?>'>Syntax Dasar Python</a></li>
@@ -215,7 +215,7 @@
                         </li>
                         <li class="no-padding">
                             <ul class='collapsible collapsible-accordion'>
-                                <li><a class='collapsible-header  waves-effect'>Java Tingkat Menengah</a>
+                                <li><a class='collapsible-header  waves-effect'>Python Tingkat Menengah</a>
                                     <div class='collapsible-body'>
                                         <ul>
                                             <li><a href='<?php echo site_url('python/objek-class-python.html'); ?>'>Objek &amp; Class Python</a></li>
@@ -227,7 +227,7 @@
                         </li>
                         <li class="no-padding">
                             <ul class='collapsible collapsible-accordion'>
-                                <li><a class='collapsible-header  waves-effect'>Java Tingkat Lanjut</a>
+                                <li><a class='collapsible-header  waves-effect'>Python Tingkat Lanjut</a>
                                     <div class='collapsible-body'>
                                         <ul>
                                             <li><a href='<?php echo site_url('python/cgi-python.html'); ?>'>CGI Programming Python</a></li>

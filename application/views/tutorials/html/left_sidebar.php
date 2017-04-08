@@ -6,29 +6,29 @@
                     <div class="left-sidebar-container">
                         <div class="grey lighten-3 left-sidebar">
                             <span class="subtutorial">Pendahuluan</span><br/>
-                            <a href="" class="subtutorial-list">HTML - Pengertian</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Sejarah</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Versi</a><br/>
+                            <a href="<?php echo site_url('html/pengertian-html.html'); ?>" class="subtutorial-list">HTML - Pengertian</a><br/>
+                            <a href="<?php echo site_url('html/sejarah-html.html'); ?>" class="subtutorial-list">HTML - Sejarah</a><br/>
+                            <a href="<?php echo site_url('html/versi-html.html'); ?>" class="subtutorial-list">HTML - Versi</a><br/>
                         </div>
                         <div class="grey lighten-3 left-sidebar">
                             <span class="subtutorial">HTML Dasar</span><br/>
-                            <a href="" class="subtutorial-list">HTML - Syntax Dasar</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Elemen</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Atribut</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Atribut Khusus</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Event</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Form</a><br/>
-                            <a href="" class="subtutorial-list">HTML - SVG</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Layout</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Audio</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Video</a><br/>
+                            <a href="<?php echo site_url('html/syntax-dasar-html.html'); ?>" class="subtutorial-list">HTML - Syntax Dasar</a><br/>
+                            <a href="<?php echo site_url('html/elemen-html.html'); ?>" class="subtutorial-list">HTML - Elemen</a><br/>
+                            <a href="<?php echo site_url('html/atribut-html.html'); ?>" class="subtutorial-list">HTML - Atribut</a><br/>
+                            <a href="<?php echo site_url('html/atribut-khusus-html.html'); ?>" class="subtutorial-list">HTML - Atribut Khusus</a><br/>
+                            <a href="<?php echo site_url('html/event-html.html'); ?>" class="subtutorial-list">HTML - Event</a><br/>
+                            <a href="<?php echo site_url('html/form-html.html'); ?>" class="subtutorial-list">HTML - Form</a><br/>
+                            <a href="<?php echo site_url('html/svg-html.html'); ?>" class="subtutorial-list">HTML - SVG</a><br/>
+                            <a href="<?php echo site_url('html/layout-html.html'); ?>" class="subtutorial-list">HTML - Layout</a><br/>
+                            <a href="<?php echo site_url('html/audio-html.html'); ?>" class="subtutorial-list">HTML - Audio</a><br/>
+                            <a href="<?php echo site_url('html/video-html.html'); ?>" class="subtutorial-list">HTML - Video</a><br/>
                         </div>
                         <div class="grey lighten-3 left-sidebar">
                             <span class="subtutorial">HTML Tingkat Lanjut</span><br/>
-                            <a href="" class="subtutorial-list">HTML - Geolocation</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Microdata</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Drag &amp; Drop</a><br/>
-                            <a href="" class="subtutorial-list">HTML - Layout Responsive</a><br/>
+                            <a href="<?php echo site_url('html/geolocation-html.html'); ?>" class="subtutorial-list">HTML - Geolocation</a><br/>
+                            <a href="<?php echo site_url('html/microdata-html.html'); ?>" class="subtutorial-list">HTML - Microdata</a><br/>
+                            <a href="<?php echo site_url('html/drag-drop-html.html'); ?>" class="subtutorial-list">HTML - Drag &amp; Drop</a><br/>
+                            <a href="<?php echo site_url('html/layout-responsive-html.html'); ?>" class="subtutorial-list">HTML - Layout Responsive</a><br/>
                         </div>
                     </div>
                 </div>

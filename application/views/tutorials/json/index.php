@@ -121,7 +121,7 @@
                         </li>
                         <li class="no-padding">
                             <ul class='collapsible collapsible-accordion'>
-                                <li><a class='collapsible-header  waves-effect'>Java Dasar</a>
+                                <li><a class='collapsible-header  waves-effect'>JSON Dasar</a>
                                     <div class='collapsible-body'>
                                         <ul>
                                             <li><a href='<?php echo site_url('json/syntax-json.html'); ?>'>Syntax JSON</a></li>

@@ -3,7 +3,7 @@
                     <div class="red darken-1 main-content-nav">
                         <a href="<?php echo site_url() ?>" class="main-content-nav-title">Home</a>
                         <a class="main-content-nav-title">></a>
-                        <a href="<?php echo site_url("git") ?>" class="main-content-nav-title">HTML</a>
+                        <a href="<?php echo site_url("git") ?>" class="main-content-nav-title">Git</a>
                         <a class="main-content-nav-title">></a>
                         <a href="<?php echo site_url("git") ?>/<?php echo $item['slug']; ?>.git" class="main-content-nav-title"><h1 class="main-content-heading"><?php echo $item['title']; ?></a>
                     </div>
