@@ -47,7 +47,7 @@
                                     <div class="col s12 m6 l6">
                                         <ol type="i">
                                             <li><a href='<?php echo site_url('java/pengertian-java.html'); ?>'>Pengertian Java</a></li>
-                                            <li><a href='<?php echo site_url('java/sejarah-java.html'); ?>'>Serajah Java</a></li>
+                                            <li><a href='<?php echo site_url('java/sejarah-java.html'); ?>'>Sejarah Java</a></li>
                                             <li><a href='<?php echo site_url('java/versi-java.html'); ?>'>Versi Java</a></li>
                                             <li><a href='<?php echo site_url('java/instalasi-java.html'); ?>'>Instalasi Java</a></li>
                                             <li><a href='<?php echo site_url('java/menjalankan-java.html'); ?>'>Menjalankan Java</a></li>
@@ -184,7 +184,7 @@
                             <div class='collapsible-body'>
                                 <ul>
                                     <li><a href='<?php echo site_url('java/pengertian-java.html'); ?>'>Pengertian Java</a></li>
-                                    <li><a href='<?php echo site_url('java/sejarah-java.html'); ?>'>Serajah Java</a></li>
+                                    <li><a href='<?php echo site_url('java/sejarah-java.html'); ?>'>Sejarah Java</a></li>
                                     <li><a href='<?php echo site_url('java/versi-java.html'); ?>'>Versi Java</a></li>
                                     <li><a href='<?php echo site_url('java/instalasi-java.html'); ?>'>Instalasi Java</a></li>
                                     <li><a href='<?php echo site_url('java/menjalankan-java.html'); ?>'>Menjalankan Java</a></li>

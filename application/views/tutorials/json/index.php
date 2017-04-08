@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col s12 m6 l6">
                     <div class="about-this-tutorial">
-                        <h4 class="tutorials-index-head-four" style="color:#444;">Tentang Git</h4>
+                        <h4 class="tutorials-index-head-four" style="color:#444;">Tentang JSON</h4>
                         <p>JSON (JavaScript Object Notation) adalah format pertukaran data yang ringan, mudah dibaca dan ditulis oleh manusia, serta mudah diterjemahkan dan dibuat (generate) oleh komputer. Format ini dibuat berdasarkan bagian dari Bahasa Pemprograman JavaScript, Standar ECMA-262 Edisi ke-3 - Desember 1999. JSON merupakan format teks yang tidak bergantung pada bahasa pemprograman apapun karena menggunakan gaya bahasa yang umum digunakan oleh programmer keluarga C termasuk C, C++, C#, Java, JavaScript, Perl, Python dll. Oleh karena sifat-sifat tersebut, menjadikan JSON ideal sebagai bahasa pertukaran-data.</p>
                         <p>Pada tutorial ini Anda akan mempelajari penggunaan JSON untuk mengembangkan aplikasi dengan format pertukaran data. Setelah mengikuti tutorial ini, Anda diharapkan dapat menguasai dan memahami dasar penggunaan JSON dan bagaimana menerapkanya.</p>
                         <div class="row" style="margin-top:50px;">
@@ -45,8 +45,8 @@
                                 <div class="row syllabus-content">
                                     <div class="col s12 m6 l6">
                                         <ol type="i">
-                                            <li><a href="./json/pengertian-json.json">Pengertian JSON</a></li>
-                                            <li><a href="#">Sejarah JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/pengertian-json.html'); ?>'>Pengertian JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/sejarah-json.html'); ?>'>Sejarah JSON</a></li>
                                         </ol>
                                     </div>
                                     <div class="col s12 m6 l6">
@@ -61,10 +61,10 @@
                                 <div class="row syllabus-content">
                                     <div class="col s6 m6 l6">
                                         <ol type="i">
-                                            <li><a href="#">Syntax Dasar HTML</a></li>
-                                            <li><a href="#">Tipe Data JSON</a></li>
-                                            <li><a href="#">Objek JSON</a></li>
-                                            <li><a href="#">Schema JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/syntax-json.html'); ?>'>Syntax JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/tipe-data-json.html'); ?>'>Tipe Data JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/objek-json.html'); ?>'>Objek JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/schema-json.html'); ?>'>Schema JSON</a></li>
                                         </ol>
                                     </div>
                                     <div class="col s6 m6 l6">
@@ -100,3 +100,39 @@
                 </div>
             </div>
         </div>
+                <!-- Mobile Navigation -->
+                <div class="mobile-navigation">
+                    <ul class="side-nav" id="mobile-demo" style="width:70%;z-index:1000;">
+                        <div class="header-mobile grey lighten-3" style="height:110px;padding:33px 5px 0 0;text-align:center">
+                            <a href="<?php echo site_url(); ?>"><img alt="logo-kelastutorial" src="<?php echo site_url('images/kelastutorial-logo.svg'); ?>" height="38px"/></a>
+                        </div>
+                        <li style="border-bottom:1px solid #e0e0e0"><a href="<?php echo site_url('tutorials'); ?>">Semua Tutorial</a></li>
+                        <li class="no-padding">
+                            <ul class='collapsible collapsible-accordion'>
+                                <li><a class='collapsible-header  waves-effect'>Pendahuluan</a>
+                                    <div class='collapsible-body'>
+                                        <ul>
+                                            <li><a href='<?php echo site_url('json/pengertian-json.html'); ?>'>Pengertian JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/sejarah-json.html'); ?>'>Sejarah JSON</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="no-padding">
+                            <ul class='collapsible collapsible-accordion'>
+                                <li><a class='collapsible-header  waves-effect'>Java Dasar</a>
+                                    <div class='collapsible-body'>
+                                        <ul>
+                                            <li><a href='<?php echo site_url('json/syntax-json.html'); ?>'>Syntax JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/tipe-data-json.html'); ?>'>Tipe Data JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/objek-json.html'); ?>'>Objek JSON</a></li>
+                                            <li><a href='<?php echo site_url('json/schema-json.html'); ?>'>Schema JSON</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div><!-- End Mobile Navigation -->
