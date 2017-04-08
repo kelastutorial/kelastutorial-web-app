@@ -6,51 +6,51 @@
                     <div class="left-sidebar-container">
                         <div class="grey lighten-3 left-sidebar">
                             <span class="subtutorial">Pendahuluan</span><br/>
-                            <a href='<?php echo site_url('python/pengertian-python.html'); ?>'>Pengertian Python</a>
-                            <a href='<?php echo site_url('python/sejarah-python.html'); ?>'>Sejarah Python</a>
-                            <a href='<?php echo site_url('python/versi-python.html'); ?>'>Versi Python</a>
-                            <a href='<?php echo site_url('python/instalasi-python.html'); ?>'>Instalasi Python</a>
-                            <a href='<?php echo site_url('python/menjalankan-python.html'); ?>'>Menjalankan Python</a>
-                            <a href='<?php echo site_url('python/ide-python.html'); ?>'>IDE Python</a>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/pengertian-python.html'); ?>'>Pengertian Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/sejarah-python.html'); ?>'>Sejarah Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/versi-python.html'); ?>'>Versi Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/instalasi-python.html'); ?>'>Instalasi Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/menjalankan-python.html'); ?>'>Menjalankan Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/ide-python.html'); ?>'>IDE Python</a><br/>
                         </div>
                         <div class="grey lighten-3 left-sidebar">
                             <span class="subtutorial">Python Dasar</span><br/>
-                            <a href='<?php echo site_url('python/syntax-dasar-python.html'); ?>'>Syntax Dasar Python</a>
-                            <a href='<?php echo site_url('python/komentar-python.html'); ?>'>Komentar Python</a>
-                            <a href='<?php echo site_url('python/tipe-data-python.html'); ?>'>Tipe Data Python</a>
-                            <a href='<?php echo site_url('python/variabel-python.html'); ?>'>Variabel Python</a>
-                            <a href='<?php echo site_url('python/operator-python.html'); ?>'>Operator Python</a>
-                            <a href='<?php echo site_url('python/if-else-python.html'); ?>'>If Else Python</a>
-                            <a href='<?php echo site_url('python/nested-if-python.html'); ?>'>Nested If Python</a>
-                            <a href='<?php echo site_url('python/pengulangan-python.html'); ?>'>Pengulangan Python</a>
-                            <a href='<?php echo site_url('python/number-python.html'); ?>'>Number Python</a>
-                            <a href='<?php echo site_url('python/string-python.html'); ?>'>String Python</a>
-                            <a href='<?php echo site_url('python/list-python.html'); ?>'>List Python</a>
-                            <a href='<?php echo site_url('python/tuple-python.html'); ?>'>Tuple Python</a>
-                            <a href='<?php echo site_url('python/dictionary-python.html'); ?>'>Dictionary Python</a>
-                            <a href='<?php echo site_url('python/tanggal-waktu-python.html'); ?>'>Tanggal &amp; Waktu Python</a>
-                            <a href='<?php echo site_url('python/fucntion-python.html'); ?>'>Function Python</a>
-                            <a href='<?php echo site_url('python/mudule-python.html'); ?>'>Module Python</a>
-                            <a href='<?php echo site_url('python/file-io-python.html'); ?>'>File I/O Python</a>
-                            <a href='<?php echo site_url('python/exception-python.html'); ?>'>Exception Python</a>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/syntax-dasar-python.html'); ?>'>Syntax Dasar Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/komentar-python.html'); ?>'>Komentar Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/tipe-data-python.html'); ?>'>Tipe Data Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/variabel-python.html'); ?>'>Variabel Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/operator-python.html'); ?>'>Operator Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/if-else-python.html'); ?>'>If Else Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/nested-if-python.html'); ?>'>Nested If Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/pengulangan-python.html'); ?>'>Pengulangan Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/number-python.html'); ?>'>Number Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/string-python.html'); ?>'>String Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/list-python.html'); ?>'>List Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/tuple-python.html'); ?>'>Tuple Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/dictionary-python.html'); ?>'>Dictionary Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/tanggal-waktu-python.html'); ?>'>Tanggal &amp; Waktu Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/fucntion-python.html'); ?>'>Function Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/mudule-python.html'); ?>'>Module Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/file-io-python.html'); ?>'>File I/O Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/exception-python.html'); ?>'>Exception Python</a><br/>
                         </div>
                         <div class="grey lighten-3 left-sidebar">
                             <span class="subtutorial">Python Tingkat Menengah</span><br/>
-                            <a href='<?php echo site_url('python/objek-class-python.html'); ?>'>Objek &amp; Class Python</a>
-                                            <a href='<?php echo site_url('python/reg-expression-python.html'); ?>'>Reg Expression Python</a>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/objek-class-python.html'); ?>'>Objek &amp; Class Python</a><br/>
+                                            <a class="subtutorial-list" href='<?php echo site_url('python/reg-expression-python.html'); ?>'>Reg Expression Python</a><br/>
                         </div>
                         <div class="grey lighten-3 left-sidebar">
                             <span class="subtutorial">Python Tingkat Lanjut</span><br/>
-                            <a href='<?php echo site_url('python/cgi-python.html'); ?>'>CGI Programming Python</a>
-                            <a href='<?php echo site_url('python/akses-database-python.html'); ?>'>Akses Database Python</a>
-                            <a href='<?php echo site_url('python/networking-python.html'); ?>'>Networking Python</a>
-                            <a href='<?php echo site_url('python/email-python.html'); ?>'>Email dengan Python</a>
-                            <a href='<?php echo site_url('python/multithreading-python.html'); ?>'>Multithreading Python</a>
-                            <a href='<?php echo site_url('python/gui-python.html'); ?>'>GUI Python</a>
-                            <a href='<?php echo site_url('python/framework-python.html'); ?>'>Framework Python</a>
-                            <a href='<?php echo site_url('python/website-python.html'); ?>'>Website dengan Python</a>
-                            <a href='<?php echo site_url('python/data-mining-python.html'); ?>'>Data Mining Python</a>
-                            <a href='<?php echo site_url('python/machine-learning-python.html'); ?>'>Machine Learning Python</a>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/cgi-python.html'); ?>'>CGI Programming Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/akses-database-python.html'); ?>'>Akses Database Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/networking-python.html'); ?>'>Networking Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/email-python.html'); ?>'>Email dengan Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/multithreading-python.html'); ?>'>Multithreading Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/gui-python.html'); ?>'>GUI Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/framework-python.html'); ?>'>Framework Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/website-python.html'); ?>'>Website dengan Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/data-mining-python.html'); ?>'>Data Mining Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/machine-learning-python.html'); ?>'>Machine Learning Python</a><br/>
                         </div>
                     </div>
                 </div>

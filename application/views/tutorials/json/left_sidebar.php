@@ -6,15 +6,15 @@
                     <div class="left-sidebar-container">
                         <div class="grey lighten-3 left-sidebar">
                             <span class="subtutorial">Pendahuluan</span><br/>
-                            <a href='<?php echo site_url('json/pengertian-json.html'); ?>'>Pengertian JSON</a>
-                            <a href='<?php echo site_url('json/sejarah-json.html'); ?>'>Sejarah JSON</a>
+                            <a class="subtutorial-list" href='<?php echo site_url('json/pengertian-json.html'); ?>'>Pengertian JSON</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('json/sejarah-json.html'); ?>'>Sejarah JSON</a><br/>
                         </div>
                         <div class="grey lighten-3 left-sidebar">
                             <span class="subtutorial">JSON Dasar</span><br/>
-                            <a href='<?php echo site_url('json/syntax-json.html'); ?>'>Syntax JSON</a>
-                            <a href='<?php echo site_url('json/tipe-data-json.html'); ?>'>Tipe Data JSON</a>
-                            <a href='<?php echo site_url('json/objek-json.html'); ?>'>Objek JSON</a>
-                            <a href='<?php echo site_url('json/schema-json.html'); ?>'>Schema JSON</a>
+                            <a class="subtutorial-list" href='<?php echo site_url('json/syntax-json.html'); ?>'>Syntax JSON</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('json/tipe-data-json.html'); ?>'>Tipe Data JSON</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('json/objek-json.html'); ?>'>Objek JSON</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('json/schema-json.html'); ?>'>Schema JSON</a><br/>
                         </div>
                     </div>
                 </div>
