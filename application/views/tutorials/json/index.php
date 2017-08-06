@@ -2,7 +2,7 @@
         <div style="background-color:#fafbfc;t">
             <div class="container center" style="padding:150px 0 130px 0;">
                 <h2 class="tutorials-index-head-two">Tutorial JSON</h2>
-                <p>Pelajari Git untuk membuat aplikasi dengan version control system terbaik saat ini.</p>
+                <p>Pelajari ISON sebagai format data bahasa-independen.</p>
             </div>
         </div>
         <div class="container about-this-tutorial-container">
