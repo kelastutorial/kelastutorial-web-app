@@ -5,18 +5,6 @@ body{
     padding:0;
     font-family:'Roboto', sans-serif;
 }
-
-html {
-    overflow: hidden;
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    overflow: auto;
-}
-
-
 pre{
     margin-bottom:0px;
 }
@@ -180,7 +168,6 @@ nav{
     overflow-y: auto;
     overflow-x: hidden;
     padding-bottom:80px;
-    max-height: 550px;
 }
 .floating-sidebar {
     position:fixed;
