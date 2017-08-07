@@ -43,7 +43,6 @@ class python extends CI_Controller {
     public function adminAllPost() {
          if ($this->session->userdata('level')=='admin') {
 		        $data['python'] = $this->python_model->get_python();
-                $this->load->view('templates/header');
                 $this->load->view('tutorials/python/adminAllPost', $data);
 		}else{
 			redirect('/python');
