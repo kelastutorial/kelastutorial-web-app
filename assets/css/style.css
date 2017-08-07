@@ -168,6 +168,7 @@ nav{
     overflow-y: auto;
     overflow-x: hidden;
     padding-bottom:80px;
+    max-height: 550px;
 }
 .floating-sidebar {
     position:fixed;
