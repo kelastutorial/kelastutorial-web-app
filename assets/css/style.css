@@ -30,6 +30,9 @@ li li li { list-style: square; }
     color:#fff;
     margin-bottom:-38px;
 }
+.bold{
+    font-weight: 600;
+}
     
 /* Navigation */
 nav{
@@ -150,7 +153,7 @@ nav{
 
 .tutorial-wall{
     margin-top:0;
-    height:350px;
+    height:300px;
     background-image: url("https://kelastutorial.com/images/background-home.svg");
     background-color: #B72028;
     background-size: cover;
