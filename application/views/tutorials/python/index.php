@@ -89,46 +89,7 @@
                                             <li><a href='<?php echo site_url('python/mudule-python.html'); ?>'>Module Python</a></li>
                                             <li><a href='<?php echo site_url('python/file-io-python.html'); ?>'>File I/O Python</a></li>
                                             <li><a href='<?php echo site_url('python/exception-python.html'); ?>'>Exception Python</a></li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Python Tingkat Menengah</div>
-                            <div class="collapsible-body">
-                                <div class="row syllabus-content">
-                                    <div class="col s6 m6 l6">
-                                        <ol type="i">
-                                            <li><a href='<?php echo site_url('python/objek-class-python.html'); ?>'>Objek &amp; Class Python</a></li>
-                                            <li><a href='<?php echo site_url('python/reg-expression-python.html'); ?>'>Reg Expression Python</a></li>
-                                        </ol>
-                                    </div>
-                                    <div class="col s6 m6 l6">
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header syllabus-header"><i class="fa fa-angle-down" aria-hidden="true"></i>Python Tingkat Lanjut</div>
-                            <div class="collapsible-body">
-                                <div class="row syllabus-content">
-                                    <div class="col s6 m6 l6">
-                                        <ol type="i">
-                                            <li><a href='<?php echo site_url('python/cgi-python.html'); ?>'>CGI Programming Python</a></li>
-                                            <li><a href='<?php echo site_url('python/akses-database-python.html'); ?>'>Akses Database Python</a></li>
-                                            <li><a href='<?php echo site_url('python/networking-python.html'); ?>'>Networking Python</a></li>
-                                            <li><a href='<?php echo site_url('python/email-python.html'); ?>'>Email dengan Python</a></li>
-                                            <li><a href='<?php echo site_url('python/multithreading-python.html'); ?>'>Multithreading Python</a></li>
-                                        </ol>
-                                    </div>
-                                    <div class="col s6 m6 l6">
-                                        <ol type="i">
-                                            <li><a href='<?php echo site_url('python/gui-python.html'); ?>'>GUI Python</a></li>
-                                            <li><a href='<?php echo site_url('python/framework-python.html'); ?>'>Framework Python</a></li>
-                                            <li><a href='<?php echo site_url('python/website-python.html'); ?>'>Website dengan Python</a></li>
-                                            <li><a href='<?php echo site_url('python/data-mining-python.html'); ?>'>Data Mining Python</a></li>
-                                            <li><a href='<?php echo site_url('python/machine-learning-python.html'); ?>'>Machine Learning Python</a></li>
+                                            <li><a href='<?php echo site_url('python/objek-class-python.html'); ?>'>Objek & Class Python</a></li>
                                         </ol>
                                     </div>
                                 </div>
