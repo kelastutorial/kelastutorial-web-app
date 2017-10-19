@@ -46,7 +46,7 @@
                         <li style="border-bottom:1px solid #e0e0e0"><a href="<?php echo site_url('tutorials'); ?>">Semua Tutorial</a></li>
                         <li class="no-padding">
                             <ul class='collapsible collapsible-accordion'>
-                                <li><b><a class='collapsible-header  waves-effect'>Pendahuluan</a></b>
+                                <li class='bold'><a class='collapsible-header  waves-effect'>Pendahuluan</a>
                                     <div class='collapsible-body'>
                                         <ul>
                                             <li><a href='<?php echo site_url('python/pengertian-python.html'); ?>'>Pengertian Python</a></li>
@@ -62,7 +62,7 @@
                         </li>
                         <li class="no-padding">
                             <ul class='collapsible collapsible-accordion'>
-                                <li><b><a class='collapsible-header  waves-effect'>Python Dasar</a></b>
+                                <li class='bold'><a class='collapsible-header  waves-effect'>Python Dasar</a>
                                     <div class='collapsible-body'>
                                         <ul>
                                             <li><a href='<?php echo site_url('python/syntax-dasar-python.html'); ?>'>Syntax Dasar Python</a></li>
