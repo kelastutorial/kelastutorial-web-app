@@ -29,28 +29,11 @@
                             <a class="subtutorial-list" href='<?php echo site_url('python/tuple-python.html'); ?>'>Tuple Python</a><br/>
                             <a class="subtutorial-list" href='<?php echo site_url('python/dictionary-python.html'); ?>'>Dictionary Python</a><br/>
                             <a class="subtutorial-list" href='<?php echo site_url('python/tanggal-waktu-python.html'); ?>'>Tanggal &amp; Waktu Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/fucntion-python.html'); ?>'>Function Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/mudule-python.html'); ?>'>Module Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/function-python.html'); ?>'>Function Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/mudul-python.html'); ?>'>Modul Python</a><br/>
                             <a class="subtutorial-list" href='<?php echo site_url('python/file-io-python.html'); ?>'>File I/O Python</a><br/>
                             <a class="subtutorial-list" href='<?php echo site_url('python/exception-python.html'); ?>'>Exception Python</a><br/>
-                        </div>
-                        <div class="grey lighten-3 left-sidebar">
-                            <span class="subtutorial">Python Tingkat Menengah</span><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/objek-class-python.html'); ?>'>Objek &amp; Class Python</a><br/>
-                                            <a class="subtutorial-list" href='<?php echo site_url('python/reg-expression-python.html'); ?>'>Reg Expression Python</a><br/>
-                        </div>
-                        <div class="grey lighten-3 left-sidebar">
-                            <span class="subtutorial">Python Tingkat Lanjut</span><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/cgi-python.html'); ?>'>CGI Programming Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/akses-database-python.html'); ?>'>Akses Database Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/networking-python.html'); ?>'>Networking Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/email-python.html'); ?>'>Email dengan Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/multithreading-python.html'); ?>'>Multithreading Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/gui-python.html'); ?>'>GUI Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/framework-python.html'); ?>'>Framework Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/website-python.html'); ?>'>Website dengan Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/data-mining-python.html'); ?>'>Data Mining Python</a><br/>
-                            <a class="subtutorial-list" href='<?php echo site_url('python/machine-learning-python.html'); ?>'>Machine Learning Python</a><br/>
+                            <a class="subtutorial-list" href='<?php echo site_url('python/objek-class-python.html'); ?>'>Objek & Class Python</a><br/>
                         </div>
                     </div>
                 </div>
@@ -63,7 +46,7 @@
                         <li style="border-bottom:1px solid #e0e0e0"><a href="<?php echo site_url('tutorials'); ?>">Semua Tutorial</a></li>
                         <li class="no-padding">
                             <ul class='collapsible collapsible-accordion'>
-                                <li><a class='collapsible-header  waves-effect'>Pendahuluan</a>
+                                <li><b><a class='collapsible-header  waves-effect'>Pendahuluan</a></b>
                                     <div class='collapsible-body'>
                                         <ul>
                                             <li><a href='<?php echo site_url('python/pengertian-python.html'); ?>'>Pengertian Python</a></li>
@@ -79,7 +62,7 @@
                         </li>
                         <li class="no-padding">
                             <ul class='collapsible collapsible-accordion'>
-                                <li><a class='collapsible-header  waves-effect'>Python Dasar</a>
+                                <li><b><a class='collapsible-header  waves-effect'>Python Dasar</a></b>
                                     <div class='collapsible-body'>
                                         <ul>
                                             <li><a href='<?php echo site_url('python/syntax-dasar-python.html'); ?>'>Syntax Dasar Python</a></li>
@@ -96,42 +79,11 @@
                                             <li><a href='<?php echo site_url('python/tuple-python.html'); ?>'>Tuple Python</a></li>
                                             <li><a href='<?php echo site_url('python/dictionary-python.html'); ?>'>Dictionary Python</a></li>
                                             <li><a href='<?php echo site_url('python/tanggal-waktu-python.html'); ?>'>Tanggal &amp; Waktu Python</a></li>
-                                            <li><a href='<?php echo site_url('python/fucntion-python.html'); ?>'>Function Python</a></li>
-                                            <li><a href='<?php echo site_url('python/mudule-python.html'); ?>'>Module Python</a></li>
+                                            <li><a href='<?php echo site_url('python/function-python.html'); ?>'>Function Python</a></li>
+                                            <li><a href='<?php echo site_url('python/mudul-python.html'); ?>'>Modul Python</a></li>
                                             <li><a href='<?php echo site_url('python/file-io-python.html'); ?>'>File I/O Python</a></li>
                                             <li><a href='<?php echo site_url('python/exception-python.html'); ?>'>Exception Python</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="no-padding">
-                            <ul class='collapsible collapsible-accordion'>
-                                <li><a class='collapsible-header  waves-effect'>Python Tingkat Menengah</a>
-                                    <div class='collapsible-body'>
-                                        <ul>
-                                            <li><a href='<?php echo site_url('python/objek-class-python.html'); ?>'>Objek &amp; Class Python</a></li>
-                                            <li><a href='<?php echo site_url('python/reg-expression-python.html'); ?>'>Reg Expression Python</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="no-padding">
-                            <ul class='collapsible collapsible-accordion'>
-                                <li><a class='collapsible-header  waves-effect'>Python Tingkat Lanjut</a>
-                                    <div class='collapsible-body'>
-                                        <ul>
-                                            <li><a href='<?php echo site_url('python/cgi-python.html'); ?>'>CGI Programming Python</a></li>
-                                            <li><a href='<?php echo site_url('python/akses-database-python.html'); ?>'>Akses Database Python</a></li>
-                                            <li><a href='<?php echo site_url('python/networking-python.html'); ?>'>Networking Python</a></li>
-                                            <li><a href='<?php echo site_url('python/email-python.html'); ?>'>Email dengan Python</a></li>
-                                            <li><a href='<?php echo site_url('python/multithreading-python.html'); ?>'>Multithreading Python</a></li>
-                                            <li><a href='<?php echo site_url('python/gui-python.html'); ?>'>GUI Python</a></li>
-                                            <li><a href='<?php echo site_url('python/framework-python.html'); ?>'>Framework Python</a></li>
-                                            <li><a href='<?php echo site_url('python/website-python.html'); ?>'>Website dengan Python</a></li>
-                                            <li><a href='<?php echo site_url('python/data-mining-python.html'); ?>'>Data Mining Python</a></li>
-                                            <li><a href='<?php echo site_url('python/machine-learning-python.html'); ?>'>Machine Learning Python</a></li>
+                                            <li><a href='<?php echo site_url('python/objek-class-python.html'); ?>'>Objek & Class Python</a></li>
                                         </ul>
                                     </div>
                                 </li>
